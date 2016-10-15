@@ -1,9 +1,39 @@
 <!DOCTYPE html>
 <html>
 <title>Group of Andrew Logsdail, School of Chemistry, Cardiff University</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- <link rel="stylesheet" href="w3.css"> -->
 <style>
+
+html {
+    height:100%
+}
 
 body {
     background-image: url("images/background1.png");
@@ -11,6 +41,12 @@ body {
     background-position: right bottom;
     background-attachment: fixed;
     background-size: 50% auto;
+    margin: 0;
+    height: 100%
+}
+
+div.tall {
+    min-height:50%
 }
 
 table {
@@ -46,8 +82,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    overflow: visible;
+    background-color: #00aaff;
     top: 0;
     position: fixed;
     width: 100%;
@@ -57,55 +93,162 @@ li {
    float: left;
 }
 
-li a {
+li a, .dropbtn {
     display: block;
     color: white;
+    text-align: center; 
     padding: 16px 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #0044ff;
 }
 
+li .dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0077ff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 16px 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #0044ff
+}
+
+.dropdown:hover .dropdown-content {
+    display: block
+}
 </style>
 
 <body>
-
 <ul>
   <li><a href="#home">Home</a></li>
   <li><a href="#research">Research</a></li>
-  <li><a href="#members">Members</a></li>
+  <li><a href="#software">Software</a></li>
+  <li class="dropdown"><a href="#current_members" class="dropbtn">Members</a>
+  <div class="dropdown-content">
+    <a href="#current_members">Current</a>
+    <a href="#past_members">Previous</a>
+    <a href="#honorary_members">Honorary</a>
+  </div>
+  </li>
 </ul>
 
-
-<a name="home"></a>
+<div id="home"><section>
 &nbsp<br><br><br>
 <table>
  <tr>
   <td>
-Welcome
+<b>Welcome</b>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>Hi! You've reached the group pages of Dr. Andrew Logsdail. We're interested in Computational Chemistry and based in the <a href="http://www.cardiff.ac.uk/cci/" target=top>Cardiff Catalysis Institute</a> at <a href="http://www.cardiff.ac.uk" target=top>Cardiff University</a>.</p> 
+
+  <p>Here you will find information about <a href="#current_members">who we are</a>, <a href="#research">what we do</a> and <a href="#software">how we do it</a>. Please have a browse and ask questions!</p>
+  <p></p>
+  <p><i><b>Hot news:</b></i> Phd studentship available for immediate start - <a href="http://courses.cardiff.ac.uk/funding/R2832.html" target=top>click here for further information and application procedure</a>.</p>
+  <p><i><b>Hot news:</b></i> Our last publication on the chemistry of Mn-doped MgO is available as an <a href="http://dx.doi.org/10.1039/C6CP04622C" target=top>advanced article</a> in Phys. Chem. Chem. Phys.</p>
+  </td>
+ <tr>
+</table>
+</section></div>
+
+<div class="tall"></div>
+<div id="research"><section>
+&nbsp<br><br><br>
+<table>
+ <tr>
+  <td>
+<b>Research</b>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p><i>We like:</i></p>
+  <p> Metallic nanoparticles:</p>
+  <a href="http://dx.doi.org/10.1039/C4CP00753K" target=top>Phys. Chem. Chem. Phys. (2014), 16, 21049</a><br>
+  <a href="http://dx.doi.org/10.1021/acs.jpcc.5b03577" target=top>J. Phys. Chem. C (2015), 119 (41), 23685</a><br>
+  <a href="http://dx.doi.org/10.1021/acs.jpcc.5b07324" target=top>J. Phys. Chem. C (2015), 119 (41), 23767</a><br>
+  <p> Metal oxide materials:</p>
+  <a href="http://dx.doi.org/10.1038/nmat3697" target=top>Nature Mater. (2013), 12, 798</a><br>
+  <a href="http://dx.doi.org/10.1021/acs.chemmater.5b00230" target=top>Chem. Mater. (2015), 27 (11), 3844</a><br>
+  <a href="http://dx.doi.org/10.1021/acs.jpcc.5b01331" target=top>J. Phys. Chem. C (2015), 119 (21), 11598</a><br>
+  <a href="http://dx.doi.org/10.1016/j.susc.2015.06.012" target=top>Surf. Sci. (2015), 642, 58</a> <br>
+  <p> Porous siliceous frameworks:</p>
+  <a href="http://dx.doi.org/10.1039/C6FD00010J" target=top>Faraday Discuss., 188, 235</a> <br>
+  </p>
+  <p> Heterogeneous Catalysis:</p>
+  <a href="http://dx.doi.org/10.1021/nn500963m" target=top>ACS Nano (2014), 8 (4), 3490</a><br>
+  <a href="http://dx.doi.org/10.1021/acscatal.5b00754" target=top>ACS Catal. (2015), 5 (7), 4377</a><br>
+  <p> Method development:</p>
+  <a href="http://dx.doi.org/10.1039/C1NR11053E" target=top>Nanoscale (2012), 4 (4), 1109</a><br>
+  <a href="http://dx.doi.org/10.1063/1.4885816" target=top>J. Chem. Phys. (2014), 141, 024105</a><br>
+  <a href="http://dx.doi.org/10.1103/PhysRevB.90.155106" target=top>Phys. Rev. B (2014), 90, 155106</a><br>
+  <p> Surface plasmon resonances:</p>
+  <a href="http://dx.doi.org/10.1021/jp108486a" target=top>J. Phys. Chem. C (2010), 114, 21247</a> <br>
+  <a href="http://dx.doi.org/10.1021/jp306000u" target=top>J. Phys. Chem. C (2012), 116 (44), 23616</a> <br>
+  <a href="http://dx.doi.org/10.1021/ja4003475" target=top>J. Am. Chem. Soc. (2013), 135 (17), 6554</a> <br>
+  </p>
+  <td>
+ </tr>
+</table>
+</div></section>
+
+<div class="tall"></div>
+<div id="software"><section>
+&nbsp<br><br><br>
+<table>
+ <tr>
+  <td>
+<b>Software</b>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p><i>We develop:</i></p>
+  ChemShell (QM/MM)<br>
+  FHI-aims (QM)<br>
+  <a href="http://www.nwchem-sw.org">NWChem</a> (QM)<br>
+  GULP (MM)<br>
+  <a href="http://www.github.com/andrewlogsdail" target=top>Tools</a><br>
+  <p><i>We use:</i></p>
+  GPAW (QM) <br>
+  ASE <br>
+  OPTIM <br>
+  Gamess-UK (QM) <br>
+  DL_POLY (MM) <br>
+  Phonopy <br>
+  Bader Analysis <br>
+  DDSCAT <br>
   </td>
  </tr>
 </table>
+</div></section>
 
-<a name="research"></a>
+<div class="tall"></div>
+<div id="current_members"><section>
 &nbsp<br><br><br>
 <table>
  <tr>
   <td>
-Research
-  </td>
- </tr>
-</table>
-
-<a name="members"></a>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td>
-Members
+<b>Current Members</b>
   </td>
  </tr>
 </table>
@@ -113,11 +256,11 @@ Members
  <tr>
   <td style="top" colspan=2>
   <div class="figure">
-  <p><i>Group Leader:</i>
+  <p><i>Group Leader:</i></p>
   <p><a href="https://scholar.google.co.uk/citations?user=T4xaqVoAAAAJ" target=top>
   <img src="images/andrewlogsdail.jpg" alt="Dr. Andrew Logsdail" class="scaled">
-  </a>
-  <p> Dr. Andrew Logsdail 
+  </a></p>
+  <p>Dr. Andrew Logsdail</p>
   </div>
   </td>
  </tr>
@@ -151,11 +294,11 @@ Members
  <tr>
   <td style="top" colspan=2>
   <div class="figure">
-  <p><i>PhD Students:</i>
+  <p><i>PhD Students:</i></p>
   <p>
   <a href="https://uk.linkedin.com/in/anna-gould-2696433b" target=top>
   <img src="images/annagould.jpg" alt="Anna Gould" class="scaled"></a>
-  <p> Anna Gould
+  </p><p> Anna Gould<p>
   </div>
   </td>
  </tr>
@@ -176,15 +319,26 @@ Members
   </td>
  </tr>
 </table>
+</div></section>
+
+<div class="tall"></div>
+<div id="past_members"><section>
+&nbsp<br><br><br>
+<table>
+ <tr>
+  <td>
+<b>Past Members</b> (Gone but not forgotten!)
+  </td>
+ </tr>
+</table>
 
 <table>
  <tr>
   <td style="top" colspan=2>
   <div class="figure">
-  <p><i>Honorary Members:</i>
-  <p>
-  <img src="images/yishaxu.jpg" alt="Yisha Xu" class="scaled">
-  <p>Yisha Xu 
+  <p>&nbsp</p>
+  <p><img src="images/yishaxu.jpg" alt="Yisha Xu" class="scaled">
+  </p><p>Yisha Xu</p> 
   </div>
   </td>
  </tr>
@@ -202,7 +356,7 @@ Members
   <div class="figure">
   <p>
   <a href="https://www.london-nano.com/our-people/%5Bfield_people_section-raw%5D/daniel-silva-nunes"><img src="images/danielnunes.jpg" alt="Daniel Nunes" class="scaled"></a>
-  <p>Daniel Nunes
+  </p><p>Daniel Nunes</p>
   </div>
   </td>
  </tr>
@@ -220,7 +374,7 @@ Members
   <div class="figure">
   <p>
   <a href="https://www.linkedin.com/in/shiny-mathew-a9398478" target=top><img src="images/shinymathew.jpg" alt="Shiny Mathew" class="scaled"></a>
-  <p>Shiny Mathew
+  </p><p>Shiny Mathew</p>
   </div>
   </td>
  </tr>
@@ -233,7 +387,19 @@ Members
   </td>
  </tr>
 </table>
-<p></p>
+</div></section>
+
+<div class="tall"></div>
+<div id="honorary_members"><section>
+&nbsp<br><br><br>
+<table>
+ <tr>
+  <td>
+<b>Honorary Members</b>
+  </td>
+ </tr>
+</table>
+</div></section>
 
 </body>
 
