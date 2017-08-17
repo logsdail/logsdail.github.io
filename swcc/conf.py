@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# SWCC 2017 documentation build configuration file, created by
-# sphinx-quickstart on Thu Aug 17 09:25:15 2017.
+# Southwest Computational Chemistry Annual Meeting 2017 documentation build configuration file, created by
+# sphinx-quickstart on Thu Aug 17 11:52:52 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'SWCC 2017'
+project = u'Southwest Computational Chemistry Annual Meeting 2017'
 copyright = u'2017, Andrew Logsdail'
 author = u'Andrew Logsdail'
 
@@ -95,26 +95,11 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Custom sidebar templates, must be a dictionary that maps document names
-# to template names.
-#
-# This is required for the alabaster theme
-# refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
-html_sidebars = {
-    '**': [
-        'about.html',
-        'navigation.html',
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
-        'donate.html',
-    ]
-}
-
 
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SWCC2017doc'
+htmlhelp_basename = 'SouthwestComputationalChemistryAnnualMeeting2017doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -141,7 +126,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SWCC2017.tex', u'SWCC 2017 Documentation',
+    (master_doc, 'SouthwestComputationalChemistryAnnualMeeting2017.tex', u'Southwest Computational Chemistry Annual Meeting 2017 Documentation',
      u'Andrew Logsdail', 'manual'),
 ]
 
@@ -151,7 +136,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'swcc2017', u'SWCC 2017 Documentation',
+    (master_doc, 'southwestcomputationalchemistryannualmeeting2017', u'Southwest Computational Chemistry Annual Meeting 2017 Documentation',
      [author], 1)
 ]
 
@@ -162,8 +147,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SWCC2017', u'SWCC 2017 Documentation',
-     author, 'SWCC2017', 'One line description of project.',
+    (master_doc, 'SouthwestComputationalChemistryAnnualMeeting2017', u'Southwest Computational Chemistry Annual Meeting 2017 Documentation',
+     author, 'SouthwestComputationalChemistryAnnualMeeting2017', 'One line description of project.',
      'Miscellaneous'),
 ]
 

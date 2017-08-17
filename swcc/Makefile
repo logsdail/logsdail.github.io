@@ -3,8 +3,8 @@
 
 # You can set these variables from the command line.
 SPHINXOPTS    =
-SPHINXBUILD   = python -msphinx
-SPHINXPROJ    = SWCC2017
+SPHINXBUILD   = sphinx-build
+SPHINXPROJ    = SouthwestComputationalChemistryAnnualMeeting2017
 SOURCEDIR     = .
 BUILDDIR      = _build
 
