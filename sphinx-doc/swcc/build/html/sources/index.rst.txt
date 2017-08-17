@@ -22,10 +22,20 @@ This year's meeting will take place on the afternoon of *Thursday, 14th Septembe
 
 The meeting is being organised by the `School of Chemistry <http://www.cardiff.ac.uk/chemistry>`_ at `Cardiff University <http://www.cardiff.ac.uk>`_, with the meeting activities being held in the `Redwood Building <http://www.cardiff.ac.uk/visit/accessibility/cathays-park-campus/redwood-building>`_.
 
-Programme
----------
+Registration
+------------
+
+If you plan, to attend then please `register here <https://www.eventbrite.co.uk/e/southwest-computational-chemists-annual-meeting-2017-tickets-34791971724>`_ so that the correct catering requirements can be made. Furthermore, poster abstracts are still welcomed and can be submitted via email to `LogsdailA@cardiff.ac.uk <mailto:LogsdailA@cardiff.ac.uk>`_.
+
+Programme of talks
+------------------
 
 .. include:: timetable.rst
+
+Presented posters
+-----------------
+
+.. include:: posters.rst
 
 Supporting Partners
 -------------------
