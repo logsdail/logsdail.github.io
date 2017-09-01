@@ -7,4 +7,4 @@
 * Matthew Turner, *"Modelling PtII(Ligand) – Amyloid-β Interactions: Prediction of Ligand Effects"*
 * Domen Presern, *"Explaining the size-dependent kinetics of Phi29 polymerase rolling circle amplification"*
 * Darren Wragg, *"The mechanism of aquaporin inhibition by gold compounds elucidated by Molecular Dynamics simulations"*
-
+* Harry Jenkins, *"QM/MM investigations of the structural, electronic, and catalytic properties of TiO2 surfaces"*
