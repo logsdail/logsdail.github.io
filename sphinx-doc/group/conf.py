@@ -7,14 +7,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Logsdail Group Quickstart Pages'
+project = 'Group Quickstart Pages'
 copyright = '2019, Andrew Logsdail'
 author = 'logsdail.github.io'
 
 # The short X.Y version
 version = '1.0'
 # The full version, including alpha/beta/rc tags
-release = '1'
+#release = '1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -85,4 +85,4 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
-html_theme = 'classic'
+html_theme = 'sphinxdoc'
