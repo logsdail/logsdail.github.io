@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /swcc/ /sphinx-doc/
+Disallow: /swcc/ /group/ /sphinx-doc/
