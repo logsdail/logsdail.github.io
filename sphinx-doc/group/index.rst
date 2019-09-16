@@ -65,7 +65,7 @@ Computing Facilities
 Administration
 --------------
 | Throughout the PhD, you'll have to do paperwork to ensure continuous progression. 
-| All documents for this are on Learning Central under "CHEMY - Research Student Information".
+| All documents for this are on `Learning Central <https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_3387725_1&course_id=_368439_1>`_ under "CHEMY - Research Student Information".
 
 General Resources
 -----------------
