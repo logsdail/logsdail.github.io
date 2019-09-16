@@ -4,7 +4,7 @@
 Overview
 --------
 
-On this page you will find a collection of resources that will help you settle in the Logsdail research group. This resource is not exhaustive and suggested additions are always welcomed!
+On this page you will find a collection of resources that will help you settle in the `Logsdail research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
 
 Meetings
 --------
@@ -43,6 +43,9 @@ Tutorials
 
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
 
+.. note::
+  Many training opportunities are available through the `Doctoral Training Academy <https://rssdp.cardiff.ac.uk/>`_. This includes Python (`Basic <https://rssdp.cardiff.ac.uk/index.php?sect=workshops&action=details&wid=IT068&indexKeyword=p>`_ and `Advanced <https://rssdp.cardiff.ac.uk/?sect=workshops&action=details&wid=RS200&indexKeyword=p>`_) as well as soft-skills, such as for manuscript, presentation and thesis preparation.
+
 Computing Facilities
 --------------------
 * | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. 
@@ -62,10 +65,12 @@ Computing Facilities
 .. note::
    Remember that you'll need to install ASE, or any other Python modules, into your personal workspace on these supercomputers. This is performed using `pip3 install --user <modulename>`
 
-Administration
---------------
+Administration (PhD)
+--------------------
 | Throughout the PhD, you'll have to do paperwork to ensure continuous progression. 
 | All documents for this are on `Learning Central <https://learningcentral.cf.ac.uk/webapps/blackboard/content/listContentEditable.jsp?content_id=_3387725_1&course_id=_368439_1>`_ under "CHEMY - Research Student Information".
+
+If you encounter issues, the Chemistry PGR Office are available to help - just pop and say hi, or email them at Chemistry-PGR@cardiff.ac.uk. 
 
 General Resources
 -----------------
@@ -75,6 +80,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 * Theory:
 
   * `Density Functional Theory <https://www.theoretical-physics.net/dev/quantum/dft.html>`_
+
+  * `HyperPhysics <http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html>`_
 
 * Materials:
 
@@ -91,5 +98,7 @@ This is an eclectic collection of all the things that'll help you on your way. S
 * Funding:
 
   * `HPC-Europa3 <http://www.hpc-europa3.eu>`_
+
+  * `Japan Society for the Promotion of Science <https://www.jsps.go.jp/english/>`_
 
   * `Research Professional <https://www.researchprofessional.com/funding/#1543919522034>`_
