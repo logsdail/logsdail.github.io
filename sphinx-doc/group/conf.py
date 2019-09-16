@@ -7,12 +7,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx-Themes template'
-copyright = '2018, sphinx-themes.org'
-author = 'sphinx-themes.org'
+project = 'Logsdail Group Quickstart Pages'
+copyright = '2019, Andrew Logsdail'
+author = 'logsdail.github.io'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = '1'
 
