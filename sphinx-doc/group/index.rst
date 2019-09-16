@@ -12,10 +12,10 @@ Meetings
 * | **1-to-1 meetings with Andy are run every Tuesday.**
   | Timetable is organised dynamically through the #meetings channel on Slack (See :ref:`Tools`)
 
-* | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/jenkinshj1_cardiff_ac_uk/EZhNkd7dxqxMrxxmo63ixGsBgDk77wAvG2EOlffsIYVrhw?rtime=B3LfbrU610g>`_ is 1-2pm on the 1st and 3rd Friday of every month. 
+* | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/jenkinshj1_cardiff_ac_uk/EZhNkd7dxqxMrxxmo63ixGsBFIWYWzEOwT1gMNp9VYgBcQ?e=6R4K8r>`_ is 1-2pm on the 1st and 3rd Friday of every month. 
   | (*Request permission from Harry if you cannot access!*)
 
-* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/r/personal/roldanmartineza_cardiff_ac_uk/Documents/SHARED/Group_Seminars/Seminars.xlsx?d=wee5ee3662d0e4e9e8b52879d9accc104&csf=1&e=J5MKzg>`_ run on the final Friday of every month. 
+* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/roldanmartineza_cardiff_ac_uk/EWbjXu4OLZ5Oi1KHnZrMwQQB2Vaed6CwAYsppOTLsA34bQ?e=ivfP8A>`_ run on the final Friday of every month. 
   | (*Please note the dates when you are speaking!*)
 
 .. _Tools:
