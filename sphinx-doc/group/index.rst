@@ -83,6 +83,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `HyperPhysics <http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html>`_
 
+  * `An Interactive Introduction to Fourier Transforms <http://www.jezzamon.com/fourier/index.html>`_ (and planewave cutoffs)
+
 * Materials:
 
   * `Database of Zeolite Structures <http://www.iza-structure.org/databases/>`_
@@ -92,6 +94,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 * Software/Conversion:
 
   * `OpenBabel Format Converter <http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html>`_
+
+  * `ChemDraw Online <https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html>`_
 
   * `Physical Constants <http://web.utk.edu/~rcompton/constants>`_
 
