@@ -24,7 +24,7 @@ Tools
 -----
 * `Slack <https://join.slack.com/t/logsdail/shared_invite/enQtNzYzNDg1MzA3NDQ3LTZjZjQ0OWZjN2Y4OGUzOTZlZGRlNDU1OWNlOGM2MmMzYjM2NDRmYzczYjM1ODBkYTQ2ZDk4NTUzOTljMzkzMTk>`_ : Communication platform for the group.
 
-* `Trello <https://trello.com>`_ : Project planning platform - prompt Andy to setup a board for your project.
+* `Trello <https://trello.com>`_ : Project planning platform - prompt Andy to setup a board for your project if necessary.
 
 * Also prompt Andy (via email to LogsdailA@cardiff.ac.uk) to organise keycard access for your office!
 
@@ -91,13 +91,17 @@ This is an eclectic collection of all the things that'll help you on your way. S
   
   * `Bilbao Crystallographic Server <http://www.cryst.ehu.es/>`_
 
+  * `The Materials Project <https://materialsproject.org/>`_
+
 * Software/Conversion:
 
   * `OpenBabel Format Converter <http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html>`_
 
   * `ChemDraw Online <https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html>`_
 
-  * `Physical Constants <http://web.utk.edu/~rcompton/constants>`_
+  * `Materials Cloud (including k-path finder and phonon visualiser) <https://www.materialscloud.org/work/tools/options>`_
+
+  * Physical Constants: `NIST <https://physics.nist.gov/cuu/Constants/>`_, `IUPAC <https://goldbook.iupac.org/indexes/constants>`_
 
   * `MOF Explorer (Pore Size Distribution) <https://mausdin.github.io/MOFsite/mofPage.html>`_
 
