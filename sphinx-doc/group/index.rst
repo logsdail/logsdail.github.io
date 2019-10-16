@@ -39,8 +39,7 @@ Tutorials
 
 * `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations. 
 
-* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials.
-  | (*PDF version of tutorials `also available<https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_*)
+* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_)
 
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
 
