@@ -1,0 +1,48 @@
+ ******************************************************************
+ *************  stfc/ccp5  program  library  package  ** D ********
+ *************  daresbury laboratory general purpose  *** L *******
+ **         **  classical molecular dynamics program  **** \ ******
+ ** DL_POLY **  authors:   i.t.todorov   &   w.smith  ***** P *****
+ **         **  version:   4.09.2  /   february 2019  ****** O ****
+ *************  execution on           1 process(es)  ******* L ***
+ *************  contributors' list:                   ******** Y **
+ *************  ------------------------------------  *************
+ *************  i.j.bush, h.a.boateng, r.davidchak,   *************
+ *************  m.a.seaton, a.v.brukhno, a.m.elena,   *************
+ *************  s.l.daraszewicz,g.khara,s.t.murphy    *************
+ ******************************************************************
+
+ ******************************************************************
+ **** birthday: Sep 11 2019 @ 14:35:27                         ****
+ ****  machine: w740                                           ****
+ ****  builder: dr faustroll                                   ****
+ **** compiler: dr faustroll                                   ****
+ **** MPI libs:  MPI Library too old.  Please update!!!        ****
+ **** executed: 2019-09-12  @  12:43:19.901  (GMT+01:00)       ****
+ ******************************************************************
+
+ ******************************************************************
+ ****  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ****
+ ****  Please do cite `J. Mater. Chem.', 16, 1911-1918 (2006)  ****
+ ****  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ****
+ ****  when publishing research data obtained using DL_POLY_4  ****
+ ****  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ****
+ ******************************************************************
+
+
+ I/O read method: parallel by using MPI-I/O (assumed)
+ I/O readers (assumed)                   1
+ I/O read batch size (assumed)     2000000
+ I/O read buffer size (assumed)      20000
+ I/O parallel read error checking off (assumed)
+
+ I/O write method: parallel by using MPI-I/O (assumed)
+ I/O write type: data sorting on (assumed)
+ I/O writers (assumed)                   1
+ I/O write batch size (assumed)    2000000
+ I/O write buffer size (assumed)     20000
+ I/O parallel write error checking off (assumed)
+
+ DL_POLY_4 terminated due to error    58
+
+ error - number of atoms in system not conserved

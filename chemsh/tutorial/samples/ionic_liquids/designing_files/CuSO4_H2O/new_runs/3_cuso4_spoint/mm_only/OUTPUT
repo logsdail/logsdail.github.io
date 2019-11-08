@@ -1,0 +1,478 @@
+ ******************************************************************
+ *************  stfc/ccp5  program  library  package  ** D ********
+ *************  daresbury laboratory general purpose  *** L *******
+ **         **  classical molecular dynamics program  **** \ ******
+ ** DL_POLY **  authors:   i.t.todorov   &   w.smith  ***** P *****
+ **         **  version:   4.09.2  /   february 2019  ****** O ****
+ *************  execution on           1 process(es)  ******* L ***
+ *************  contributors' list:                   ******** Y **
+ *************  ------------------------------------  *************
+ *************  i.j.bush, h.a.boateng, r.davidchak,   *************
+ *************  m.a.seaton, a.v.brukhno, a.m.elena,   *************
+ *************  s.l.daraszewicz,g.khara,s.t.murphy    *************
+ ******************************************************************
+
+ ******************************************************************
+ **** birthday: Sep 11 2019 @ 14:35:27                         ****
+ ****  machine: w740                                           ****
+ ****  builder: dr faustroll                                   ****
+ **** compiler: dr faustroll                                   ****
+ **** MPI libs:  MPI Library too old.  Please update!!!        ****
+ **** executed: 2019-09-13  @  14:25:35.766  (GMT+01:00)       ****
+ ******************************************************************
+
+ ******************************************************************
+ ****  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ****
+ ****  Please do cite `J. Mater. Chem.', 16, 1911-1918 (2006)  ****
+ ****  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ****
+ ****  when publishing research data obtained using DL_POLY_4  ****
+ ****  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  ****
+ ******************************************************************
+
+
+ I/O read method: parallel by using MPI-I/O (assumed)
+ I/O readers (assumed)                   1
+ I/O read batch size (assumed)     2000000
+ I/O read buffer size (assumed)      20000
+ I/O parallel read error checking off (assumed)
+
+ I/O write method: parallel by using MPI-I/O (assumed)
+ I/O write type: data sorting on (assumed)
+ I/O writers (assumed)                   1
+ I/O write batch size (assumed)    2000000
+ I/O write buffer size (assumed)     20000
+ I/O parallel write error checking off (assumed)
+
+ no index (reading in CONFIG) option on
+
+ *** warning - short-ranged interaction cutoff check: rvdw = Min(rvdw,Max(rcut,rcut_def)) ! ***
+
+ warning issued     40
+
+ *** warning - tentative cutoff reset to   0.000 Angstroms !!! ***
+
+
+ *** warning - DD cutoff check: rcut=Max(rcut,rvdw,rmet,rkim,rcbnd,2.0_wp*rcter+1.0e-6_wp) ! ***
+
+ warning issued     40
+
+ *** warning - tentative cutoff reset to  49.990 Angstroms !!! ***
+
+
+
+ node/domain decomposition (x,y,z):      1     1     1
+
+ cutoffs driven limit on largest possible decomposition:    27 nodes/domains (3,3,3)
+
+ cutoffs driven limit on largest balanced decomposition:     1 nodes/domains (1,1,1)
+
+ link-cell decomposition 1 (x,y,z):      3     3     3
+
+ cutoffs driven limit on largest possible decomposition:     8 nodes/domains (2,2,2)
+
+ cutoffs driven limit on largest balanced decomposition:     1 nodes/domains (1,1,1)
+
+ link-cell decomposition 1 (x,y,z):      2     2     2
+
+ warning issued    100
+
+ *** warning - primary link cell algorithm has a link cell dimension that is < 3 !!! ***
+ *** DL_POLY_4 RUNNING IN LOW EFFICIENCY MODE !!! ***
+
+
+ *** pre-scanning stage (set_bounds) DONE ***
+
+ time elapsed since job start:        0.202 sec
+
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ ************************     ChemShell DL_POLY                                                            ************************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+ **********************************************************************************************************************************
+
+
+ SIMULATION CONTROL PARAMETERS
+
+ density variation allowance (%)     2.0000E+01
+
+ Electrostatics : Coulombic Potential
+
+ simulation temperature (K)          2.9315E+02
+
+ scaled restart requested (starting a new simulation)
+
+ real space cutoff (Angs)            4.9990E+01
+
+ warning issued     35
+
+ *** warning - DL_POLY_2/Classic directive 'delr - Verlet shell strip cutoff' defaulted to ***
+ *** DL_POLY_4 directive 'rpad - real space cutoff padding option' ; rpad=Max(rpad,delr/4) !!! ***
+
+ cutoff padding (Angs)               0.0000E+00
+
+ data printing interval (steps)          2
+
+ statistics file interval                2
+
+ warning issued    200
+
+ *** warning - CONFIG contains positions only !!! ***
+ *** clean start is assumed !!! ***
+
+
+ warning issued    130
+
+ *** warning - no ensemble is specified !!! ***
+
+
+ Integration : Velocity Verlet
+ Ensemble : NVE (Microcanonical)
+
+ Extended Coulombic eXclusion : NO
+
+ vdw cutoff reset to (Angs)          4.9990E+01
+
+ fixed simulation timestep (ps)      0.0000E+00
+
+ data dumping interval (steps)        1000
+
+ subcelling threshold density        5.0000E+01
+
+ allocated job run time   (s)        3.6000E+03
+
+ allocated job close time (s)        2.0000E+01
+
+ default simulation timestep (ps)    1.0000E-03
+
+
+ SYSTEM SPECIFICATION
+
+ energy units = kJ/mol
+
+
+ number of molecular types               3
+
+
+ molecular species type                  1
+
+ name of species:             so4                                     
+
+ number of molecules                     1
+
+ number of atoms/sites                   5
+
+ atomic characteristics:
+
+               site    name             mass         charge      repeat      freeze
+
+                  1    S             32.065000       2.000000         1         0
+                  2    O_a           15.999400      -1.000000         1         0
+                  3    O_b           15.999400      -1.000000         1         0
+                  4    O_c           15.999400      -1.000000         1         0
+                  5    O_d           15.999400      -1.000000         1         0
+
+
+ number of rigid bodies                  1
+
+ rigid body details:
+
+                  unit      size            indices
+
+                     1         5         1         2         3         4         5
+
+
+ molecular species type                  2
+
+ name of species:             cop                                     
+
+ number of molecules                     1
+
+ number of atoms/sites                   1
+
+ atomic characteristics:
+
+               site    name             mass         charge      repeat      freeze
+
+                  1    CU            63.465000       2.000000         1         0
+
+
+ molecular species type                  3
+
+ name of species:             SPCE                                    
+
+ number of molecules                  2000
+
+ number of atoms/sites                   3
+
+ atomic characteristics:
+
+               site    name             mass         charge      repeat      freeze
+
+                  1    O_f           15.999400      -0.847600         1         0
+                  2    H_a            1.008000       0.423800         1         0
+                  3    H_b            1.008000       0.423800         1         0
+
+
+ total number of molecules            2002
+
+ total number of sites                   9
+
+
+ number of specified vdw potentials               30
+
+       pair     atom 1  atom 2     key                              parameters
+
+          1     S       CU         lj               0.083905            2.929358            0.000000            0.000000            0.000000            0.000000            0.000000
+          2     S       O_f        lj               0.824560            3.358000            0.000000            0.000000            0.000000            0.000000            0.000000
+          3     S       H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+          4     S       H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+          5     O_a     CU         lj               0.075047            2.729358            0.000000            0.000000            0.000000            0.000000            0.000000
+          6     O_a     O_f        lj               0.737509            3.158000            0.000000            0.000000            0.000000            0.000000            0.000000
+          7     O_a     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+          8     O_a     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+          9     O_b     CU         lj               0.075047            2.729358            0.000000            0.000000            0.000000            0.000000            0.000000
+         10     O_b     O_f        lj               0.737509            3.158000            0.000000            0.000000            0.000000            0.000000            0.000000
+         11     O_b     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         12     O_b     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         13     O_c     CU         lj               0.075047            2.729358            0.000000            0.000000            0.000000            0.000000            0.000000
+         14     O_c     O_f        lj               0.737509            3.158000            0.000000            0.000000            0.000000            0.000000            0.000000
+         15     O_c     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         16     O_c     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         17     O_d     CU         lj               0.075047            2.729358            0.000000            0.000000            0.000000            0.000000            0.000000
+         18     O_d     O_f        lj               0.737509            3.158000            0.000000            0.000000            0.000000            0.000000            0.000000
+         19     O_d     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         20     O_d     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         21     CU      CU         lj               0.006730            2.308717            0.000000            0.000000            0.000000            0.000000            0.000000
+         22     CU      O_f        lj               0.066142            2.737358            0.000000            0.000000            0.000000            0.000000            0.000000
+         23     CU      H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         24     CU      H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         25     O_f     O_f        lj               0.650000            3.166000            0.000000            0.000000            0.000000            0.000000            0.000000
+         26     O_f     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         27     O_f     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         28     H_a     H_a        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         29     H_a     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+         30     H_b     H_b        lj               0.000000            0.000000            0.000000            0.000000            0.000000            0.000000            0.000000
+
+ warning issued    120
+
+ *** warning - unspecified atom-atom interactions set to zero !!! ***
+
+
+ configuration file name: 
+
+          ChemShell DL_POLY                                                       
+
+
+ selected image convention               0
+
+ warning issued     30
+
+ *** warning - Electrostatics requested in a non-periodic system !!! ***
+
+
+ warning issued    260
+
+ *** warning - system volume in non-periodic systems is the MD cell volume !!! ***
+ *** system pressure is calculated with respect to this volume !!! ***
+
+
+
+ simulation cell vectors
+
+      149.9700030000        0.0000000000        0.0000000000
+        0.0000000000      149.9700030000        0.0000000000
+        0.0000000000        0.0000000000      149.9700030000
+
+
+ system volume            3372975.60739    
+
+ *** all reading and connectivity checks DONE ***
+
+ time elapsed since job start:        0.276 sec
+
+
+ long-range correction for: vdw energy     0.000000E+00
+                          : vdw pressure   0.000000E+00
+
+ *** initialisation and haloing DONE ***
+
+ time elapsed since job start:        0.277 sec
+
+
+ summary of rigid body set up
+
+  in molecule     1
+
+  type :: members :: frozen status :: unfrozen mass :: translational DoF :: rotational DoF
+                rotational inertia:        x                   y                   z      
+
+    1       5              0             96.062600             3                   3
+                                     33.3201996070       33.3201853338       33.3201602949
+          member  ::   coordinates:        x                   y                   z      
+            1                         0.0000000000       -0.0000000000        0.0000000000
+            2                         0.8782163228       -0.0969650307       -0.0174381971
+            3                        -0.3198104198       -0.0641144361       -0.8213296771
+            4                        -0.3561523543       -0.6317833423        0.5049519396
+            5                        -0.2022535488        0.7928628091        0.3338159347
+
+  in molecule     2
+
+  no rigid bodies specified
+
+  in molecule     3
+
+  no rigid bodies specified
+
+
+ //==============================================================\\
+ ||                                                              ||
+ ||           SUMMARY  OF  TOPOLOGICAL  DECOMPOSITION            ||
+ ||                                                              ||
+ ||--------------------------------------------------------------||
+ ||  INTERACTION  OR  TYPE  |  GRAND TOTAL | Fully/Partly FROZEN ||
+ ||-------------------------+--------------+---------------------||
+ ||  all particles/sites    |        6006  |  F            0     ||
+ ||  free particles         |        6001  |  F            0     ||
+ ||  core-shell units       |           0  |  P            0     ||
+ ||  constraint bond units  |           0  |  F            0     ||
+ ||  PMF units              |           0  |  P         NONE     ||
+ ||  rigid body units       |           1  |  F            0     ||
+ ||  tethered atom units    |           0  |  F            0     ||
+ ||  chemical bond units    |           0  |  F            0     ||
+ ||  bond angle units       |           0  |  F            0     ||
+ ||  dihedral angle units   |           0  |  F            0     ||
+ ||  inversion angle units  |           0  |  F            0     ||
+ \\==============================================================//
+
+
+ *** bookkeeping DONE ***
+
+ time elapsed since job start:        0.278 sec
+
+
+ degrees of freedom break-down list
+ ----------------------------------
+ free particles               18003
+ centre of mass                  -3
+ non-periodicity                 -3
+ frozen free particles            0
+ shell-pseudo                     0
+ constrained                      0
+ RB translational                 3
+ RB rotational                    3
+ ----------------------------------
+ total (real)                 18003
+
+ *** temperature setting DONE ***
+
+ time elapsed since job start:        0.312 sec
+
+
+ sample of starting configuration on node zero
+
+        i       x(i)        y(i)        z(i)       vx(i)       vy(i)       vz(i)
+
+
+        1 -7.5102E+00  6.2172E+00  3.4205E-01 -7.4008E-02 -2.7327E+00 -3.9956E-01
+      302  5.4094E+00 -4.5444E+00  9.3481E+00  1.2523E+01 -6.2636E+00  1.5679E+01
+      603 -8.5711E+00  8.7753E+00  4.5318E+00 -4.1988E+01 -8.2080E-02  1.4437E+01
+      904 -1.0690E+00  9.1351E+00 -3.2253E+00  8.1948E+00 -6.4672E+00  1.2303E+00
+     1205 -9.6230E+00  3.5603E+00  2.7015E+00 -3.0518E+01 -2.7787E+00 -2.1381E+00
+     1506  6.6977E+00  9.5714E+00  1.9068E+00 -1.2023E+01  1.1137E+01 -7.3018E-01
+     1807 -3.5370E+00 -3.5084E+00  3.2196E+00  8.4089E+00 -3.5712E+00 -5.7882E+00
+     2108  7.4241E+00  6.0807E+00 -5.0905E+00  6.3463E+00 -1.4761E+01  3.9782E+01
+     2409 -8.2198E+00  4.2792E+00 -9.9101E+00 -1.1105E+01 -5.9300E+00 -1.7415E+01
+     2710 -4.1375E+00 -9.5401E+00  7.0431E+00  1.1426E-01  1.6514E+00  2.8700E+00
+     3011 -6.5348E+00  9.8210E+00  3.3699E+00 -1.5348E+01  5.4695E+00 -5.0458E-02
+     3312 -6.4375E+00  4.2792E+00 -1.4364E+00  2.0672E+00 -1.5973E+01 -1.4107E+01
+     3613  9.6689E+00  4.6858E+00  2.3251E+00  6.4758E+00  2.8214E+00 -7.7819E-01
+     3914 -5.8613E+00  1.0113E+01  6.8457E+00  1.4413E+00 -1.0410E+01 -1.1853E+01
+     4215 -7.2974E+00 -2.1031E+00  6.1243E+00 -4.2000E+01 -2.7451E+01  8.6619E+00
+     4516 -8.5515E+00 -1.4531E+00  2.8423E+00 -6.2799E+00 -5.4063E-01  9.7995E+00
+     4817  8.4982E+00  5.6375E+00 -3.8464E+00  6.4619E+00  2.3794E+01 -9.5418E+00
+     5118  9.3626E+00  8.6190E+00  3.6283E+00  1.0798E+01  7.4289E+00  1.4388E+01
+     5419  5.0034E+00  4.2609E+00 -9.1312E+00  5.0813E+00 -2.6066E+00 -2.0629E+00
+     5720  7.1788E+00  7.9171E+00 -5.9121E+00  7.6866E+00 -1.6825E+01 -8.4879E-01
+
+
+
+ time elapsed since job start:        0.313 sec
+
+ forces evaluated at (re)start for VV integration...
+
+ ----------------------------------------------------------------------------------------------------------------------------------
+
+          step     eng_tot    temp_tot     eng_cfg     eng_src     eng_cou     eng_bnd     eng_ang     eng_dih     eng_tet
+      time(ps)      eng_pv    temp_rot     vir_cfg     vir_src     vir_cou     vir_bnd     vir_ang     vir_con     vir_tet
+      cpu  (s)      volume    temp_shl     eng_shl     vir_shl       alpha        beta       gamma     vir_pmf       press
+
+ ----------------------------------------------------------------------------------------------------------------------------------
+             0  8.8062E+07  2.9315E+02  8.8040E+07  9.1337E+07 -3.2970E+06  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+       0.00000  4.5591E+08  2.9315E+02 -1.1035E+09 -1.1036E+09  3.2970E+06  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+         2.773  3.3730E+06  0.0000E+00  0.0000E+00  0.0000E+00  9.0000E+01  9.0000E+01  9.0000E+01  0.0000E+00  1.7873E+03
+
+       rolling  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+      averages  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+                0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00  0.0000E+00
+ ----------------------------------------------------------------------------------------------------------------------------------
+
+
+ run terminating...  elapsed cpu time:        2.773 sec, job time:     3600.000 sec, close time:       20.000 sec
+
+
+
+ sample of final configuration on node zero
+
+        i       x(i)        y(i)        z(i)       vx(i)       vy(i)       vz(i)       fx(i)       fy(i)       fz(i)
+
+
+        1 -7.5102E+00  6.2172E+00  3.4205E-01 -7.4008E-02 -2.7327E+00 -3.9956E-01 -4.1474E+04  6.7712E+05 -4.8956E+06
+      302  5.4094E+00 -4.5444E+00  9.3481E+00  1.2523E+01 -6.2636E+00  1.5679E+01 -1.1074E+05  6.8719E+03 -6.4925E+04
+      603 -8.5711E+00  8.7753E+00  4.5318E+00 -4.1988E+01 -8.2080E-02  1.4437E+01  5.7364E+04 -1.4395E+05  5.3682E+03
+      904 -1.0690E+00  9.1351E+00 -3.2253E+00  8.1948E+00 -6.4672E+00  1.2303E+00 -9.5244E+06  1.2354E+07  1.2361E+07
+     1205 -9.6230E+00  3.5603E+00  2.7015E+00 -3.0518E+01 -2.7787E+00 -2.1381E+00 -1.1885E+04  8.9494E+04 -9.3627E+04
+     1506  6.6977E+00  9.5714E+00  1.9068E+00 -1.2023E+01  1.1137E+01 -7.3018E-01 -3.6829E+04 -6.6502E+04 -8.2175E+04
+     1807 -3.5370E+00 -3.5084E+00  3.2196E+00  8.4089E+00 -3.5712E+00 -5.7882E+00 -3.1929E+07 -3.6270E+07  1.1293E+07
+     2108  7.4241E+00  6.0807E+00 -5.0905E+00  6.3463E+00 -1.4761E+01  3.9782E+01 -1.2714E+05  1.0528E+04 -6.1565E+04
+     2409 -8.2198E+00  4.2792E+00 -9.9101E+00 -1.1105E+01 -5.9300E+00 -1.7415E+01  9.9868E+04  3.2095E+04  1.0664E+05
+     2710 -4.1375E+00 -9.5401E+00  7.0431E+00  1.1426E-01  1.6514E+00  2.8700E+00 -3.1861E+07 -1.2673E+07 -8.7770E+06
+     3011 -6.5348E+00  9.8210E+00  3.3699E+00 -1.5348E+01  5.4695E+00 -5.0458E-02 -2.9236E+04 -4.4180E+04  1.3673E+05
+     3312 -6.4375E+00  4.2792E+00 -1.4364E+00  2.0672E+00 -1.5973E+01 -1.4107E+01 -7.9415E+04  4.4325E+04  9.6142E+04
+     3613  9.6689E+00  4.6858E+00  2.3251E+00  6.4758E+00  2.8214E+00 -7.7819E-01  1.2907E+07  1.0430E+06 -1.2278E+07
+     3914 -5.8613E+00  1.0113E+01  6.8457E+00  1.4413E+00 -1.0410E+01 -1.1853E+01  8.8806E+03 -8.2374E+03 -8.4369E+03
+     4215 -7.2974E+00 -2.1031E+00  6.1243E+00 -4.2000E+01 -2.7451E+01  8.6619E+00 -2.5745E+04 -1.0444E+05 -5.5872E+04
+     4516 -8.5515E+00 -1.4531E+00  2.8423E+00 -6.2799E+00 -5.4063E-01  9.7995E+00 -4.8805E+06  4.7137E+06  3.8341E+06
+     4817  8.4982E+00  5.6375E+00 -3.8464E+00  6.4619E+00  2.3794E+01 -9.5418E+00  1.0671E+05 -1.6005E+04 -5.7279E+04
+     5118  9.3626E+00  8.6190E+00  3.6283E+00  1.0798E+01  7.4289E+00  1.4388E+01 -9.8600E+04  1.7339E+04  4.9912E+04
+     5419  5.0034E+00  4.2609E+00 -9.1312E+00  5.0813E+00 -2.6066E+00 -2.0629E+00 -1.0513E+07  1.9365E+07 -1.2097E+07
+     5720  7.1788E+00  7.9171E+00 -5.9121E+00  7.6866E+00 -1.6825E+01 -8.4879E-01  2.8913E+04 -9.5506E+04 -6.8649E+04
+
+
+ dry run terminated
+
+                pressure tensor  (katms)
+
+           1.7955E+03  1.9017E+01  1.5059E+00
+           1.9017E+01  1.7720E+03  7.4104E+00
+           1.5059E+00  7.4104E+00  1.7943E+03
+
+            trace/3    1.7873E+03
+
+
+
+ time elapsed since job start:        2.900 sec
+
+
+
+ *************************************************************************************************************************
+ **************                                                                                             **************
+ **************  Thank you for using the DL_POLY_4 package in your work.  Please, acknowledge our efforts   **************
+ **************                                                                                             **************
+ **************  by including the following references when publishing data obtained using DL_POLY_4:       **************
+ **************                                                                                             **************
+ **************  I.T. Todorov, W. Smith, K. Trachenko & M.T. Dove, `J. Mater. Chem.', 16, 1911-1918 (2006)  **************
+ **************                                                                                             **************
+ *************************************************************************************************************************
+

@@ -1,0 +1,81 @@
+__pycache__
+*~
+*\.OLD
+*\.out
+*\.gout
+*\.log
+*\.err
+.val.vars
+archive
+test.py
+test_status
+
+# Parallel
+wg_*
+
+# NWChem
+_nwchem.*
+*\.cfock
+*\.db
+*\.movecs
+*.gridpts.*
+
+# GAMESS-UK
+_gamess_uk
+_gamess-uk.in
+_gamess-uk.pun
+_gamess-uk.ed3
+gamess_input\.*
+*\.ed7
+options.dft
+current.xyz
+
+# LSDALTON
+_lsdalton.*
+
+# GULP
+*.gin
+*.gout
+gulptmp*
+gulp.energy
+gulp.gradient
+gulp.relshel
+gulp.inp*
+gulp.out*
+_gulp
+_gulp.inp
+_gulp.out
+stdin
+stdout
+gulp.dense_real_matrix.punch
+gulp.matrix.punch
+gulp.matrix_title.punch
+gulp.energy.punch
+gulp.gradient.punch
+
+# QM/MM
+_shells_relaxation
+
+# DL-FIND
+path.xyz
+path_active.xyz
+path_force.xyz
+
+# Chemshell 3
+*/chemsh3/*\.c
+*/chemsh3/e
+*/chemsh3/g
+*/chemsh3/*\.e
+*/chemsh3/*\.g
+*/chemsh3/*\.coords
+*/chemsh3/*\.dat
+*/chemsh3/*\.ff
+*/chemsh3/*\.nw
+*/chemsh3/*\.nwout
+gamess1.*
+dl-find.coo
+dl-find.gradient
+hybrid.*.coords
+nwchem.nw*
+fort\.*
+

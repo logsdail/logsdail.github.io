@@ -1,0 +1,65 @@
+# region 1-3
+buck     
+Mg1     core O3     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg1     core O3     shel  182.246312  0.000000  0.000 12.000 
+buck     
+O1      core O3     shel  22764.300  0.149000 27.879  0.000 12.000
+# region 1-4
+buck     
+Mg1     core O4     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg1     core O4     shel  182.246312  0.000000  0.000 12.000 
+buck     
+O1      core O4     shel  22764.300  0.149000 27.879  0.000 12.000
+# region 2-2
+# region 2-3
+buck     
+Mg2    core O3     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg2    core O3     shel  182.246312  0.000000  0.000 12.000 
+# region 2-4
+buck     
+Mg2    core O4     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg2    core O4     shel  182.246312  0.000000  0.000 12.000 
+# region 3-3
+buck     
+Mg3    core O3     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg3    core O3     shel  182.246312  0.000000  0.000 12.000 
+buck     
+O3     shel O3     shel  22764.300  0.149000 27.879  0.000 12.000
+spring
+O3      46.097205     3589.6947
+# region 3-4
+buck     
+Mg3    core O4     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg3    core O4     shel  182.246312  0.000000  0.000 12.000 
+buck     
+Mg4    core O3     shel  798.394448  0.323866  0.000  0.000 12.000
+lennard 12  6     
+Mg4    core O3     shel  182.246312  0.000000  0.000 12.000 
+buck     
+O3     shel O4     shel  22764.300  0.149000 27.879  0.000 12.000
+# exclusions of interactions in and between regions 4 and 5
+coulomb
+Mg4 core  Mg4 core  0.0  100.0
+Mg4 core  O4  core  0.0  100.0
+Mg4 core  O4  shel  0.0  100.0
+O4  core  O4  core  0.0  100.0
+O4  core  O4  shel  0.6  100.0
+O4  shel  O4  shel  0.0  100.0
+F5  core  F5  core  0.0  100.0
+F5  core  Mg4 core  0.0  100.0
+F5  core  O4  core  0.0  100.0
+F5  core  O4  shel  0.0  100.0
+# GULP CONTROL PARAMETERS
+xtol opt   6.000000
+gtol opt   6.000000
+ftol opt   8.000000
+maxcyc     5
+stepmx     1.00
+output xyz current.xyz
+accuracy 12.000

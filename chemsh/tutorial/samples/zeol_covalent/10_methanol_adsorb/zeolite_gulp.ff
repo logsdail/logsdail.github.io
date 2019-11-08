@@ -1,0 +1,77 @@
+# The FF in this file was implemented by Sophia Proud and Samuel Watts, under the guidance of Andrew Logsdail, in 2018.
+# We are grateful to both the Cardiff University CUROP scheme and a CCP5 Summer Bursary for their support
+# The FF was taken from the work of Hill and Sauer, J. Phys. Chem. 99 (1995) 9536-9550
+#
+keyword molmec
+#
+harmonic k3 k4 bond kcal
+#
+# Two-body harmonic term. Input structure: k2 k3 k4 r0 coul rmin rmax
+# k2 is calculated as: 459.0786*2
+# k3 is calculated as:-672.4445*6
+# k4 is calculated as: 443.3651*24
+#
+Si O 918.1572 -4034.6670 10640.7624 1.6104
+#
+three k3 k4 bond kcal
+#
+# Three-body term. Input structure: k2 k3 k4 theta0 rmax(1-2) rmax(1-3) rmax(2-3)
+# k2(H2) is calculated as 81.9691*2
+# k3(H3) is calculated as -36.5814*6
+# k4 (H4) is calculated as 116.9558*24
+#
+Si O O 163.9382 -219.4884 2806.9392 112.0200
+O Si Si 41.4030 165.3036 263.8320 173.7651
+#
+bacross bond kcal
+#
+# Bond-angle cross term. Input structure: k1 k2 r1 r2 theta0 rmax12 rmax13 rmax23 according to online GULP help manual
+# In the 1995 paper, and from DL Poly documentation, there are two constants, Fba and Fba'. 
+# As pointed out by Jingcheng Guan (UCL), these are to ensure environmental symmetry in the bonding species
+#
+Si O O 78.1239 78.1239 1.6104 1.6104 112.0200 
+O Si Si 9.2390  9.2390 1.6104 1.6104 173.7651
+#
+bcross bond kcal
+#
+# Bond-bond cross term (3-body). Input structure: K r1 r2 rmax12 rmax13 rmax23
+#
+Si O O 0.0000 1.6104 1.6104
+# assumed for K in above line of O-Si-O to be equal to zero as not mentioned in the 1995 paper
+O Si Si 151.8742 1.6104 1.6104
+#
+uff4 bond kcal
+#
+# Torisonal UFF potential. Input structure: k n rmax(1-2) rmax(2-3) rmax(3-4) rmax(4-1)
+# Whilst implemented in the original FF, this term seems to have no effect in DL_POLY and 
+# so is disabled here for directly compatibility with the previous DL_POLY implementation of FF.
+#
+## k calculated as: 2*0.0306(V1)
+Si O Si O 0.0612 1.0000 
+## k calculated as: 2*-0.0105(V2)
+Si O Si O -0.0210 2.0000 
+## k calculated as: 2*0.0804(V3)
+Si O Si O 0.1608 3.0000 
+#
+xangleangle bond kcal
+#
+# Angle-angle cross potential. Input structure A B C D k(213/4) k(312/4) k(412/3) theta0(213) theta0(214) theta0(314) rmax(1-2) rmax(1-3) rmax(1-4)
+#
+Si O O O -6.3030 -6.3030 -6.3030 112.0200 112.0200 112.0200 
+#
+torangle bond kcal
+#
+# Torsional-angle cross term. Input structure: A B C D K theta0 theta0' rmax(1-2) rmax(2-3) rmax(3-4)
+#
+O Si O Si -4.5150 112.0200 173.7651 
+#
+lennard 9 6 x13 kcal
+#
+# Lennard-Jones long-range VDW-type interaction. Input Structure: A B rmin rmax
+# Represents second term in equation stated in the research paper
+# A calculated as A(Si)*A(O): 432.3320*239.6090
+#
+Si O  103590.638188 0.0 0.0000 15.0000
+Si Si 186910.958224 0.0 0.0000 15.0000
+O  O  57412.472881  0.0 0.0000 15.0000
+#

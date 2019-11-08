@@ -1,0 +1,81 @@
+ Elapsed time of procedure chemsh.cluster.calcElectrostatics: 18616.858 sec
+calculate periodic electrostatics time
+18616.85840368271
+
+ >>> ChemShell CLUSTER: fitting BQs...
+
+[ 6  9  1  7  8 16]
+ >>> BQ fitting configurations:
+     fragment natoms :         8448
+     fragment nshells:            0
+     cluster natoms  :          448
+     cluster nshells :            0
+     cluster radius  :    20.000000000000000     
+     active radius   :    10.000000000000000     
+     BQs margin      :    3.0000000000000000     
+     BQs density     :            1
+     BQs layer       :    0.0000000000000000     
+     fitting weight:   1.0000000000000000E-010
+ There are         8448 points
+ TWKDEBUG END OF ACTIVE CORES
+
+Fitting...
+
+   Number of sites to fit:     51
+
+      Before fitting
+   Mean error:                -1.754459709    
+   Absolute error:             1.771475030    
+   RMS:                        1.753048247    
+   Mean potential:            -1.752822323    
+   Mean field, Ex            -0.5752535180E-03
+   Mean field, Ey             0.3174059923E-03
+   Mean field, Ez            -0.1379538737E-02
+
+      Excluding mean potential and field
+   Mean error:                0.8022633524E-03
+   Absolute error:            0.3943583159E-01
+   RMS:                       0.2760579123E-01
+   Mean potential:            0.8030620600E-03
+   Mean field, Ex            -0.1542656345E-06
+   Mean field, Ey             0.6923114742E-07
+   Mean field, Ez            -0.7136730717E-06
+
+      Excluding mean potential and field, reiterated
+   Mean error:               -0.7985047722E-06
+   Absolute error:            0.3949589437E-01
+   RMS:                       0.2759410785E-01
+   Mean potential:            0.1721001283E-09
+   Mean field, Ex            -0.1542808393E-06
+   Mean field, Ey             0.6923272364E-07
+   Mean field, Ez            -0.7136287566E-06
+
+ >>> ChemShell CLUSTER: BQ fitting
+
+     Number of polar BQs        :           6
+     Number of least squares BQs:           6
+
+ >>> ChemShell CLUSTER: after fitting
+   Mean error                :    0.329494E-03
+   Absolute error            :    0.388810E-01
+   RMS                       :    0.269268E-01
+   Target total cluster charge:  0.695261595736-309
+   Total least squares charge : -0.157779391233E-01
+   Total polar charge         :   350.403852138    
+   Total BQs                  :   350.388074199    
+ There are           12 bqs
+
+>>> BQ charges:
+ [46.89557166 69.90571238 64.74876187 52.05252218 30.80986728 85.99141676
+ -0.51013227 -0.39639854 -0.29436835  0.96702278 -0.53169966  0.74979809]
+[ 6  9  1  7  8 16]
+ Elapsed time of procedure chemsh.cluster.fitBQs: 2500.758 sec
+fit charges on bqs time
+2500.757677078247
+
+ >>> Leaving ChemShell CLUSTER Module...
+
+ Elapsed time of procedure chemsh.cluster.construct: 26190.924 sec
+
+ >>> "bmimOTf_shells_cluster.pun" saved.
+

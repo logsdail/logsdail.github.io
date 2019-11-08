@@ -1,0 +1,14 @@
+ChemShell DL_POLY
+densvar 20 %
+no index
+coul
+temperature 293.15
+timestep 0.0
+restart scale
+rcut 49.990000
+delr 0.000000
+print 2
+stats 2
+job time 3600
+close time 20
+finish
