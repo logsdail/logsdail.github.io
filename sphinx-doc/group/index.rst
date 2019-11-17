@@ -12,7 +12,7 @@ Meetings
 * | **1-to-1 meetings with Andy are run every Tuesday.**
   | Timetable is organised dynamically through the #meetings channel on Slack (See :ref:`Tools`)
 
-* | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/jenkinshj1_cardiff_ac_uk/EZhNkd7dxqxMrxxmo63ixGsBFIWYWzEOwT1gMNp9VYgBcQ?e=6R4K8r>`_ is 1-2pm on the 1st and 3rd Friday of every month. 
+* | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/jenkinshj1_cardiff_ac_uk/EZhNkd7dxqxMrxxmo63ixGsBFIWYWzEOwT1gMNp9VYgBcQ?e=6R4K8r>`_ is 2-3pm on the 1st and 3rd Friday of every month. 
   | (*Request permission from Harry if you cannot access!*)
 
 * | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/roldanmartineza_cardiff_ac_uk/EWbjXu4OLZ5Oi1KHnZrMwQQB2Vaed6CwAYsppOTLsA34bQ?e=ivfP8A>`_ run on the final Friday of every month. 
@@ -39,7 +39,7 @@ Tutorials
 
 * `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations. 
 
-* `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials.
+* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_)
 
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
 
