@@ -28,6 +28,10 @@ Tools
 
 * Also prompt Andy (via email to LogsdailA@cardiff.ac.uk) to organise keycard access for your office!
 
+* `GitHub <https://github.com/logsdail/software/>`_ : For those keen to engage with software development, our scripts/software are stored here. 
+
+.. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/software/>`_ and adding/developing the available software!
+
 Tutorials
 ---------
 * `Python <https://www.python.org>`_ : Our main working environment. There are loads of tutorials out there, examples are (running from least to most interactive):
