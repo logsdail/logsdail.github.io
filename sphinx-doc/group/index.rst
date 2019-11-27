@@ -67,7 +67,7 @@ Computing Facilities
 * `ARCHER <https://www.archer.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
 
 .. note::
-   Remember that you'll need to install ASE, or any other Python modules, into your personal workspace on these supercomputers. This is performed using `pip3 install --user <modulename>`
+   Remember that you'll need to install ASE, or any other Python modules, into your personal workspace on these supercomputers. This is performed using `pip3 install --user <modulename>`. If pip3 doesn't exist but Python does, install pip3 with `python3 -m ensurepip --default-pip --user`.
 
 Administration (PhD)
 --------------------
