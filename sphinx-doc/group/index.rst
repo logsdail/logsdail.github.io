@@ -97,6 +97,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `The Materials Project <https://materialsproject.org/>`_
 
+  * `Crystalium (Surfaces and Grain boundaries) <http://crystalium.materialsvirtuallab.org>`_
+
 * Software/Conversion:
 
   * `OpenBabel Format Converter <http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html>`_
