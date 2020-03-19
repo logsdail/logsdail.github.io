@@ -10,12 +10,14 @@ Meetings
 --------
 
 * | **1-to-1 meetings with Andy are run every Tuesday.**
-  | Timetable is organised dynamically through the #meetings channel on Slack (See :ref:`Tools`)
+  | Timetable is organised dynamically through the #personal_meetings channel on Slack (See :ref:`Tools`)
 
 * | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_ is 2-3pm on the 1st and 3rd Friday of every month. 
 
-* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/roldanmartineza_cardiff_ac_uk/EWbjXu4OLZ5Oi1KHnZrMwQQB2Vaed6CwAYsppOTLsA34bQ?e=ivfP8A>`_ run on the final Friday of every month. 
+* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/roldanmartineza_cardiff_ac_uk/EWbjXu4OLZ5Oi1KHnZrMwQQB2Vaed6CwAYsppOTLsA34bQ?e=ivfP8A>`_ run on the final Friday of every month. (Note: the delivery times may change during the work-from-home coronavirus period)
   | (*Please note the dates when you are speaking!*)
+
+* | **During the work-from-home coronavirus period**, further `group meetings <https://logsdail.slack.com/files/T58HL6BRQ/FVDLMNMA7?origin_team=T58HL6BRQ>`_ are scheduled for 10.30am on Mon, Wed and Thurs on a range of topics.
 
 .. _Tools:
 
@@ -63,10 +65,10 @@ Computing Facilities
 
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
 
-* `ARCHER <https://www.archer.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
+* `Thomas <https://wiki.rc.ucl.ac.uk/wiki/Thomas>`_ and `ARCHER <https://www.archer.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
 
 .. note::
-   Remember that you'll need to install ASE, or any other Python modules, into your personal workspace on these supercomputers. This is performed using `pip3 install --user <modulename>`. If pip3 doesn't exist but Python does, install pip3 with `python3 -m ensurepip --default-pip --user`.
+   On Hawk and Isambard, all the Python software you need is loaded in a "virtual environment". On ARCHER and Thomas, you'll need to install ASE, or any other Python modules, into your personal workspace by setting up a `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `python3 -m pip install --user <modulename>`. Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
 --------------------
