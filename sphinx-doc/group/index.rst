@@ -44,7 +44,7 @@ Tutorials
 
 * `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations. 
 
-* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_, , and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
+* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
 
@@ -92,25 +92,27 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
 * Materials:
 
-  * `Database of Zeolite Structures <http://www.iza-structure.org/databases/>`_
-  
   * `Bilbao Crystallographic Server <http://www.cryst.ehu.es/>`_
-
-  * `The Materials Project <https://materialsproject.org/>`_
 
   * `Crystalium (Surfaces and Grain boundaries) <http://crystalium.materialsvirtuallab.org>`_
 
-* Software/Conversion:
+  * `Database of Zeolite Structures <http://www.iza-structure.org/databases/>`_
 
-  * `OpenBabel Format Converter <http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html>`_
+  * `The Materials Project <https://materialsproject.org/>`_
+
+* Software/Conversion:
 
   * `ChemDraw Online <https://chemdrawdirect.perkinelmer.cloud/js/sample/index.html>`_
 
-  * `Materials Cloud (including k-path finder and phonon visualiser) <https://www.materialscloud.org/work/tools/options>`_
+  * `Materials Cloud <https://www.materialscloud.org/work/tools/options>`_ (including k-path finder and phonon visualiser)
+
+  * `MOF Explorer (Pore Size Distribution) <https://mausdin.github.io/MOFsite/mofPage.html>`_
+
+  * `OpenBabel Format Converter <http://www.cheminfo.org/Chemistry/Cheminformatics/FormatConverter/index.html>`_
 
   * Physical Constants: `NIST <https://physics.nist.gov/cuu/Constants/>`_, `IUPAC <https://goldbook.iupac.org/indexes/constants>`_
 
-  * `MOF Explorer (Pore Size Distribution) <https://mausdin.github.io/MOFsite/mofPage.html>`_
+  * `WulffPack <https://wulffpack.materialsmodeling.org/>`_ (Wulff and nanoparticle construction)
 
 * Funding:
 
