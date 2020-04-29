@@ -29,9 +29,9 @@ Tools
 
 * Also prompt Andy (via email to LogsdailA@cardiff.ac.uk) to organise keycard access for your office!
 
-* `GitHub <https://github.com/logsdail/software/>`_ : For those keen to engage with software development, our scripts/software are stored here. 
+* `GitHub <https://github.com/logsdail/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here.
 
-.. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/software/>`_ and adding/developing the available software!
+.. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/carmm/>`_ and adding/developing the available software!
 
 Tutorials
 ---------
@@ -42,9 +42,12 @@ Tutorials
   * `w3schools <https://www.w3schools.com/python/>`_
   * `Code Academy <https://www.codecademy.com/learn/learn-python>`_
 
-* `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations. 
+.. note:: 
+  An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub!
 
-* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://cf-my.sharepoint.com/:f:/g/personal/beynonot_cardiff_ac_uk/Emy7Iddl8OFFuseXic9umKEBFARTNlVlbPTg0q6uNWYjvg?e=p783kT>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
+* `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
+
+* | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
 
@@ -89,6 +92,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
   * `HyperPhysics <http://hyperphysics.phy-astr.gsu.edu/hbase/hph.html>`_
 
   * `An Interactive Introduction to Fourier Transforms <http://www.jezzamon.com/fourier/index.html>`_ (and planewave cutoffs)
+
+  * `Machine Learning Basics <https://sites.google.com/view/ml-basics/home>`_
 
 * Materials:
 
