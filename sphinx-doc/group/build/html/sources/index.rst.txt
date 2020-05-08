@@ -49,7 +49,7 @@ Tutorials
 
 * | `FHI-aims <https://aimsclub.gitlab.io/tutorial/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
-* `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early!
+* `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early! Cheatsheets for `unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ and `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_ (text editor) are available.
 
 .. note::
   Many training opportunities are available through the `Doctoral Training Academy <https://rssdp.cardiff.ac.uk/>`_. This includes Python (`Basic <https://rssdp.cardiff.ac.uk/index.php?sect=workshops&action=details&wid=IT068&indexKeyword=p>`_ and `Advanced <https://rssdp.cardiff.ac.uk/?sect=workshops&action=details&wid=RS200&indexKeyword=p>`_) as well as soft-skills, such as for manuscript, presentation and thesis preparation.
