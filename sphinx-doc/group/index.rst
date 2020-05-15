@@ -119,6 +119,10 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `WulffPack <https://wulffpack.materialsmodeling.org/>`_ (Wulff and nanoparticle construction)
 
+* Presentation:
+
+  * `Fundamentals of Data Visualization <https://serialmentor.com/dataviz/>`_
+
 * Funding:
 
   * `HPC-Europa3 <http://www.hpc-europa3.eu>`_
