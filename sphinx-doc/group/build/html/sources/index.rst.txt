@@ -101,6 +101,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `Bilbao Crystallographic Server <http://www.cryst.ehu.es/>`_
 
+  * `Novel Materials Discovery (NOMAD) <https://nomad-lab.eu>`_ (and path to `full repository <https://nomad-lab.eu/prod/rae/gui/search>`_ for data upload/download)
+
   * `Crystalium (Surfaces and Grain boundaries) <http://crystalium.materialsvirtuallab.org>`_
 
   * `Database of Zeolite Structures <http://www.iza-structure.org/databases/>`_
