@@ -14,7 +14,7 @@ Meetings
 
 * | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_ is 2-3pm on the 1st and 3rd Friday of every month. 
 
-* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/roldanmartineza_cardiff_ac_uk/EWbjXu4OLZ5Oi1KHnZrMwQQB2Vaed6CwAYsppOTLsA34bQ?e=ivfP8A>`_ run on the final Friday of every month. (Note: the delivery times may change during the work-from-home coronavirus period)
+* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_ run on the final Friday of every month. (Note: the delivery times may change during the work-from-home coronavirus period)
   | (*Please note the dates when you are speaking!*)
 
 * | **During the work-from-home coronavirus period**, further `group meetings <https://logsdail.slack.com/files/T58HL6BRQ/FVDLMNMA7?origin_team=T58HL6BRQ>`_ are scheduled for 10.30am on Mon, Wed and Thurs on a range of topics.
