@@ -54,7 +54,7 @@ Tutorials
 * `Bash <https://rik.smith-unna.com/command_line_bootcamp>`_ : A necessity on the supercomputing environments, so start early! Cheatsheets for `unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ and `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_ (text editor) are available.
 
 .. note::
-  Many training opportunities are available through the `Doctoral Training Academy <https://rssdp.cardiff.ac.uk/>`_. This includes Python (`Basic <https://rssdp.cardiff.ac.uk/index.php?sect=workshops&action=details&wid=IT068&indexKeyword=p>`_ and `Advanced <https://rssdp.cardiff.ac.uk/?sect=workshops&action=details&wid=RS200&indexKeyword=p>`_) as well as soft-skills, such as for manuscript, presentation and thesis preparation.
+  Many training opportunities are available through the `Doctoral Training Academy <https://rssdp.cardiff.ac.uk/>`_. This includes Python (`Basic <https://rssdp.cardiff.ac.uk/index.php?sect=workshops&action=details&wid=IT068&indexKeyword=p>`_ and `Advanced <https://rssdp.cardiff.ac.uk/?sect=workshops&action=details&wid=RS200&indexKeyword=p>`_) as well as soft-skills, such as for manuscript, presentation and thesis preparation. Training is also available from `Advanced Research Computing @ Cardiff University (ARCCA) <https://arcca.github.io/>`_ on working on HPC platforms.
 
 Computing Facilities
 --------------------
@@ -67,6 +67,8 @@ Computing Facilities
   * Work is done in the scratch directory only: `/scratch/<username>/`
 
   * Examples of how to run software is in the project shared directory: `/home/scw1057/`
+
+  * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_.
 
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
 
