@@ -72,10 +72,18 @@ Computing Facilities
 
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
 
+.. note::
+  * Software and example job scripts are available at `/home/ca-alogsdail`
+
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER <https://www.archer.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
 
 .. note::
-   On Hawk and Isambard, all the Python software you need is loaded in a "virtual environment". On ARCHER and Thomas, you'll need to install ASE, or any other Python modules, into your personal workspace by setting up a `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `python3 -m pip install --user <modulename>`. Make sure you have loaded the Python module beforehand!
+  * On Young, software and example job scripts are available at `/home/mmm0170`
+
+  * On ARCHER, software and example job scripts are available at `/home/e05/e05/ajl340`
+
+.. note::
+   On Hawk, Isambard and Young, all the Python software you need is loaded in a "virtual environment". On ARCHER, you'll need to install ASE, or any other Python modules, into your personal workspace by setting up a `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `python3 -m pip install --user <modulename>`. Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
 --------------------
