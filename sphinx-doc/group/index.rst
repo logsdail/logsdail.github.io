@@ -73,7 +73,7 @@ Computing Facilities
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
 
 .. note::
-  * Software and example job scripts are available at `/home/ca-alogsdail`
+  * You need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`
 
 * `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER <https://www.archer.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
 
