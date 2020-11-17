@@ -83,7 +83,7 @@ Computing Facilities
   * On ARCHER, software and example job scripts are available at `/home/e05/e05/ajl340`
 
 .. note::
-   On Hawk, Isambard and Young, all the Python software you need is loaded in a "virtual environment". On ARCHER, you'll need to install ASE, or any other Python modules, into your personal workspace by setting up a `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `python3 -m pip install --user <modulename>`. Make sure you have loaded the Python module beforehand!
+   On Hawk, Isambard and Young, all the Python software you need is loaded in a "virtual environment". On ARCHER, you'll need to install ASE, or any other Python modules, into your personal workspace by setting up a `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
 --------------------
