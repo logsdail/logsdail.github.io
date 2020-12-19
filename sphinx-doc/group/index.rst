@@ -40,7 +40,7 @@ Tutorials
   * `Python 3 Official Documentation <https://docs.python.org/3/tutorial/>`_
   * `Learn Python <https://www.learnpython.org/>`_
   * `w3schools <https://www.w3schools.com/python/>`_
-  * `Code Academy <https://www.codecademy.com/learn/learn-python>`_
+  * `The Molecular Sciences Software Institute <http://education.molssi.org/resources.html>`_ (Also offer training on software development best practice)
 
 .. note:: 
   An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub!
