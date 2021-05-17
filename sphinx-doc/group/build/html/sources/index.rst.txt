@@ -114,7 +114,12 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `Bilbao Crystallographic Server <http://www.cryst.ehu.es/>`_
 
-  * `Novel Materials Discovery (NOMAD) <https://nomad-lab.eu>`_ (and path to `full repository <https://nomad-lab.eu/prod/rae/gui/search>`_ for data upload/download)
+  * `Novel Materials Discovery (NOMAD) <https://nomad-lab.eu>`_ 
+   
+    * See the `full repository <https://nomad-lab.eu/prod/rae/gui/search>`_ here for data upload/download
+
+    * Want to know how to upload your files and get a DOI? See `this <https://youtu.be/s5CxZero5NI>`_ video!
+
 
   * `Crystalium (Surfaces and Grain boundaries) <http://crystalium.materialsvirtuallab.org>`_
 
