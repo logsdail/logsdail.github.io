@@ -80,7 +80,7 @@ Computing Facilities
 .. note::
   * On Young, software and example job scripts are available at `/home/mmm0170`
 
-  * On ARCHER2, software and example job scripts are available at `/work/e05/e05/ajl340`
+  * On ARCHER2, software and example job scripts are available at `/work/e05/e05-files-log/shared`
 
 .. note::
    On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
