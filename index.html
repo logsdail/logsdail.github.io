@@ -38,6 +38,16 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<! -- Expose/hide text -->
+<script type="text/javascript">
+function toggle(obj) {
+          var obj=document.getElementById(obj);
+          if (obj.style.display == "block") obj.style.display = "none";
+          else obj.style.display = "block";
+}
+</script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 
@@ -173,7 +183,7 @@ li .dropdown {
  </tr>
  <tr>
   <td>
-  <p>Hi! You've reached the group pages of Dr Andrew Logsdail. We are interested in Computational Chemistry, and are based in the <a href="http://www.cardiff.ac.uk/cci/" target=top>Cardiff Catalysis Institute</a>.</p> 
+  <p>Hi! You've reached the group pages of Dr Andrew Logsdail. We investigate contemporary chemical topics using computation and modelling, and we are based in the <a href="http://www.cardiff.ac.uk/cci/" target=top>Cardiff Catalysis Institute</a>.</p> 
   </td>
   <td>
     <img src="images/animated_np.gif">
@@ -186,7 +196,7 @@ li .dropdown {
  </tr>
  <tr>
   <td colspan=2>
-  <p><i><b>News:</b></i> Kush's manuscript on catalytic transformation of formic acid on Mo<sub>2</sub>C is now online in <a href="https://doi.org/10.1016/j.cattod.2021.04.011" target=top>Catalysis Today</a>. Congrats Kush! (28/04/2021) </p>
+  <p><i><b>News:</b></i> Stefan's final manuscript on methoxy and carbene activity in H-ZSM-5 is now online at <a href="https://doi.org/10.26434/chemrxiv.14737443.v1" target=top>ChemRxiv</a> (14/06/2021) </p>
 <!--
   <p><a href="https://doi.org/10.1039/D0CP05392A" target=top>
   <div class="figure">
@@ -224,42 +234,50 @@ li .dropdown {
  </tr>
  <tr>
   <td>
-  <div id="materials"></div>&nbsp<br><br>	  
-  <p><u>Crystalline materials</u>:</p>
-  <p>Understanding the structural, energetic and electronic properties of materials is crucial to harness them for technological applications. We have expertise in elucidating how structure affects the energetic stability and electronic properties of crystalline polymorphs, how intrinsic and extrinsic defects alter the electronic and energetic properties of materials, and how surfaces further change chemical and physical properties. Select example publications: </p>
+  <div id="materials"></div>&nbsp<br><br>
+  <p><u>Crystalline materials</u></p>
+  <p>Understanding the structural, energetic and electronic properties of materials is crucial to harness them for technological applications. We have expertise in elucidating how structure affects the energetic stability and electronic properties of crystalline polymorphs, how intrinsic and extrinsic defects alter the electronic and energetic properties of materials, and how surfaces further change chemical and physical properties. <a href="javascript: void(0);" onClick="toggle('materials_refs')">Select publications &#9662;</a> </p>
+  <div id="materials_refs" style="display:none;">
   <p><i>"Hybrid-DFT Modeling of Lattice and Surface Vacancies in MnO"</i>, <a href="http://dx.doi.org/10.1021/acs.jpcc.8b07846" target=top>J. Phys. Chem. C (2018), 123 (13), 8133</a>.</p>
   <p><i>"Moprhological Features and Band Bending at Nonpolar Surfaces of ZnO"</i>, <a href="http://dx.doi.org/10.1021/acs.jpcc.5b01331" target=top>J. Phys. Chem. C (2015), 119 (21), 11598</a>.</p>
   <p><i>"Band alignment of rutile and anatase TiO<sub>2</sub>"</i>, <a href="http://dx.doi.org/10.1038/nmat3697" target=top>Nature Mater. (2013), 12, 798</a>.</p>
+  </div>
   <div class="figure">
   <p><img src="images/toc/10.1038.nmat3697.jpg" class="scaled">
   </a></p></div> 
 
   <div id="catalysis"></div>&nbsp<br><br>
   <p><u>Heterogeneous Catalysts/Catalysis:</u></p>
-  <p>Tailoring materials to accelerate chemical reactions via catalysis is crucial for efficiently synthesising many important chemicals, and for delivering the energy revolution that will transfer society from fossil fuel to renewable resources. We have expertise in investigating how catalyst structure and composition affects catalysis, and how reaction profiles vary depending on reaction environments. Select example publications: </p>
+  <p>Tailoring materials to accelerate chemical reactions via catalysis is crucial for efficiently synthesising many important chemicals, and for delivering the energy revolution that will transfer society from fossil fuel to renewable resources. We have expertise in investigating how catalyst structure and composition affects catalysis, and how reaction profiles vary depending on reaction environments. <a href="javascript: void(0);" onClick="toggle('catalysis_refs')">Select publications &#9662;</a> </p>
+  <div id="catalysis_refs" style="display:none;">
   <p><i>"Computational QM/MM investigation of the adsorption of MTH active species in HY and H-ZSM-5"</i>, <a href="http://dx.doi.org/10.1039/C8CP06736H" target=top>Phys. Chem. Chem. Phys. (2019), 21 (5), 2639</a>.</p> 
   <p><i>"Tailoring Gold Nanoparticle Charcteristics and the Impact on Aqueous-Phase Oxidation of Glycerol"</i>, <a href="http://dx.doi.org/10.1021/acscatal.5b00754" target=top>ACS Catal. (2015), 5 (7), 4377</a>.</p>
   <p><i>"Designer Titania-Supported AuPd Nanoparticles for Efficient Photocatalytic Hydrogen Production"</i>, <a href="http://dx.doi.org/10.1021/nn500963m" target=top>ACS Nano (2014), 8 (4), 3490</a>.</p>
+  </div>
   <div class="figure">
   <p><img src="images/toc/10.1021.nn500963m.jpg" class="scaled">
   </a></p></div>
 
   <div id="methods"></div>&nbsp<br><br>
   <p><u>Method development:</u></p>
-  <p>Understanding of chemical properties is increasingly dependent on accurate physical models, whereby the behaviour and properties of a system can be tested. Implementation of these models in highly-parallelised software allows the investigation of complex systems, and for predictions to be made so that we can accelerate chemical discovery. We have expertise in the development of modern, parallelised computational software for simulations ranging through quantum mechanics, molecular mechanics and continuum modelling. Select example publications: </p>
+  <p>Understanding of chemical properties is increasingly dependent on accurate physical models, whereby the behaviour and properties of a system can be tested. Implementation of these models in highly-parallelised software allows the investigation of complex systems, and for predictions to be made so that we can accelerate chemical discovery. We have expertise in the development of modern, parallelised computational software for simulations ranging through quantum mechanics, molecular mechanics and continuum modelling. <a href="javascript: void(0);" onClick="toggle('devel_refs')">Select publications &#9662;</a> </p>
+  <div id="devel_refs" style="display:none;">
   <p><i>"Open-source, python-based redevelopment of the chemshell multiscale QM/MM environment"</i>, <a href="http://dx.doi.org/10.1021/acs.jctc.8b01036" target=top>J. Chem. Theo. Comp. (2018), 15 (2), 1317</a>.</p>
   <p><i>"Embedded-cluster calculations in a numeric atomic orbital density-functional theory framework"</i>, <a href="http://dx.doi.org/10.1063/1.4885816" target=top>J. Chem. Phys. (2014), 141, 024105</a>.</p>
   <p><i>"Dopant-induced 2D-3D transition in small Au-containing clusters: DFT-global optimisation of 8-atom Au-Ag nanoalloys"</i>, <a href="http://dx.doi.org/10.1039/C1NR11053E" target=top>Nanoscale (2012), 4 (4), 1109</a>.</p>
+  </div>
   <div class="figure">
   <p><img src="images/toc/10.1039.C1NR11053E.jpg" class="scaled">
   </a></p></div>
 
   <div id="nanoparticles"></div>&nbsp<br><br>
   <p><u>Precious-metal nanoparticles</u>:</p>
-  <p>Discretised systems, such as nanoparticles, offer novel chemical and physical properties that are strongly dependent on the composition and size of the system. We have expertise in understanding how the structure of metallic nanoparticles, and their composition when doped with secondary elements, can change the chemical activity in catalysed reactions or in optical applications. Select example publications: </p>
+  <p>Discretised systems, such as nanoparticles, offer novel chemical and physical properties that are strongly dependent on the composition and size of the system. We have expertise in understanding how the structure of metallic nanoparticles, and their composition when doped with secondary elements, can change the chemical activity in catalysed reactions or in optical applications. <a href="javascript: void(0);" onClick="toggle('nano_refs')">Select publications &#9662;</a> </p>
+  <div id="nano_refs" style="display:none;">
   <p><i>"DFT-computed trends in the properties of bimetallic precious metal nanoparticles with core@ shell segregation"</i>, <a href="http://dx.doi.org/10.1021/acs.jpcc.7b10614" target=top>J. Phys. Chem. C (2018), 122 (10), 5721</a>.</p>
   <p><i>"Controlling Structural Transitions in AuAg Nanoparticles through Precise Compositional Design"</i>, <a href="http://dx.doi.org/10.1021/acs.jpclett.6b02181" target=top>J. Phys. Chem. Lett. (2016), 7 (21), 4414</a>.</p>
   <p><i>"A Selective Blocking Method To Control the Overgrowth of Pt on Au Nanorods"</i>, <a href="http://dx.doi.org/10.1021/ja4003475" target=top>J. Am. Chem. Soc. (2013), 135 (17), 6554</a>.</p>
+  </div>
   <div class="figure">
   <p><img src="images/toc/10.1021.ja4003475.jpg" class="scaled">
   </a></p></div>
@@ -365,7 +383,7 @@ li .dropdown {
   <img src="images/members/larakabalan.jpg" alt="Dr Lara Kabalan" class="scaled"> 
   </p><p><a href="https://www.linkedin.com/in/lara-kabalan-9b89a4106/" target=top>Dr Lara Kabalan</a> <br>(<a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/S030468/1" target=top>EP/S030468/1</a>; PI: Prof. Richard Catlow)</p>
   <p><i>"New trimetallic nanoparticles as catalysts for the conversion of carbon dioxide to renewable fuels"</i></p>
-  <p><u>Publications:</u> <a href="https://doi.org/10.26434/chemrxiv.14403452.v2" target=top>#1</a></p>
+  <p><u>Publications:</u> <a href="https://doi.org/10.26434/chemrxiv.14403452.v2" target=top>#1</a> <a href="https://doi.org/10.26434/chemrxiv.14423600.v2" target=top>#2</a></p>
   </div>
   </td>
  </tr>
@@ -375,6 +393,24 @@ li .dropdown {
   </td>
   <td>
   <a href="mailto:KabalanL@cardiff.ac.uk">KabalanL [at] cardiff.ac.uk</a>
+  </td>
+ </tr>
+ <tr>
+  <td style="top" colspan=2>
+  <div class="figure">
+  <p>
+  <img src="images/members/pavelstishenko.jpg" alt="Dr Pavel Stishenko" class="scaled">
+  </p><p>Dr Pavel Stishenko<br>(<a href="https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=MR/T018372/1" target=top>MR/T018372/1</a>)</p>
+  <p><i>"Embedded Cluster Modelling for Realistic Solid-State Systems"</i></p>
+  </div>
+  </td>
+ </tr>
+ <tr>
+  <td class="first">
+  email:
+  </td>
+  <td>
+  <a href="mailto:StishenkoP@cardiff.ac.uk">StishenkoP [at] cardiff.ac.uk</a>
   </td>
  </tr>
 </table>
@@ -470,7 +506,7 @@ li .dropdown {
   <img src="images/members/igorkowalec.jpg" alt="Igor Kowalec" class="scaled">
   </p><p><a href="https://www.linkedin.com/in/igor-kowalec-64aa8a14b" target=top>Igor Kowalec</a> <br>(PI: Prof. Richard Catlow)</p>
   <p><i>"Converting CO<sub>2</sub> to liquid fuels over Pd-based trimetallic nanoparticles"</i></p>
-  <p><u>Publications:</u> <a href="https://doi.org/10.26434/chemrxiv.14423600.v1" target=top>#1</a></p>
+  <p><u>Publications:</u> <a href="https://doi.org/10.26434/chemrxiv.14423600.v2" target=top>#1</a> <a href="https://doi.org/10.26434/chemrxiv.14403452.v2" target=top>#2</a></p>
   </div>
   </td>
  </tr>
@@ -577,19 +613,19 @@ li .dropdown {
 </table>
 //-->
 
-
+<!--
 <table>
  <tr>
   <td style="top" colspan=2>
   <div class="figure">
   <p><i>BSc Students:</i></p>
-  <!-- <p><a href="https://www.linkedin.com/in/aidana-nauruzbayeva-443880116/" target=top>Aidana Nauruzbayeva</a><p> //-->
   <p>Yuhan Lu</p>
   <p><a href="https://www.linkedin.com/in/hannah-phillips-a22219210/" target=top>Hannah Phillips</a></p>
   </div>
   </td>
  </tr>
 </table>
+//-->
 
 </div></section>
 
@@ -612,7 +648,7 @@ li .dropdown {
   <p><a href="https://www.linkedin.com/in/stefan-adrian-nastase-06704617b/" target=top>Stefan Nastase</a> (2016/20)<br>
   <i><a href="https://orca-mwe.cf.ac.uk/130007/1/Thesis.corrected.Stefan.Nastase%20%281%29.pdf" target=top>"Computational study on the early stages of the
 Methanol to Hydrocarbons process"</a></i></p>
-  <p><u>Publications:</u> <a href="https://doi.org/10.1039/C8CP06736H" target=top>#1</a> <a href="https://doi.org/10.1039/D0SC01924K" target=top>#2</a> <a href="https://doi.org/10.1021/acscatal.0c01454" target=top>#3</a> <a href="https://doi.org/10.1039/d0cp05392a" target=top>#4</a></p>
+  <p><u>Publications:</u> <a href="https://doi.org/10.1039/C8CP06736H" target=top>#1</a> <a href="https://doi.org/10.1039/D0SC01924K" target=top>#2</a> <a href="https://doi.org/10.1021/acscatal.0c01454" target=top>#3</a> <a href="https://doi.org/10.1039/d0cp05392a" target=top>#4</a> <a href="https://doi.org/10.26434/chemrxiv.14737443.v1" target=top>#5</a> </p>
 
   <p><a href="https://uk.linkedin.com/in/anna-gould-2696433b" target=top>Anna Gould</a> (2013/17)<br>
   <a href="http://discovery.ucl.ac.uk/1553295/" target=top><i>"Properties of bimetallic AuAg nanoparticles for H2 production"</i></a></p>
@@ -637,7 +673,8 @@ Methanol to Hydrocarbons process"</a></i></p>
 <table>
  <tr>
   <td>
-  <p><i>MSc/MSci/MChem Students:</i></p>
+  <p><i>MSc/MSci/MChem Students</i> <a href="javascript: void(0);" onClick="toggle('mchem_old')">&#9662;</a> </p>
+  <div id="mchem_old" style="display:none;">
   <center>
   <p>Luke Watson (2019/20)</p>
   <p><a href="https://www.linkedin.com/in/theo-wilkins-5b90a9156/" target=top>Theo Wilkins</a> (2019/20)</p>
@@ -655,6 +692,7 @@ Methanol to Hydrocarbons process"</a></i></p>
   <p>Yisha Xu (2015/16)</p>
   <p><a href="https://www.linkedin.com/in/shiny-mathew-a9398478" target=top>Shiny Mathew</a> (2014/15)</p>
   </center>
+  </div>
   </td>
  </tr>
 </table>
@@ -662,15 +700,19 @@ Methanol to Hydrocarbons process"</a></i></p>
 <table>
  <tr>
   <td style="top" colspan=2>
-  <p><i>BSc Students:</i></p>
+  <p><i>BSc Students</i> <a href="javascript: void(0);" onClick="toggle('bsc_old')">&#9662;</a></p>
+  <div id="bsc_old" style="display:none;">
   <center>
-  <p><a href="https://www.linkedin.com/in/aidana-nauruzbayeva-443880116/" target=top>Aidana Nauruzbayeva</a> (2019/20)<p>
-  <p>Anisha Lad (2019/20)</p>
-  <p>George Woodburn (2018/19)<p>
-  <p><a href="https://www.linkedin.com/in/james-rodway-6768b5165" target=top>James Rodway</a> (2017/18)</p>
-  <p><a href="https://www.linkedin.com/in/prabesh-katawal-ab5089131" target=top>Prabesh Katawal</a> (2016/17)</p>
-  <p><a href="https://www.linkedin.com/in/thomas-davies-9a03b316b" target=top>Tom Davies</a> (2016/17)</p>
+  <p>Yuhan Lu (2021)</p>
+  <p><a href="https://www.linkedin.com/in/hannah-phillips-a22219210/" target=top>Hannah Phillips</a> (2021)</p>
+  <p><a href="https://www.linkedin.com/in/aidana-nauruzbayeva-443880116/" target=top>Aidana Nauruzbayeva</a> (2020)<p>
+  <p>Anisha Lad (2020)</p>
+  <p>George Woodburn (2019)<p>
+  <p><a href="https://www.linkedin.com/in/james-rodway-6768b5165" target=top>James Rodway</a> (2018)</p>
+  <p><a href="https://www.linkedin.com/in/prabesh-katawal-ab5089131" target=top>Prabesh Katawal</a> (2017)</p>
+  <p><a href="https://www.linkedin.com/in/thomas-davies-9a03b316b" target=top>Tom Davies</a> (2017)</p>
   </center>
+  </div>
   </td>
  </tr>
 </table> 
@@ -678,7 +720,8 @@ Methanol to Hydrocarbons process"</a></i></p>
 <table>
  <tr>
   <td style="top" colspan=2>
-  <p><i>Summer Students:</i></p>
+  <p><i>Summer Students</i> <a href="javascript: void(0);" onClick="toggle('summer_old')">&#9662;</a></p>
+  <div id="summer_old" style="display:none;">
   <center>
   <p><a href="https://www.linkedin.com/in/harry-thomas-63a65715b/" target=top>Harry Thomas</a> (2020, CCP5)</p>
   <p>Corey Maxwell (2020, Nuffield)</p>
@@ -696,6 +739,7 @@ Methanol to Hydrocarbons process"</a></i></p>
   <p>Louis Munro (2017, Nuffield)</p>
   <p><a href="https://www.london-nano.com/our-people/%5Bfield_people_section-raw%5D/daniel-silva-nunes">Daniel Nunes</a> (2014)<p>
   </center>
+  </div>
   </td>
  </tr>
 </table>
