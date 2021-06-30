@@ -141,6 +141,10 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `WulffPack <https://wulffpack.materialsmodeling.org/>`_ (Wulff and nanoparticle construction)
 
+..
+   Need to figure where to add this:
+   Should you want to run a virtual box, `this video <https://youtu.be/5sa0acU4pmY>`_ is recommended to help with installation
+
 * Presentation:
 
   * `Fundamentals of Data Visualization <https://serialmentor.com/dataviz/>`_
