@@ -43,7 +43,7 @@ Tutorials
   * `The Molecular Sciences Software Institute <http://education.molssi.org/resources.html>`_ (Also offer training on software development best practice)
 
 .. note:: 
-  An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub!
+  An IDE is strongly recommended for programming. `PyCharmm <https://www.jetbrains.com/pycharm/>`_ is particularly nice as it integrates seamlessly with GitHub! And you might also want to consider `CodeTogether <https://www.codetogether.com/>`_ as a plugin for collaborative coding.
 
 * `Atomic Simulation Environment <https://wiki.fysik.dtu.dk/ase/tutorials/tutorials.html>`_ : Our main working environment for running simulations, great for manipulating atoms.
 
