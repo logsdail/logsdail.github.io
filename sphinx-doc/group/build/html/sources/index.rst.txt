@@ -39,7 +39,7 @@ Tutorials
 
   * `Python 3 Official Documentation <https://docs.python.org/3/tutorial/>`_
   * `Learn Python <https://www.learnpython.org/>`_
-  * `w3schools <https://www.w3schools.com/python/>`_
+  * `JetBrains Edu <https://plugins.jetbrains.com/plugin/10081-edutools/docs/learner-start-guide.html?section=Introduction%20to%20Python>`_ (Good as integrates with PyCharm - see note)
   * `The Molecular Sciences Software Institute <http://education.molssi.org/resources.html>`_ (Also offer training on software development best practice)
 
 .. note:: 
