@@ -29,7 +29,7 @@ Tools
 
 * Also prompt Andy (via email to LogsdailA@cardiff.ac.uk) to organise keycard access for your office!
 
-* `GitHub <https://github.com/logsdail/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here.
+* `GitHub <https://github.com/logsdail/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here. Tutorial examples are also available `here <https://github.com/logsdail/external_examples>`_.
 
 .. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/carmm/>`_ and adding/developing the available software!
 
@@ -58,6 +58,10 @@ Tutorials
 
 Computing Facilities
 --------------------
+
+.. warning::
+  For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/logsdail/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
+
 * | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. 
   | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`. 
   
