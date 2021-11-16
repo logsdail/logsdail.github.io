@@ -89,9 +89,6 @@ Computing Facilities
 .. note::
    On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
 
-.. note::
-   For computational efficiency, wherever possible use the `sockets` implementation when interfacing ASE/FHI-aims as it is significantly quicker!
-
 Administration (PhD)
 --------------------
 | Throughout the PhD, you'll have to do paperwork to ensure continuous progression. 
