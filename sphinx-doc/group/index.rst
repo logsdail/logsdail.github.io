@@ -17,7 +17,7 @@ Meetings
 * | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_ run on every Friday. Join us also for the coffee-break quiz from 2.30pm. 
   | (*Please note the dates when you are speaking and chairing in sessions!*)
 
-* | **During the work-from-home coronavirus period**, further `group meetings <https://logsdail.slack.com/archives/CVDKR4TDH/p1601886527003800>`_ are scheduled for 10.30am on Mon and Wed on a range of topics.
+* | **During the work-from-home coronavirus period**, further `group meetings <https://logsdail.slack.com/files/T58HL6BRQ/F01BRMZ1L30>`_ are scheduled for 10.30am on Mon and Wed on a range of topics.
 
 .. _Tools:
 
