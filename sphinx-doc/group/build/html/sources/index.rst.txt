@@ -109,7 +109,7 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `An Interactive Introduction to Fourier Transforms <http://www.jezzamon.com/fourier/index.html>`_ (and planewave cutoffs)
 
-  * `Machine Learning Basics <https://sites.google.com/view/ml-basics/home>`_
+  * `Machine Learning Basics <https://sites.google.com/view/ml-basics/home>`_ and `Cheat Sheet <https://stanford.edu/~shervine/teaching/cs-229/>`_
 
 * Materials:
 
