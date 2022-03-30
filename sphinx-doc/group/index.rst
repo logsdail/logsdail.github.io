@@ -72,7 +72,7 @@ Computing Facilities
 
   * Examples of how to run software is in the project shared directory: `/home/scw1057/`
 
-  * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_.
+  * Extensive training material, both on using Hawk and HPC in general, are provided by `ARCCA <https://arcca.github.io/>`_. For training on the SLURM queue, checkout also `this page <https://researchcomputing.princeton.edu/support/knowledge-base/slurm>`_.
 
 * `Isambard <https://gw4-isambard.github.io/docs/>`_ : The Tier-2 facility accessed through the GW4 consortium.
 
