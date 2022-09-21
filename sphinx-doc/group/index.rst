@@ -4,20 +4,24 @@
 Overview
 --------
 
-On this page you will find a collection of resources that will help you settle in the `Logsdail research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
+On this page you will find a collection of resources that will help you settle in our `research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
 
 Meetings
 --------
 
-* | **1-to-1 meetings with Andy are run every Tuesday.**
-  | Timetable is organised dynamically through the #personal_meetings channel on Slack (See :ref:`Tools`)
+.. note:: With recognition of people's need for flexible working, in-person attendance at meetings is only expected on Weds, encouraged on Tues/Thurs, and at an individuals discretion on Mon/Fri.
 
-* | `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_ is 2-3pm on the 1st and 3rd Friday of every month. 
+* | Monday each week: 10.30am (remote), Group dial-in and catch-up regarding all research matters.
 
-* | `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_ run on every Friday. Join us also for the coffee-break quiz from 2.30pm. 
+* | Tuesday each week: **1-to-1 project meetings** (hybrid).
+  | Timetable is organised dynamically through the #personal_meetings channel on Slack (See :ref:`Tools`).
+
+* | Wednesday each week: 10.30am (hybrid), Group in-person hack, working on individual/collaborative code issues.
+
+* | 2nd Wednesday each month: 1-2.30pm (hybrid), `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_.
   | (*Please note the dates when you are speaking and chairing in sessions!*)
 
-* | **During the work-from-home coronavirus period**, further `group meetings <https://logsdail.slack.com/files/T58HL6BRQ/F01BRMZ1L30>`_ are scheduled for 10.30am on Mon and Wed on a range of topics.
+* | 1st/3rd Thursday each month: 1-2pm (hybrid), `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_. 
 
 .. _Tools:
 
