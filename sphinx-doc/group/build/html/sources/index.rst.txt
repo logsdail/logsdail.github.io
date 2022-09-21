@@ -11,12 +11,12 @@ Meetings
 
 .. note:: With recognition of people's need for flexible working, in-person attendance at meetings is only expected on Weds, encouraged on Tues/Thurs, and at an individuals discretion on Mon/Fri.
 
-* | Monday each week: 10.30am (remote), Group dial-in and catch-up regarding all research matters.
+* | Monday each week: 10.30-11am (remote), Group dial-in and catch-up regarding all research matters.
 
 * | Tuesday each week: **1-to-1 project meetings** (hybrid).
   | Timetable is organised dynamically through the #personal_meetings channel on Slack (See :ref:`Tools`).
 
-* | Wednesday each week: 10.30am (hybrid), Group in-person hack, working on individual/collaborative code issues.
+* | Wednesday each week: 10.30-11.30am (hybrid), Group in-person hack, working on individual/collaborative code issues.
 
 * | 2nd Wednesday each month: 1-2.30pm (hybrid), `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_.
   | (*Please note the dates when you are speaking and chairing in sessions!*)
