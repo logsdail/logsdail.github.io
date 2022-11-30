@@ -53,7 +53,7 @@ Tutorials
 
 * | `FHI-aims <https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
-* | `ChemShell <https://www.chemshell.org/sites/www.chemshell.org/files/docs/py-chemshell/tutorial/build/html/index.html>`_ : A Pythonic environment for running QM/MM calculations.
+* | `ChemShell <https://chemshell.org/static_files/py-chemshell/tutorial/build/html/index.html>`_ : A Pythonic environment for running QM/MM calculations.
 
 * `Bash <https://astrobiomike.github.io/unix/>`_ : A necessity on the supercomputing environments, so start early! Cheatsheets for `unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ and `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_ (text editor) are available.
 
