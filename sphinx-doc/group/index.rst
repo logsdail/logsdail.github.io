@@ -83,7 +83,7 @@ Computing Facilities
 .. note::
   * You need to login to the `XC50 sub-cluster <https://gw4-isambard.github.io/docs/user-guide/connecting.html#xci-marvell-thunder-x2>`_  to run calculations. Software and example job scripts are available at `/home/ca-alogsdail`
 
-* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. An example proposal is `available <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ETj2tisFaeJNnEj4jaISmMIBKvCyou2dXRKDsUojl2F5Fw?e=8hXS5h>`_, with all submitted applications listed on the MCC webpages.
+* `Young <https://www.rc.ucl.ac.uk/docs/Clusters/Young/>`_ and `ARCHER2 <https://www.archer2.ac.uk/>`_ : Our access is managed through the `Materials Chemistry Consortium <https://www.ucl.ac.uk/klmc/mcc/>`_, with proposal deadlines every 6 months. If you are applying for compute time, please review the group's `best practice guide and example applications <#best-practice-proposals>`_. All previously submitted applications are also listed on the MCC webpages.
 
 .. note::
   * On Young, software and example job scripts are available at `/home/mmm0170`
@@ -155,6 +155,10 @@ This is an eclectic collection of all the things that'll help you on your way. S
   * `Fundamentals of Data Visualization <https://serialmentor.com/dataviz/>`_
 
 * Funding:
+
+.. _Best_Practice_Proposals:
+
+  * Group Documents: `Best practice for writing proposals and responding to reviews <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/ESU0xd6lax9Mp0isV6GXbegB-n5BdgVHDePU7t9aCAhJrA?e=4ZnTpS>`_. Examples: `[1] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYPdsY30WDFOvlQQ03aKFpABO9h74MT7fUwdb2uHzVrh6g?e=Dc9JwF>`_, `[2] <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EYNcOBBPM01Psd_wo-rW7PMB0TxzmXcpP4TrojDrPrWUQw?e=q1iv9h>`_. 
 
   * `HPC-Europa3 <http://www.hpc-europa3.eu>`_
 
