@@ -63,6 +63,8 @@ Tutorials
 Computing Facilities
 --------------------
 
+The use of OneDrive is strongly recommended for all long-term data storage. If you need to transfer data from the supercomputing facilities into your OneDrive storage space, see `our notes here <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EQi0c5Zlwi9JrmfeYJW9zlQBsm_3KiOv8jL20OXRhQbZTQ?e=k68k0d>`_ for data transfer from ARCHER2, which are generalisable to all platforms.
+
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/logsdail/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
@@ -90,7 +92,7 @@ Computing Facilities
 
   * On ARCHER2, software and example job scripts are available at `/work/e05/e05-files-log/shared`
 
-.. note::
+.. warning::
    On Hawk, Isambard, Young and ARCHER2, all the Python software you need is loaded in a "virtual environment" using our submission scripts. If you want to have your own versions of software, you can setup a personal `virtual environment <https://opensource.com/article/19/4/managing-python-packages>`_ or using `pip3 install --user <modulename>` (or, if `pip3` fails, use `python3 -m pip`). Make sure you have loaded the Python module beforehand!
 
 Administration (PhD)
