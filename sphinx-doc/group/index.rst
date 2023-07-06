@@ -39,6 +39,9 @@ Tools
 
 Tutorials
 ---------
+* `Bash <https://astrobiomike.github.io/unix/>`_ : Bash is how you will interact with most of our computers, including the Linux machines in the offices as well as the supercomputing environments that we use for our simulations. Becoming comfortable with the command line interface is a skill that will improve the ease and efficiency of your work - yet it is, in essence, a rote learning exercise. The best way to improve is experience, so try to do as much as you can through the terminal! The linked website (`Unix Crash Course <https://astrobiomike.github.io/unix/>`_) gives a great overview of Unix and Bash and this `cheatsheet for unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ lists most of the commands in a handy reference format. You will also need a text editor to interact with files in the terminal, for which there are a number of options available. The simplest is `Nano <https://astrobiomike.github.io/unix/working-with-files-and-dirs>`_, however for a more feature rich experience try `Emacs <https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf>`_ or `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_.
+
+
 * `Python <https://www.python.org>`_ : Our main working environment. There are loads of tutorials out there, examples are (running from least to most interactive):
 
   * `Python 3 Official Documentation <https://docs.python.org/3/tutorial/>`_
@@ -54,8 +57,6 @@ Tutorials
 * | `FHI-aims <https://fhi-aims-club.gitlab.io/tutorials/tutorials-overview/>`_ : Quantum mechanical software for calculating electronic structure of molecules and materials. (PDF version of tutorials `also available <https://th.fhi-berlin.mpg.de/th/meetings/DFT-workshop-Berlin2011/presentations/2011-07-13_tutorial1_handout.pdf>`_, and the manual is `online <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/Ec7nlupYyl9HiOrP-yzxlWsByy969L-BtTaflkitL8xGmw?e=a1junU>`_ also.)
 
 * | `ChemShell <https://chemshell.org/static_files/py-chemshell/tutorial/build/html/index.html>`_ : A Pythonic environment for running QM/MM calculations.
-
-* `Bash <https://astrobiomike.github.io/unix/>`_ : A necessity on the supercomputing environments, so start early! Cheatsheets for `unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ and `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_ (text editor) are available.
 
 .. note::
   Many training opportunities are available through the `Doctoral Training Academy <https://rssdp.cardiff.ac.uk/>`_. This includes Python (`Basic <https://rssdp.cardiff.ac.uk/index.php?sect=workshops&action=details&wid=IT068&indexKeyword=p>`_ and `Advanced <https://rssdp.cardiff.ac.uk/?sect=workshops&action=details&wid=RS200&indexKeyword=p>`_) as well as soft-skills, such as for manuscript, presentation and thesis preparation. Training is also available from `Advanced Research Computing @ Cardiff University (ARCCA) <https://arcca.github.io/>`_ on working on HPC platforms.
