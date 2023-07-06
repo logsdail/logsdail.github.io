@@ -8,13 +8,12 @@
 <meta content="noindex, nofollow" name="robots" />
 
     <title>Overview &#8212; Group Quickstart Pages  documentation</title>
-    <link rel="stylesheet" href="static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="static/sphinxdoc.css" type="text/css" />
-    <script id="documentation_options" data-url_root="./" src="static/documentation_options.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="static/sphinxdoc.css" />
+    <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
     <script src="static/jquery.js"></script>
     <script src="static/underscore.js"></script>
     <script src="static/doctools.js"></script>
-    <script src="static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" /> 
   </head><body>
@@ -85,6 +84,7 @@
 <section id="tutorials">
 <h1>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this headline">¶</a></h1>
 <ul class="simple">
+<li><p><a class="reference external" href="https://astrobiomike.github.io/unix/">Bash</a> : Bash is how you will interact with most of our computers, including both the Linux machines in the offices as well as the supercomputing environments that we use for our simulations. Becoming comfortable with the command line interface is a skill that will improve the ease and efficiency of your work - yet it is, in essence, a rote learning exercise. The best way to improve is experience, so try to do as much as you can through the terminal! The linked website (<a class="reference external" href="https://astrobiomike.github.io/unix/">Unix Crash Course</a>) gives a great overview of Unix and Bash while this <a class="reference external" href="https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce">cheatsheet for unix</a> lists most of the commands in a handy reference format. You will also need a text editor to interact with files in the terminal, for which there are a number of options available. The simplest is <a class="reference external" href="https://astrobiomike.github.io/unix/working-with-files-and-dirs">Nano</a>, however for a more feature rich experience try <a class="reference external" href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">emacs</a> or <a class="reference external" href="https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6">vi</a>.</p></li>
 <li><p><a class="reference external" href="https://www.python.org">Python</a> : Our main working environment. There are loads of tutorials out there, examples are (running from least to most interactive):</p>
 <ul>
 <li><p><a class="reference external" href="https://docs.python.org/3/tutorial/">Python 3 Official Documentation</a></p></li>
@@ -108,7 +108,6 @@
 <div class="line"><a class="reference external" href="https://chemshell.org/static_files/py-chemshell/tutorial/build/html/index.html">ChemShell</a> : A Pythonic environment for running QM/MM calculations.</div>
 </div>
 </li>
-<li><p><a class="reference external" href="https://astrobiomike.github.io/unix/">Bash</a> : A necessity on the supercomputing environments, so start early! Cheatsheets for <a class="reference external" href="https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce">unix</a> and <a class="reference external" href="https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6">vi</a> (text editor) are available.</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -232,8 +231,9 @@
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table of Contents</a></h3>
-  <ul>
+  <div>
+    <h3><a href="#">Table of Contents</a></h3>
+    <ul>
 <li><a class="reference internal" href="#">Overview</a></li>
 <li><a class="reference internal" href="#meetings">Meetings</a></li>
 <li><a class="reference internal" href="#tools">Tools</a></li>
@@ -243,6 +243,7 @@
 <li><a class="reference internal" href="#general-resources">General Resources</a></li>
 </ul>
 
+  </div>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -254,7 +255,7 @@
   <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -276,7 +277,7 @@
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright 2019, Andrew Logsdail.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.3.1.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.4.0.
     </div>
   </body>
 </html>
