@@ -39,7 +39,10 @@ Tools
 
 Tutorials
 ---------
-* `Bash <https://astrobiomike.github.io/unix/>`_ : Bash is how you will interact with most of our computers, including both the Linux machines in the offices as well as the supercomputing environments that we use for our simulations. Becoming comfortable with the command line interface is a skill that will improve the ease and efficiency of your work - yet it is, in essence, a rote learning exercise. The best way to improve is experience, so try to do as much as you can through the terminal! The linked website (`Unix Crash Course <https://astrobiomike.github.io/unix/>`_) gives a great overview of Unix and Bash while this `cheatsheet for unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_ lists most of the commands in a handy reference format. You will also need a text editor to interact with files in the terminal, for which there are a number of options available. The simplest is `Nano <https://astrobiomike.github.io/unix/working-with-files-and-dirs>`_, however for a more feature rich experience try `emacs <https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf>`_ or `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EavqhTVWKvZPp4RApo2FCVABGVwsEApkDPamFXf-Owu-RQ?e=Z3LWJ6>`_.
+* | `Bash <https://www.gnu.org/software/bash/>`_ : Using Bash through the terminal is the most robust way of interacting with a Unix-like system (Linux machines in the office and supercomputers). These resources should help you get started with the command line interface:
+  * `Unix Crash Course <https://astrobiomike.github.io/unix/>`_
+  * `Cheatsheet for Unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_
+  * Text editors `Nano <https://astrobiomike.github.io/unix/working-with-files-and-dirs>`_ (the simplest) or `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk>`_ and `emacs <https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf>`_ (more feature rich).
 
 * `Python <https://www.python.org>`_ : Our main working environment. There are loads of tutorials out there, examples are (running from least to most interactive):
 
