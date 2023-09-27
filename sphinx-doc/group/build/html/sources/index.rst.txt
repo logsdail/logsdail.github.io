@@ -9,19 +9,21 @@ On this page you will find a collection of resources that will help you settle i
 Meetings
 --------
 
-.. note:: With recognition of people's need for flexible working, in-person attendance at meetings is only expected on Weds, encouraged on Tues/Thurs, and at an individuals discretion on Mon/Fri.
+.. note:: Recognising the benefits of hybrid working, in-person attendance at the office is **expected** on Weds, **encouraged** on Tues/Thurs, and at an individuals discretion on Mon/Fri.
 
-* | Monday each week: 10.30-11am (remote), Group dial-in and catch-up regarding all research matters.
+* | Monday each week: 10.30-11am (remote), Group dial-in and catch-up regarding all research matters - see shared Calendar.
 
-* | Tuesday each week: **1-to-1 project meetings** (hybrid).
-  | Timetable is organised dynamically through the #personal_meetings channel on Slack (See :ref:`Tools`).
+* | Tuesday each week: **1-to-1 project meetings** (in-person or remote), please organise via Outlook Calendar, inviting all necessary participants. Meeting length is at the discretion of the organiser.
 
-* | Wednesday each week: 10.30-11.30am (hybrid), Group in-person hack, working on individual/collaborative code issues.
+.. note::   Meetings are **expected** at minimum frequency every week for undergraduate students; and every two weeks, with availability for every week, for postgraduate students and staff.
+            For postgraduates and staff, **if a meeting is not held on a given week**, an updates is expected via email (for official logging).
 
-* | 2nd Wednesday each month: 1-2.30pm (hybrid), `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_.
+* | Wednesday each week: 10.30-11.30am (in-person expected), Group in-person hack, working on individual/collaborative code issues - see shared Calendar.
+
+* | 2nd Wednesday each month: 1-2.30pm (in-person expected), `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_.
   | (*Please note the dates when you are speaking and chairing in sessions!*)
 
-* | 1st/3rd Thursday each month: 1-2pm (hybrid), `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_. 
+* | 1st/3rd Thursday each month: 1-2pm (in-person or remote), `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_. 
 
 .. _Tools:
 
