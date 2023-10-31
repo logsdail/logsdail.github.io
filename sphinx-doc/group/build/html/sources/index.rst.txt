@@ -16,7 +16,7 @@ Meetings
 * | Tuesday each week: **1-to-1 project meetings** (in-person or remote), please organise via Outlook Calendar, inviting all necessary participants. Meeting length is at the discretion of the organiser.
 
 .. note::   Meetings are **expected** at minimum frequency every week for undergraduate students; and every two weeks, with availability for every week, for postgraduate students and staff.
-            For postgraduates and staff, **if a meeting is not held on a given week**, an updates is expected via email (for official logging).
+            For postgraduates and staff, **if a meeting is not held on a given week**, an update is expected via email (for official logging).
 
 * | Wednesday each week: 10.30-11.30am (in-person expected), Group in-person hack, working on individual/collaborative code issues - see shared Calendar.
 
