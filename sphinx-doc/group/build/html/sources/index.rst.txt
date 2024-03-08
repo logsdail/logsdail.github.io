@@ -13,7 +13,7 @@ Meetings
 
 * | Monday each week: 10.30-11am (remote), Group dial-in and catch-up regarding all research matters - see shared Calendar.
 
-* | Tuesday each week: **1-to-1 project meetings** (in-person or remote), please organise via Outlook Calendar, inviting all necessary participants. Meeting length is at the discretion of the organiser.
+* | Tuesday each week: **project meetings** (in-person or remote), please organise via Outlook Calendar, inviting all necessary participants. Meeting length is at the discretion of the organiser.
 
 .. note::   Meetings are **expected** at minimum frequency every week for undergraduate students; and every two weeks, with availability for every week, for postgraduate students and staff.
             For postgraduates and staff, **if a meeting is not held on a given week**, an update is expected via email (for official logging).
