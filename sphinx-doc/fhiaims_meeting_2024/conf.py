@@ -44,7 +44,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'UK FHI-aims U&D Meeting 2024'
+project = u'FHI-aims UK Meeting 2024'
 copyright = u'2024, Oscar van Vuren and Andrew Logsdail'
 author = u'Oscar van Vuren and Andrew Logsdail'
 
@@ -101,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'UKFHIaimsU&DMeeting2024doc'
+htmlhelp_basename = 'UKFHIaimsUKMeeting2024doc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
