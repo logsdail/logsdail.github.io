@@ -74,7 +74,9 @@ developers.
 Registration
 ------------
 
-If you plan to attend the meeting then please register your interest `here <https://docs.google.com/forms/d/e/1FAIpQLSfnNcYyuUEcqnYR4P0NFzvPWjd4LjFemwVr4am3GwAWYXVDLw/viewform?usp=sf_link>`_.
+`Link to registration form <https://docs.google.com/forms/d/e/1FAIpQLSfnNcYyuUEcqnYR4P0NFzvPWjd4LjFemwVr4am3GwAWYXVDLw/viewform?usp=sf_link>`_
+
+**Please register your interest in attending the meeting by completing the form available through the link above.**
 Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
 Places are limited and will be distributed by the organisers with equality in mind.
 **The deadline for registration and abstract submission is 24/04/2024.** Once registered, your place at the meeting will be confirmed by the 
