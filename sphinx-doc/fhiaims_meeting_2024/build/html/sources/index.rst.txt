@@ -25,7 +25,7 @@ features and advancements in the software.
 Time and Place
 --------------
 
-The meeting will take place at `The University of Warwick <https://warwick.ac.uk/>`_ from **May 15th to May 16th 2024** amd will include:
+The meeting will take place at `The University of Warwick <https://warwick.ac.uk/>`_ from **May 15th to May 16th 2024** and will include:
 
 * Tutorials: 09:00 - 12:00 May 15th
 * Presentations and Posters: 12:00 May 15th - 13:00 May 16th
