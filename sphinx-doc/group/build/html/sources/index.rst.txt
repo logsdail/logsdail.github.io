@@ -42,6 +42,7 @@ Tools
 Tutorials
 ---------
 * | `Bash <https://www.gnu.org/software/bash/>`_ : Using Bash through the terminal is the most robust way of interacting with a Unix-like system (Linux machines in the office and supercomputers). These resources should help you get started with the command line interface:
+
   * `Unix Crash Course <https://astrobiomike.github.io/unix/>`_
   * `Cheatsheet for Unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_
   * Text editors `Nano <https://astrobiomike.github.io/unix/working-with-files-and-dirs>`_ (the simplest) or `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk>`_ and `emacs <https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf>`_ (more feature rich).
@@ -73,8 +74,8 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/logsdail/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. 
-  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`. 
+* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. Documentation is `available here <https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs>`_.
+  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`.
   
 .. note::
   * When you login, you are in your home directory: `/home/<username>/`
