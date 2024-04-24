@@ -162,7 +162,11 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `Fundamentals of Data Visualization <https://clauswilke.com/dataviz/>`_
 
-  * `Intro to Latex and Overleaf <https://www.overleaf.com/read/fvhtmnptpnms#16551e>`_ (`Tables Generator <https://www.tablesgenerator.com/>`_)
+  * `Intro to LaTeX and Overleaf <https://www.overleaf.com/read/fvhtmnptpnms#16551e>`_ (Credit: Matt Robinson) 
+
+    * `Online Table Generator <https://www.tablesgenerator.com/>`_
+
+    * `Online Equation Generator <https://editor.codecogs.com/>`_
 
 * Funding:
 
