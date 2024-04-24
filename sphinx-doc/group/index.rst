@@ -162,6 +162,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
   * `Fundamentals of Data Visualization <https://clauswilke.com/dataviz/>`_
 
+  * `Intro to Latex and Overleaf <https://www.overleaf.com/read/fvhtmnptpnms#16551e>`_ (`Tables Generator <https://www.tablesgenerator.com/>`_)
+
 * Funding:
 
 .. _Best_Practice_Proposals:
