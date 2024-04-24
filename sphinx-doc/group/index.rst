@@ -159,7 +159,7 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
 * Presentation:
 
-  * `Fundamentals of Data Visualization <https://serialmentor.com/dataviz/>`_
+  * `Fundamentals of Data Visualization <https://clauswilke.com/dataviz/>`_
 
 * Funding:
 
