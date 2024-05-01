@@ -29,7 +29,7 @@ Meetings
 
 Tools
 -----
-* `Slack <https://join.slack.com/t/logsdail/shared_invite/enQtNzYzNDg1MzA3NDQ3LTZjZjQ0OWZjN2Y4OGUzOTZlZGRlNDU1OWNlOGM2MmMzYjM2NDRmYzczYjM1ODBkYTQ2ZDk4NTUzOTljMzkzMTk>`_ : Communication platform for the group.
+* `Slack <https://join.slack.com/t/tamm-cci/shared_invite/zt-9qqnftiv-bPRJ_H~I45bt3kVZzoxiww>`_ : Communication platform for the group.
 
 * `Trello <https://trello.com>`_ : Project planning platform - prompt Andy to setup a board for your project if necessary.
 
