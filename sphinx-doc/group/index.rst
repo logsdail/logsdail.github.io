@@ -4,7 +4,7 @@
 Overview
 --------
 
-On this page you will find a collection of resources that will help you settle in our `research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
+On this page you will find a collection of resources that will help you settle in the `tamm@CCI research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
 
 Meetings
 --------
