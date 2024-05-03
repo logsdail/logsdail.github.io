@@ -46,22 +46,26 @@ More information about how to get to the university can be found on the `univers
 Tutorials
 ---------
 
-This meeting will include a number of tutorials before the main sessions of talks. The topics of these tutorials are ultimately to be driven by what attendees wish to
-see tutorials on however there will be a session on the fundamentals of FHI-aims and how best to utilise the software.
-Currently suggested topics include:
-
-* A general introduction to FHI-aims
-* Excited state calculations
-* ASI API
-* MPE implicit solvation
-* Beyond DFT methods 
-* Embedding
-
-Other, more advanced tutorials may be available with enough interest and will be published here in due course.
-
-**Full schedule TBA**
+.. This meeting will include a number of tutorials before the main sessions of talks. The topics of these tutorials are ultimately to be driven by what attendees wish to
+.. see tutorials on however there will be a session on the fundamentals of FHI-aims and how best to utilise the software.
+.. Currently suggested topics include:
+.. 
+.. * A general introduction to FHI-aims
+.. * Excited state calculations
+.. * ASI API
+.. * MPE implicit solvation
+.. * Beyond DFT methods 
+.. * Embedding
+.. 
+.. Other, more advanced tutorials may be available with enough interest and will be published here in due course.
+.. 
+.. **Full schedule TBA**
 
 .. .. include:: tutorials.rst
+
+Tutorials will run in a linear fashion form 09:00 to 12:00 on 15/05. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion
+on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license. Simultaneously, there will also be
+expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:30. 
 
 Hack
 ----
@@ -74,13 +78,17 @@ developers.
 Registration
 ------------
 
-`Link to registration form <https://docs.google.com/forms/d/e/1FAIpQLSfnNcYyuUEcqnYR4P0NFzvPWjd4LjFemwVr4am3GwAWYXVDLw/viewform?usp=sf_link>`_
+**Registration is now closed.**
 
-**Please register your interest in attending the meeting by completing the form available through the link above.**
-Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
-Places are limited and will be distributed by the organisers with equality in mind.
-**The deadline for registration and abstract submission is 24/04/2024.** Once registered, your place at the meeting will be confirmed by the 
-organising committee by 01/05/2024.
+.. 
+.. `Link to registration form <https://docs.google.com/forms/d/e/1FAIpQLSfnNcYyuUEcqnYR4P0NFzvPWjd4LjFemwVr4am3GwAWYXVDLw/viewform?usp=sf_link>`_
+.. 
+.. **Please register your interest in attending the meeting by completing the form available through the link above.**
+.. Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
+.. Places are limited and will be distributed by the organisers with equality in mind.
+.. **The deadline for registration and abstract submission is 24/04/2024.** Once registered, your place at the meeting will be confirmed by the 
+.. organising committee by 01/05/2024.
+.. 
 
 Programme
 ---------
@@ -103,20 +111,20 @@ Invited Participants
 Programme of talks
 ^^^^^^^^^^^^^^^^^^
 
-**Full program is TBA.**
+.. **Full program is TBA.**
 
-General outline is as follows:
+.. General outline is as follows:
 
-.. include:: outline.rst
+.. .. include:: outline.rst
 
-.. .. include:: timetable.rst
+Full program is now available.
 
-.. Presented posters
-.. -----------------
+.. include:: timetable.rst
 
-.. **Posters are TBA**
+Presented posters
+-----------------
 
-.. .. include: posters.rst
+.. include:: posters.rst
 
 .. Supporting Partners
    -------------------
