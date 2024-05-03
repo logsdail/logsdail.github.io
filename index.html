@@ -1,1064 +1,500 @@
+
+
 <!DOCTYPE html>
-<html>
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5LC08Y80BY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+      <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-  gtag('config', 'G-5LC08Y80BY');
-</script>
-<title>tamm@CCI</title>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
-
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      event.preventDefault();
-
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
-
-<! -- Expose/hide text -->
-<script type="text/javascript">
-function toggle(obj) {
-          var obj=document.getElementById(obj);
-          if (obj.style.display == "block") obj.style.display = "none";
-          else obj.style.display = "block";
-}
-</script>
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-html {
-    height:100%
-}
-
-body {
-    background-image: url("images/background1.jpg");
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-attachment: fixed;
-    background-size: 50% auto;
-    margin: 0;
-    height: 100%;
-    font: 14px arial, sans-serif;
-}
-
-div.tall {
-    min-height:4%
-}
-
-table {
-    margin:auto;
-    border-collapse: collapse;
-    width: 300px;
-}
-th, td {
-    padding: 4px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-}
-th.first, td.first {
-    text-align:right;
-}
-th.top, td.top {
-    text-align:center;
-}
-
-img {
-  border: 1px solid #aaaaaa;
-}
-
-div.figure {
-  width: 100%;
-}
-div.figure p {
-  text-align: center;
-  text-indent: 0;
-}
-img.scaled {
-  width: 70%;
-  align: center;
-}
-
-img.icon {
-  width: 32px;
-  border: none;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-    background-color: #00aaff;
-    top: 0;
-    position: fixed;
-    width: 100%;
-}
-
-li {
-   float: left;
-}
-
-li a, .dropbtn {
-    display: block;
-    color: white;
-    text-align: center; 
-    padding: 10px 10px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #0044ff;
-}
-
-li .dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #0077ff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    display: block;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #0044ff
-}
-
-.dropdown:hover .dropdown-content {
-    display: block
-}
-</style>
-</head>
-<body>
-<ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#research">Research</a></li>
-  <li><a href="#software">Software</a></li>
-  <li class="dropdown"><a href="#current_members" class="dropbtn">Members</a>
-  <div class="dropdown-content">
-    <a href="#current_members">Current</a>
-    <a href="#open_positions">Open Positions</a>
-    <a href="#past_members">Previous</a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="docsearch:name" content="FHI-aims UK Meeting 2024" />
+    <meta name="docsearch:package_type" content="" />
+    <meta name="docsearch:release" content="" />
+    <meta name="docsearch:version" content="" />
+    
+      <title>FHI-aims UK Meeting 2024 &mdash; FHI-aims UK Meeting 2024  documentation</title>
+    
+    <link rel="stylesheet" href="static/bootstrap-icons.css" type="text/css" />
+          <link rel="stylesheet" type="text/css" href="static/pygments.css" />
+          <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="static/pygments_dark.css" />
+          <link rel="stylesheet" type="text/css" href="static/colorsets/sphinx-nefertiti-indigo.min.css" />
+          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
+          <link rel="stylesheet" type="text/css" href="static/fonts/red-hat-mono/stylesheet.css" />
+          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
+          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
+          <link rel="stylesheet" type="text/css" href="static/pygments_dark.css" />
+        <link rel="index" title="Index" href="genindex.html" />
+        <link rel="search" title="Search" href="search.html" />
+        <link rel="top" title="FHI-aims UK Meeting 2024  documentation" href="#" />
+    <style>
+      :root {
+        --nftt-body-font-family: "Montserrat", var(--nftt-font-sans-serif) !important;
+        --nftt-font-monospace: "Red Hat Mono", var(--nftt-font-family-monospace) !important;
+        --nftt-project-name-font: var(--nftt-body-font-family);
+        --nftt-documentation-font: "Montserrat", var(--nftt-body-font-family);
+        --nftt-doc-headers-font: "Montserrat", var(--nftt-documentation-font);}
+      h1 *, h2 *, h3 *, h4 *, h5 *, h6 * { font-size: inherit; }
+    </style>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-xl navbar-dark nftt-navbar flex-column fixed-top">
+      <div class="skip-links container-fluid visually-hidden-focusable overflow-hidden justify-content-start">
+        <div class="border-bottom mb-2 pb-2 w-100">
+          <a class="d-none d-md-inline-flex p-2 m-1" href="#sidebar-filter">Skip to docs navigation</a>
+          <a class="d-inline-flex p-2 m-1" href="#content">Skip to main content</a>
+        </div>
+      </div>
+      <nav class="container-xxl nftt-gutter flex-wrap flex-xl-nowrap" aria-label="Main navigation">
+        <div class="nftt-navbar-toggler">
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle documentation navigation">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+          <a href="#"
+              
+              class="navbar-brand p-0 me-0 md-lg-2"
+          ><span class="brand-text">FHI-aims UK Meeting 2024</span></a>
+        
+        <div class="d-flex d-xl-none">
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttSearch" aria-controls="nfttSearch" aria-label="Search">
+            <i class="bi bi-search"></i>
+          </button>
+          <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttNavbar" aria-controls="nfttNavbar" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+        </div>
+        
+<div class="offcanvas-xl offcanvas-end flex-grow-1" tabindex="-1" id="nfttSearch" aria-labelledby="nfttSearchOffcanvasLabel" data-bs-scroll="true">
+  <div class="offcanvas-header px-4 pb-0">
+    <h5 class="offcanvas-title fw-bold" id="nfttSearchOffcanvasLabel">Search the documentation</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttSearch"></button>
   </div>
-  </li>
+  <div class="offcanvas-body p-4 pt-0 p-xl-0 px-xl-3">
+    <hr class="d-xl-none text-white-50">
+    <ul class="navbar-nav flex-row align-items-center flex-wrap ms-md-auto">
+      <li class="nav-item col-12 col-xl-auto">
+        <form id="nftt-search-form" action="search.html" method="get">
+          <div class="input-group">
+            <input type="text" name="q" class="form-control" placeholder="Search docs" aria-label="Search" aria-describedby="button-search">
+            <input type="hidden" name="check_keywords" value="yes" />
+            <input type="hidden" name="area" value="default" />
+            <button class="btn btn-primary" type="submit" id="button-search" aria-label="Search"><i class="bi bi-search"></i></button>
+          </div>
+        </form>
+      </li>
+    </ul>
+  </div>
+</div>
+
+        <div class="offcanvas-xl offcanvas-end" tabindex="-1" id="nfttNavbar" aria-labelledby="nfttNavbarOffcanvasLabel" data-bs-scroll="true">
+          <div class="offcanvas-header px-4 pb-0">
+            <div class="offcanvas-title navbar-brand" id="nfttNavbarOffcanvasLabel"><span class="brand-text">Nefertiti for Sphinx</span></div>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#nfttNavbar"></button>
+          </div>
+          <div class="offcanvas-body p-4 pt-0 p-xl-0 px-xl-3">
+            <hr class="d-xl-none text-white-50">
+            <ul class="navbar-nav flex-row align-items-center flex-wrap ms-lg-auto">
+              
+              <!-- version_dropdown.html -->
+
+              
+              <!-- colorscheme_dropdown.html -->
+<li class="nav-item dropdown">
+  <a class="nav-link d-flex py-2 px-0 px-xl-2 dropdown-toggle align-items-center" id="snftt-luz" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" aria-label="Toggle light/dark">
+    <i class="bi bi-circle-half" data-snftt-luz-icon-active></i>
+    <span id="snftt-luz-text" class="d-xl-none small ms-2">Toggle light/dark</span>
+  </a>
+  <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="snftt-luz-text">
+    <li>
+      <h6 class="dropdown-header">Light/dark</h6>
+    </li>
+    <li>
+      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="light" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-sun" data-snftt-luz-icon="light"></i>
+        </span>
+        <span class="small ms-3">Light</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item d-flex align-items-center" data-snftt-luz="dark" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-moon-stars" data-snftt-luz-icon="dark"></i>
+        </span>
+        <span class="small ms-3">Dark</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+    <li>
+      <a class="dropdown-item current d-flex align-items-center" data-snftt-luz="default" href="#" aria-pressed="false">
+        <span class="small">
+          <i class="bi bi-circle-half" data-snftt-luz-icon="default"></i>
+        </span>
+        <span class="small ms-3">Default</span>
+        <i class="bi bi-check ms-auto"></i>
+      </a>
+    </li>
+  </ul>
+</li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid">
+      <div class="nftt-gutter nftt-page">
+        <aside class="nftt-sidebar">
+          <div class="nftt-sidebar-content">
+            <div class="title d-none d-xl-block">
+              <i class="bi bi-book"></i>&nbsp;&nbsp;<span>Index</span>
+            </div>
+            <div id="sidebar" tabindex="-1" class="offcanvas-xl offcanvas-start" aria-labelledby="nfttSidebarOffcanvasLabel">
+                <!-- danirus sidebartemplate: "globaltoc.html" --><div class="offcanvas-header border-bottom">
+  <h5 class="offcanvas-title fw-bold" id="nfttSidebarOffcanvasLabel">
+    Table of contents
+  </h5>
+  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#sidebar"></button>
+</div>
+
+<div class="offcanvas-body">
+  <nav class="toc" aria-label="Main menu">
+    <div class="mb-3 p-1 pt-3 pb-4 border-bottom">
+      <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="filter" aria-label="filter">
+    </div>
+    
+  </nav>
+  <template data-toggle-item-template>
+    <button class="btn btn-sm btn-link toctree-expand" type="button">
+      <i class="bi bi-caret-right"></i>
+      <span class="visually-hidden">Toggle menu contents</span>
+    </button>
+  </template>
+</div>
+            </div>
+          </div>
+        </aside>
+        <article id="content" class="nftt-content" role="main">
+    <a class="reference internal image-reference" href="images/FHI-aims-logo.png"><img alt="images/FHI-aims-logo.png" class="align-center" src="images/FHI-aims-logo.png" /></a>
+<section id="fhi-aims-uk-meeting-2024">
+<h1>FHI-aims UK Meeting 2024<a class="headerlink" href="#fhi-aims-uk-meeting-2024" title="Permalink to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+</div>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h2>
+<p>The FHI-aims UK Meeting will unite both the users and developers of FHI-aims to delve into to and exchange ideas
+on the applications and effects of FHI-aims within institutions in the United Kingdom. The event will also showcase the latest
+features and advancements in the software.</p>
+</section>
+<section id="time-and-place">
+<h2>Time and Place<a class="headerlink" href="#time-and-place" title="Permalink to this heading">¶</a></h2>
+<p>The meeting will take place at <a class="reference external" href="https://warwick.ac.uk/">The University of Warwick</a> from <strong>May 15th to May 16th 2024</strong> and will include:</p>
+<ul class="simple">
+<li><p>Tutorials: 09:00 - 12:00 May 15th</p></li>
+<li><p>Presentations and Posters: 12:00 May 15th - 13:00 May 16th</p></li>
+<li><p>Hack: 14:00 - 18:00 May 16th</p></li>
+</ul>
+<p>The venue for the meeting is the Science Concourse within the Physics Department of the University of Warwick.
+Directions can be found on this <a class="reference external" href="https://campus.warwick.ac.uk/">interactive campus map</a>.</p>
+</section>
+<section id="accommodation-and-travel">
+<h2>Accommodation and Travel<a class="headerlink" href="#accommodation-and-travel" title="Permalink to this heading">¶</a></h2>
+<p>Accommodation options include a limited number of rooms available to be booked on the university campus for attendees through <a class="reference external" href="https://warwick.ac.uk/services/conferences/bed-and-breakfast/">Warwick Conferences</a>.
+Alternatively, accommodation is generally available within Coventry city (a short bus ride from the campus).</p>
+<p>Travel to the University of Warwick is achieved easily through rail connections to Coventry station and then a bus journey from outside the station to the campus.
+More information about how to get to the university can be found on the <a class="reference external" href="https://warwick.ac.uk/about/visiting/directions/">university website</a>.</p>
+</section>
+<section id="tutorials">
+<h2>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this heading">¶</a></h2>
+<p>Tutorials will run in a linear fashion form 09:00 to 12:00 on 15/05. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion
+on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license. Simultaneously, there will also be
+expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:30.</p>
+</section>
+<section id="hack">
+<h2>Hack<a class="headerlink" href="#hack" title="Permalink to this heading">¶</a></h2>
+<p>Following the presentation schedule of the meeting, all attendees are invited to a code hack, wherein the developers of the codebase will get together and take part in some
+collaborative coding. The organisers would like to invite anyone with a suggestion for features to be included in FHI-aims to discuss these at the meeting with the
+developers.</p>
+</section>
+<section id="registration">
+<h2>Registration<a class="headerlink" href="#registration" title="Permalink to this heading">¶</a></h2>
+<p><strong>Registration is now closed.</strong></p>
+</section>
+<section id="programme">
+<h2>Programme<a class="headerlink" href="#programme" title="Permalink to this heading">¶</a></h2>
+<section id="invited-participants">
+<h3>Invited Participants<a class="headerlink" href="#invited-participants" title="Permalink to this heading">¶</a></h3>
+<p><a class="reference external" href="http://dorotheagolze.eu/">Dr Dorothea Golze</a>, Technische Universität Dresden</p>
+<p><a class="reference external" href="https://litman90.github.io/website/">Dr Yair Litman</a>, University of Cambridge</p>
+<p><a class="reference external" href="https://www.fhi.mpg.de/1335369/carbogno_group">Dr Christian Carbogno</a>, Fritz Haber Insitute</p>
+<p><a class="reference external" href="https://mems.duke.edu/faculty/volker-blum">Prof. Dr Volker Blum</a>, Duke University</p>
+<p><a class="reference external" href="https://www.ms1p.org/index.php?n=MS1P.AboutUs">Dr Sebastian Kokott</a>, Fritz Haber Institute</p>
+<p><a class="reference external" href="https://researchportal.northumbria.ac.uk/en/persons/prakriti-kayastha">Prakriti Kayastha</a>, Northumbria University</p>
+</section>
+<section id="programme-of-talks">
+<h3>Programme of talks<a class="headerlink" href="#programme-of-talks" title="Permalink to this heading">¶</a></h3>
+<p>Full program is now available.</p>
+<table class="table-hover table-bordered table-striped docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time</p></th>
+<th class="head"><p>Room</p></th>
+<th class="head"><p><em>15/05/2024</em></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>09:00</p></td>
+<td><p>PLT</p></td>
+<td><p>Tutorials</p></td>
+</tr>
+<tr class="row-odd"><td><p>12:00</p></td>
+<td><p>L4</p></td>
+<td><p>Registration/Lunch/Introduction</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>13:00</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Volker Blum</p></td>
+</tr>
+<tr class="row-odd"><td><p>Overview of FHI-aims</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>13:20</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Dorothea Golze</p></td>
+</tr>
+<tr class="row-odd"><td><p>Low-scaling RPA and GW developments in FHI-aims</p></td>
+</tr>
+<tr class="row-even"><td><p>14:00</p></td>
+<td><p>L4</p></td>
+<td><p><strong>Break</strong></p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>14:30</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Dylan Morgan</p></td>
+</tr>
+<tr class="row-even"><td><p>Using Orbital-Constrained DFT to Simulate Surface Spectroscopy with Relativistic Corrections</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>14:50</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Wenxuan Cai</p></td>
+</tr>
+<tr class="row-even"><td><p>Modeling core-electron binding energy on Metal Oxide</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>15:10</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Amit Chaudhari</p></td>
+</tr>
+<tr class="row-even"><td><p>Machine learning the DFT+U projectors to model polarons in energy materials</p></td>
+</tr>
+<tr class="row-odd"><td><p>15:30</p></td>
+<td><p>L4</p></td>
+<td><p><strong>Refreshments</strong></p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>16:00</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Prakriti Kayastha</p></td>
+</tr>
+<tr class="row-odd"><td><p>Phase transitions in perovskites using machine learning potentials</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>16:20</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Akash Hiregange</p></td>
+</tr>
+<tr class="row-odd"><td><p>Computational Insights into the Stability and Phase Transition of Cobalt Oxide Nanoparticles for Fischer-Tropsch Catalysis</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>16:40</p></td>
+<td rowspan="2"><p>L4</p></td>
+<td><p>Juliana Morbec</p></td>
+</tr>
+<tr class="row-odd"><td><p>Adsorption of azulene and naphthalene on coinage metal surfaces: insights from first-principles calculations</p></td>
+</tr>
+<tr class="row-even"><td><p>17:00</p></td>
+<td><p>Science
+Concourse</p></td>
+<td><p><em>Poster Session</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>18:30</p></td>
+<td><p>Science
+Concourse</p></td>
+<td><p><em>CLOSING</em></p></td>
+</tr>
+</tbody>
+</table>
+<table class="table-hover table-bordered table-striped docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Time</p></th>
+<th class="head"><p>Room</p></th>
+<th class="head"><p><em>16/05/2024</em></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>08:50</p></td>
+<td><p>L3</p></td>
+<td><p>Introduction</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>09:00</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Christian Carbogno</p></td>
+</tr>
+<tr class="row-even"><td><p>Charge Transport in FHI-aims: Opportunities and Challenges</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>09:40</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Svenja Janke</p></td>
+</tr>
+<tr class="row-even"><td><p>Hybrid Organic-Inorganic Perovskites</p></td>
+</tr>
+<tr class="row-odd"><td><p>10:00</p></td>
+<td><p>L3</p></td>
+<td><p><strong>Refreshments</strong></p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>10:30</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Gabriel Bramley</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation of QM-in-QM Embedding for FHI-aim</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>10:50</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Alan Lewis</p></td>
+</tr>
+<tr class="row-odd"><td><p>Symmetry-Adapted Learning of Three-Dimensional Electron Densities (SALTED)</p></td>
+</tr>
+<tr class="row-even"><td rowspan="2"><p>11:10</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Erin Johnson</p></td>
+</tr>
+<tr class="row-odd"><td><p>Implementation, benchmarking, and applications of the XDM dispersion model in FHI-aims</p></td>
+</tr>
+<tr class="row-even"><td><p>11:30</p></td>
+<td><p>L3</p></td>
+<td><p><strong>Break</strong></p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>12:00</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Pavel Stishenko</p></td>
+</tr>
+<tr class="row-even"><td><p>Using multipolar expansion model of implicit solvent for periodic systems and clusters</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="2"><p>12:40</p></td>
+<td rowspan="2"><p>L3</p></td>
+<td><p>Yair Litman</p></td>
+</tr>
+<tr class="row-even"><td><p>Surface-specific spectroscopy from first principles</p></td>
+</tr>
+<tr class="row-odd"><td><p>13:00</p></td>
+<td><p>PLT</p></td>
+<td><p><em>LUNCH</em></p></td>
+</tr>
+<tr class="row-even"><td><p>14:00</p></td>
+<td><p>PLT</p></td>
+<td><p><em>HACK</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>18:00</p></td>
+<td><p>PLT</p></td>
+<td><p><em>CLOSING</em></p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="presented-posters">
+<h2>Presented posters<a class="headerlink" href="#presented-posters" title="Permalink to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Zhongwei Lu, <em>“Towards CO2 activation on Co modified Cu surfaces”</em></p></li>
+<li><p>Oscar van Vuren, <em>“Developing Standardised Modelling Workflows for QM/MM Simulations of Metal Oxides”</em></p></li>
+<li><p>Matt Robinson, <em>“Tuning Zeolite Catalysts using Organic Additives”</em></p></li>
+<li><p>Kushagra Agrawal, <em>“Optimizing Guerbet Reaction Chemistry Using Data-driven Approach.”</em></p></li>
+<li><p>Alexander Spears, <em>“Molecular dynamics investigation of the role of lattice heating in laser-driven hydrogen evolution at copper surfaces”</em></p></li>
+<li><p>Nils Hertl, <em>Abstract Unavailable</em></p></li>
+<li><p>Wojciech Stark, <em>“Nonadiabatic effects in hydrogen scattering dynamics at Cu surfaces”</em></p></li>
+<li><p>Eimear McCarthy, <em>“Exploring surface reconstruction of polar zinc oxide surfaces”</em></p></li>
+</ul>
+</section>
+<section id="organising-committee">
+<h2>Organising Committee<a class="headerlink" href="#organising-committee" title="Permalink to this heading">¶</a></h2>
+<p>Prof. Reinhard Maurer (University of Warwick)</p>
+<p>Dr Andrew Logsdail (Cardiff University)</p>
+<p>Dr Connor Box (University of Warwick)</p>
+<p>Dr Svenja Janke (University of Warwick)</p>
+<p>Dr Pavel Stishenko (Cardiff University)</p>
+<p>Oscar van Vuren (Cardiff University)</p>
+<p>The organisers would be happy to answer any queries via <a class="reference external" href="mailto:vanvureno&#37;&#52;&#48;cardiff&#46;ac&#46;uk">email</a>.</p>
+</section>
+</section>
+
+</article>
+        <aside class="nftt-toc">
+          
+          <div class="mt-3 mb-1 my-lg-0 ps-xl-3 text-muted">
+            <button class="btn btn-link link-dark p-lg-0 mb-2 mb-lg-0 text-decoration-none nftt-toc-toggle d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents"
+            >On this page <i class="ms-2 bi bi-chevron-expand"></i></button>
+            <div class="title d-none d-lg-block">
+              <i class="bi bi-file-earmark-text"></i>&nbsp;&nbsp;<span class="small">On this page</span>
+            </div>
+            <div class="collapse nftt-toc-collapse" id="tocContents">
+              <nav id="TableOfContents">
+                <ul>
+<li><a class="reference internal" href="#">FHI-aims UK Meeting 2024</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#time-and-place">Time and Place</a></li>
+<li><a class="reference internal" href="#accommodation-and-travel">Accommodation and Travel</a></li>
+<li><a class="reference internal" href="#tutorials">Tutorials</a></li>
+<li><a class="reference internal" href="#hack">Hack</a></li>
+<li><a class="reference internal" href="#registration">Registration</a></li>
+<li><a class="reference internal" href="#programme">Programme</a><ul>
+<li><a class="reference internal" href="#invited-participants">Invited Participants</a></li>
+<li><a class="reference internal" href="#programme-of-talks">Programme of talks</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#presented-posters">Presented posters</a></li>
+<li><a class="reference internal" href="#organising-committee">Organising Committee</a></li>
+</ul>
+</li>
 </ul>
 
-<div id="home"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td colspan=2>
-<b>Welcome</b>
-  </td>
- </tr>
- <tr>
-  <td>
-  <p>Hi! You've reached the pages of tamm@CCI: Theory and Molecular Modelling at <a href="http://www.cardiff.ac.uk/cci/" target=top>Cardiff Catalysis Institute</a>. We are led by Dr. Andrew Logsdail, and we investigate contemporary chemical topics in catalysis (and beyond) using computation and modelling.</p> 
-  </td>
-  <td>
-    <img src="images/animated_np.gif">
-  </td>
- </tr>
- <tr>
-  <td colspan=2>
-  <p>Here you will find information about <a href="#current_members">who we are</a>, <a href="#research">what we do</a> and <a href="#software">how we do it</a>. Please have a browse and ask questions!</p>
-  </td>
- </tr>
- <tr>
-  <td colspan=2>
-  <p><i><b>News:</b></i> Interested in FHI-aims and based in the UK? Come to our community meeting in Warwick! <a href="https://logsdail.github.io/fhiaims_meeting_2024/" target=top>Find out more here</a> (21/03/2024)</p>
-<!--
-  <p><a href="https://doi.org/10.1039/D0CP05392A" target=top>
-  <div class="figure">
-  <center><img src="https://pubs.rsc.org/en/Image/Get?imageInfo.ImageType=GA&imageInfo.ImageIdentifier.ManuscriptID=D3CP00648D&imageInfo.ImageIdentifier.Year=2023" class="scaled">
-  </center></div></a></p> //-->
-  <p>(Follow <a href="https://twitter.com/a_logsdail" target=top>@a_logsdail</a> for personal updates!)</p>
- </td>
- <tr>
-</table>
-</section></div>
+              </nav>
+            </div>
+          </div>
+          
+        </aside>
+      </div>
+    </div>
 
-<div class="tall"></div>
-<div id="research"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td>
-<b>Research</b>
-  </td>
- </tr>
- <tr>
-  <td>
-  Full list of publications available <a href="https://scholar.google.co.uk/citations?user=T4xaqVoAAAAJ" target=top>here</a>.
-  </td>
- </tr>
- <tr>
-  <td>
-	  Jump to:<br>
-          - <a href="#catalysis">Heterogeneous catalysts/catalysis</a><br>
-	  - <a href="#materials">Crystalline materials</a><br>
-	  - <a href="#nanoparticles">Precious-metal nanoparticles</a><br>
-	  - <a href="#methods">Method development</a><br>
-  </td>
- </tr>
- <tr>
-  <td>
-  <div id="catalysis"></div>&nbsp<br><br>
-  <p><u>Heterogeneous Catalysts/Catalysis:</u></p>
-  <p>Tailoring materials to accelerate chemical reactions via catalysis is crucial for efficiently synthesising many important chemicals, and for delivering the energy revolution that will transfer society from fossil fuel to renewable resources. We have expertise in investigating how catalyst structure and composition affects catalysis, and how reaction profiles vary depending on reaction environments. <a href="javascript: void(0);" onClick="toggle('catalysis_refs')">Select publications &#9662;</a> </p>
-  <div id="catalysis_refs" style="display:none;">
-  <p><i>"The critical role of βPdZn alloy in Pd/ZnO catalysts for the hydrogenation of carbon dioxide to methanol"</i>, <a href="https://doi.org/10.1021/acscatal.2c00552" target=top>ACS Catal. (2022), 12 (9), 5371</a>.</p>
-  <p><i>"Hydrodeoxygenation of guaiacol over orthorhombic molybdenum carbide: a DFT and microkinetic study"</i>, <a href="https://doi.org/10.1039/D1CY01273H" target=top>Catal. Sci. Technol. (2022), 12, 843</a>.</p>
-  <p><i>"Mechanistic insight into the framework methylation of H-ZSM-5 for varying methanol loadings and Si/Al ratios using first-principles molecular dynamics simulations"</i>, <a href="https://doi.org/10.1021/acscatal.0c01454" target=top>ACS Catal. (2020), 10 (15), 8904</a>.</p>
-  <p><i>"Designer Titania-Supported AuPd Nanoparticles for Efficient Photocatalytic Hydrogen Production"</i>, <a href="http://doi.org/10.1021/nn500963m" target=top>ACS Nano (2014), 8 (4), 3490</a>.</p>
+    <footer class="nftt-footer">
+      
+<nav id="paginator"></nav>
+
+      <div class="py-5 px-4 px-md-3">
+  <div class="container">
+    
+
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <a class="brand-text d-inline-flex align-items-center mb-2 text-decoration-none" href="/" aria-label="Nefertiti-for-Sphinx">
+          <span class="fs-6 fw-bold">FHI-aims UK Meeting 2024</span>
+        </a>
+        
+          <ul class="list-unstyled small text-muted">
+            <li>2024, Oscar van Vuren and Andrew Logsdail</li>
+          </ul>
+        
+        
+        <div class="built-with pt-2">
+          Built with <a href="http://sphinx-doc.org">Sphinx 6.2.1</a> and <a href="https://github.com/danirus/sphinx-nefertiti">Nefertiti 0.3.0</a>
+        </div>
+        
+      </div>
+    </div>
   </div>
-  <div class="figure">
-  <p><img src="images/toc/10.1021.nn500963m.jpg" class="scaled">
-  </a></p></div>
+</div>
+    </footer>
+    <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
+    <script src="static/doctools.js"></script>
+    <script src="static/sphinx_highlight.js"></script>
 
-  <div id="materials"></div>&nbsp<br><br>
-  <p><u>Crystalline materials</u></p>
-  <p>Understanding the structural, energetic and electronic properties of materials is crucial to harness them for technological applications. We have expertise in elucidating how structure affects the energetic stability and electronic properties of crystalline polymorphs, how intrinsic and extrinsic defects alter the electronic and energetic properties of materials, and how surfaces further change chemical and physical properties. <a href="javascript: void(0);" onClick="toggle('materials_refs')">Select publications &#9662;</a> </p>
-  <div id="materials_refs" style="display:none;">
-  <p><i>"A structure determination protocol based on combined analysis of 3D-ED data, powder XRD data, solid-state NMR data and DFT-D calculations reveals the structure of a new polymorph of L-tyrosine"</i>, <a href="https://doi.org/10.1039/D1SC06467C" target=top>Chem. Sci. (2022), 13, 5277</a>.</p>
-  <p><i>"Polymorphism of L-Tryptophan"</i>, <a href="https://doi.org/10.1002/anie.201908247" target=top>Angew. Chem. Int. Ed. (2019), 58 (52), 18788</a>.</p>
-  <p><i>"Hybrid-DFT Modeling of Lattice and Surface Vacancies in MnO"</i>, <a href="http://doi.org/10.1021/acs.jpcc.8b07846" target=top>J. Phys. Chem. C (2018), 123 (13), 8133</a>.</p>
-  <p><i>"Band alignment of rutile and anatase TiO<sub>2</sub>"</i>, <a href="http://doi.org/10.1038/nmat3697" target=top>Nature Mater. (2013), 12, 798</a>.</p>
-  </div>
-  <div class="figure">
-  <p><img src="images/toc/10.1038.nmat3697.jpg" class="scaled">
-  </a></p></div> 
-
-  <div id="nanoparticles"></div>&nbsp<br><br>
-  <p><u>Precious-metal nanoparticles</u>:</p>
-  <p>Discretised systems, such as nanoparticles, offer novel chemical and physical properties that are strongly dependent on the composition and size of the system. We have expertise in understanding how the structure of metallic nanoparticles, and their composition when doped with secondary elements, can change the chemical activity in catalysed reactions or in optical applications. <a href="javascript: void(0);" onClick="toggle('nano_refs')">Select publications &#9662;</a> </p>
-  <div id="nano_refs" style="display:none;">
-  <p><i>"DFT-computed trends in the properties of bimetallic precious metal nanoparticles with core@ shell segregation"</i>, <a href="http://doi.org/10.1021/acs.jpcc.7b10614" target=top>J. Phys. Chem. C (2018), 122 (10), 5721</a>.</p>
-  <p><i>"Controlling Structural Transitions in AuAg Nanoparticles through Precise Compositional Design"</i>, <a href="http://doi.org/10.1021/acs.jpclett.6b02181" target=top>J. Phys. Chem. Lett. (2016), 7 (21), 4414</a>.</p>
-  <p><i>"A Selective Blocking Method To Control the Overgrowth of Pt on Au Nanorods"</i>, <a href="http://doi.org/10.1021/ja4003475" target=top>J. Am. Chem. Soc. (2013), 135 (17), 6554</a>.</p>
-  </div>
-  <div class="figure">
-  <p><img src="images/toc/10.1021.ja4003475.jpg" class="scaled">
-  </a></p></div>
-
-  <div id="methods"></div>&nbsp<br><br>
-  <p><u>Method development:</u></p>
-  <p>Understanding of chemical properties is increasingly dependent on accurate physical models, whereby the behaviour and properties of a system can be tested. Implementation of these models in highly-parallelised software allows the investigation of complex systems, and for predictions to be made so that we can accelerate chemical discovery. We have expertise in the development of modern, parallelised computational software for simulations ranging through quantum mechanics, molecular mechanics and continuum modelling. <a href="javascript: void(0);" onClick="toggle('devel_refs')">Select publications &#9662;</a> </p>
-  <div id="devel_refs" style="display:none;">
-  <p><i>"Atomic Simulation Interface (ASI): application programming interface for electronic structure codes"</i>, <a href="https://doi.org/10.21105/joss.05186" target=top>J. Open Source Softw. (2023), 8(85), 5186</a>.</p>
-  <p><i>"Open-source, python-based redevelopment of the chemshell multiscale QM/MM environment"</i>, <a href="http://doi.org/10.1021/acs.jctc.8b01036" target=top>J. Chem. Theo. Comp. (2018), 15 (2), 1317</a>.</p>
-  <p><i>"Embedded-cluster calculations in a numeric atomic orbital density-functional theory framework"</i>, <a href="http://doi.org/10.1063/1.4885816" target=top>J. Chem. Phys. (2014), 141, 024105</a>.</p>
-  <p><i>"Dopant-induced 2D-3D transition in small Au-containing clusters: DFT-global optimisation of 8-atom Au-Ag nanoalloys"</i>, <a href="http://doi.org/10.1039/C1NR11053E" target=top>Nanoscale (2012), 4 (4), 1109</a>.</p>
-  </div>
-  <div class="figure">
-  <p><img src="images/toc/10.1039.C1NR11053E.jpg" class="scaled">
-  </a></p></div>
-  <td>
- </tr>
-</table>
-</div></section>
-
-<div class="tall"></div>
-<div id="software"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td colspan=2>
-<b>Software</b>
-  </td>
- </tr>
- <tr>
-  <td>
-  <p><i>We develop and contribute to:</i></p>
-  <a href="http://www.chemshell.org" target=top>ChemShell</a> (QM/MM)<br>
-  <a href="https://aimsclub.fhi-berlin.mpg.de" target=top>FHI-aims</a> (QM)<br>
-  <a href="http://www.nwchem-sw.org">NWChem</a> (QM)<br>
-  <a href="https://nanochemistry.curtin.edu.au/gulp/" target=top>GULP</a> (MM)<br>
-  <a href="http://www.github.com/logsdail/carmm/" target=top>carmm</a><br>
-  <a href="https://wiki.fysik.dtu.dk/ase/" target=top>ASE</a> <br>
-  <p><i>We use:</i></p>
-  <a href="https://wiki.fysik.dtu.dk/gpaw/" target=top>GPAW</a> (QM) <br>
-  <a href="http://www-wales.ch.cam.ac.uk/OPTIM/" target=top>OPTIM</a> <br>
-  <a href="http://www.cfs.dl.ac.uk" target=top>Gamess-UK</a> (QM) <br>
-  <a href="https://www.scd.stfc.ac.uk/Pages/DL_POLY.aspx" target=top>DL_POLY</a> (MM) <br>
-  <a href="https://atztogo.github.io/phonopy/" target=top>Phonopy</a> <br>
-  <a href="http://theory.cm.utexas.edu/henkelman/code/bader/" target=top>Bader Charge Analysis</a> <br>
-  <a href="http://www.ddscat.org" target=top>DDSCAT</a> <br>
-  </td>
-  <td>
-   <a href="http://www.chemshell.org" target=top><img src="images/logos/chemshell2.gif" width=120px></a><br>
-   <a href="https://aimsclub.fhi-berlin.mpg.de" target=top><img src="images/logos/fhi-aims2.gif" width=120px></a><br>
-   <a href="http://www.nwchem-sw.org" target=top><img src="images/logos/nwchem.gif" width=120px></a><br>
-   <a href="https://wiki.fysik.dtu.dk/gpaw/" target=top><img src="images/logos/gpaw.gif" width=120px></a>
-  </td>
- </tr>
-</table>
-</div></section>
-
-<div class="tall"></div>
-<div id="current_members"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td>
-<b>Current Members</b>
-  </td>
- </tr>
-</table>
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p align=left><i>Group Leader:</i></p>
-  <p><img src="images/members/andrewlogsdail3.jpg" alt="Dr Andrew Logsdail" class="scaled"></p>
-  <p><a href="https://www.cardiff.ac.uk/people/view/481607-logsdail-andrew" target=top>Dr Andrew Logsdail</a> <br>
-     UKRI Future Leaders Fellow (<a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>), and
-     Senior Lecturer in Catalytic & Computational Chemistry</p>
-  <p><u>Press:</u> <a href="https://pod.link/1691506840/episode/eb00155f03e0b57a862ab268253a136d" target=top>"Next Generation Research" Podcast</a></p>
-  </td>
- </tr>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first"> 
-  email: 
-  </td>
-  <td>
-  LogsdailA [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">  
-  telephone: 
-  </td>
-  <td> 
-  +44 2922 510 162
-  </td>
- </tr>
- <tr>
-  <td class="first"> 
-  profiles: 
-  </td>
-  <td>
-  <a href="https://scholar.google.co.uk/citations?user=T4xaqVoAAAAJ" target=top><img src="images/icons/google_scholar.png" class="icon"></a>
-  <!-- <a href="https://twitter.com/a_logsdail" target=top><img src="images/icons/twitter.png" class="icon"></a> //-->
-  <a href="https://www.linkedin.com/in/andrewlogsdail/" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  <a href="https://www.github.com/logsdail" target=top><img src="images/icons/github.png" class="icon"></a>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>Postdoctoral Researchers:</i></p>
-  <div class="figure">
-  <p><img src="images/members/pavelstishenko.jpg" alt="Dr Pavel Stishenko" class="scaled"></p>
-  <p>Dr Pavel Stishenko<br>(<a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>)</p>
-  <p><i>"Embedded Cluster Modelling for Realistic Solid-State Systems"</i></p>
-  <p>Publications:
-  <a href="https://doi.org/10.1039/D2CP04537K" target=top>#1</a>
-  <a href="https://doi.org/10.21105/joss.05186" target=top>#2</a>
-  </p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  StishenkoP [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://scholar.google.co.uk/citations?user=Oa5ZL-UAAAAJ&hl=en" target=top><img src="images/icons/google_scholar.png" class="icon"></a>
-  <a href="https://www.github.com/PavelStishenko" target=top><img src="images/icons/github.png" class="icon"></a>
-  </td>
- </tr>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/gabrielbramley.jpg" alt="Dr Gabriel Bramley" class="scaled"></p>
-  <p>Dr Gabriel Bramley<br>(<a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>)</p>
-  <p><i>"Embedded Cluster Modelling for Realistic Solid-State Systems"</i></p>
-  <p>Publications:
-  <a href="https://doi.org/10.1039/D2CP04537K" target=top>#1</a> <a href="https://doi.org/10.1039/D3CY01334K" target=top>#2</a>
-  </p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  BramleyG [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://scholar.google.co.uk/citations?user=gy3ziYgAAAAJ&hl=en" target=top><img src="images/icons/google_scholar.png" class="icon"></a>
-  </td>
- </tr>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/kushagraagrawal.jpg" alt="Dr Kushagra Agrawal" class="scaled"></p>
-  <p>Dr Kushagra Agrawal<br>(<a href="https://gtr.ukri.org/projects?ref=EP%2FV056565%2F1" target=top>EP/V056565/1</a>)</p>
-  <p><i>"Sustainable Catalysis for Clean Growth"</i></p>
-  <p>Publications: 
-    <a href="https://doi.org/10.1039/D1CY01273H" target=top>#1</a> 
-    <a href="https://doi.org/10.1016/j.cattod.2021.04.011" target=top>#2</a></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  AgrawalK2 [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://scholar.google.co.uk/citations?user=fuKotXMAAAAJ&hl=en" target=top><img src="images/icons/google_scholar.png" class="icon"></a>
-  <!-- a href="https://twitter.com/kush2803" target=top><img src="images/icons/twitter.png" class="icon"></a> //-->
-  <a href="https://www.linkedin.com/in/kush2803" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/igorkowalec.jpg" alt="Igor Kowalec" class="scaled"></p>
-  <p>Dr Igor Kowalec<br>(<a href="https://gtr.ukri.org/projects?ref=EP%2FS030468%2F1" target=top>EP/S030468/1</a>; PI: Prof. Richard Catlow)</p>
-  <p><i>"Converting CO<sub>2</sub> to liquid fuels over Pd-based trimetallic nanoparticles"</i></p>
-  <p>Publications:
-    <a href="https://doi.org/10.1039/D2CP01019D" target=top>#1</a>
-    <a href="https://doi.org/10.1039/D1CP01602D" target=top>#2</a>
-    <a href="https://doi.org/10.1021/acs.chemrev.1c00493" target=top>#3</a>
-    <a href="https://doi.org/10.1088/1361-648X/ace01a" target=top>#4</a>
-  </p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  KowalecI [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://scholar.google.co.uk/citations?user=_FgR6N0AAAAJ" target=top><img src="images/icons/google_scholar.png" class="icon"></a>
-  <a href="https://www.linkedin.com/in/igor-kowalec-64aa8a14b" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
-</table>
-
-<table>
- <tr> 
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>PhD Students:</i></p>
-  <p><img src="images/members/andresrichards.jpg" alt="Andres Richards" class="scaled"></p>
-  <p>Andres Richards<br>(CDT Catalysis; PI: Prof. Duncan Wass; Sponsor: BP)</p>
-  <p><i>"Ethanol upgrading catalysis for advanced biofuels - a combined computational experimental study"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  RichardsA18 [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/andres-richards-gonzales-81b709132" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
-<!--
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/debbiethacker.jpg" alt="Debbie Thacker" class="scaled"></p>
-  <p>Debbie Thacker<br>(CDT Catalysis; PI: Prof. Phil Davies; Sponsor: Cogent Power)</p>
-  <p><i>"Studies into the diffusivity of dopants in iron"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  ThackerD [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/debbiethacker17" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-//-->
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/jackwarren.jpg" alt="Jack Warren" class="scaled"></p>
-  <p>Jack Warren<br>(PI: <a href="https://bonifazi-group.co.uk/" target=top>Prof. Davide Bonifazi</a>, University of Vienna)</p>
-  <p><i>"Synthesis of boron-nitride-carbon molecular hybrids for sensing and thermal management applications"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  WarrenJE [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/jack-warren-a78607180" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/harrythomas.jpg" alt="Harry Thomas" class="scaled"></p>
-  <p>Harry Thomas<br>(Sponsor: Koch Technology Solutions)<p>
-  <p><i>"Modelling Approaches to p-Xylene Oxidation Catalysis"</i></p>
-  <p>Publications:
-    <a href="https://doi.org/10.1039/D3CP00648D" target=top>#1</a></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  ThomasHN2 [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/harry-thomas-63a65715b" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/amitchaudhari.jpg" alt="Amit Chaudhari" class="scaled"></p>
-  <p>Amit Chaudhari<br>(<a href="https://gtr.ukri.org/projects?ref=EP%2FV056565%2F1" target=top>EP/V056565/1</a>)<p>
-  <p><i>"Sustainable Catalysis For Clean Growth: Towards Whole System Modelling And Simulation"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  ChaudhariA [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <!-- <a href="https://twitter.com/amitmc_" target=top><img src="images/icons/twitter.png" class="icon"></a> //-->
-  <a href="https://www.linkedin.com/in/amit-chaudhari-4b831714a" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr>
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/mattrobinson.jpg" alt="Matt Robinson" class="scaled"></p>
-  <p>Matt Robinson<br>(Sponsor: BP)<p>
-  <p><i>"Tuning Zeolite Catalysts using Organic Additives"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  RobinsonMT1 [at] cardiff.ac.uk
-  </td>
- </tr>
-<!-- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/amit-chaudhari-4b831714a" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr> //-->
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/zhongweilu.jpg" alt="Zhongwei Lu" class="scaled"></p>
-  <p>Zhongwei Lu<br>(CSC Scholarship)<p>
-  <p><i>"Cu-based catalysts for the reduction of CO<sub>2</sub> to ethanol"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  LuZ30 [at] cardiff.ac.uk
-  </td>
- </tr>
-<!-- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/amit-chaudhari-4b831714a" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr> //-->
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/oscarvanvuren.jpg" alt="Oscar Van Vuren" class="scaled"></p>
-  <p>Oscar Van Vuren<br>(<a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>)<p>
-  <p><i>"Multiscale atomistic simulations of materials for photocatalytic hydrogen generation"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  VanVurenO [at] cardiff.ac.uk
-  </td>
- </tr>
-<!-- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/amit-chaudhari-4b831714a" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr> //-->
-
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><img src="images/members/akashhiregange.jpg" alt="Akash Hiregange" class="scaled"></p>
-  <p>Akash Hiregange<br>(Sponsor: BP)<p>
-  <p><i>"Controlling selectivity of catalysts through the interaction of cobalt with promoters: Using computational modelling"</i></p>
-  </div>
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  email:
-  </td>
-  <td>
-  HiregangeA [at] cardiff.ac.uk
-  </td>
- </tr>
- <tr>
-  <td class="first">
-  profiles:
-  </td>
-  <td>
-  <a href="https://www.linkedin.com/in/akash-hiregange-612a5b189/" target=top><img src="images/icons/linkedin.png" class="icon"></a>
-  </td>
- </tr> 
-</table>
-</div></section>
-
-<!--
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>Visitors:</i></p>
-  <p>Junhao Huang (LIKAT, Germany)</p>
-  </div>
-  </td>
- </tr>
-</table>
-//-->
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>MPhil/MSc/MChem Students:</i></p>
-  <p><a href="https://www.linkedin.com/in/hannah-hughes-903928227/" target=top>Hannah Hughes</a></p>
-  </div>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>BSc Students:</i></p>
-  <p><a href="https://www.linkedin.com/in/lauren-macpherson-75aa0b249/" target=top>Lauren Macpherson</a></p>
-  <p><a href="https://www.linkedin.com/in/piper-gilbert-2025192b1/" target=top>Piper Gilbert</a></p>
-  </div>
-  </td>
- </tr>
-</table>
-
-<!--
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <div class="figure">
-  <p><i>Summer Students:</i></p>
-  <p><a href="https://www.linkedin.com/in/nicole-warnakulasuriya-24b731197/" target=top>Nicole Warnakulasuriya</a></p>
-  <p><a href="https://www.youtube.com/watch?v=ILGyNlZBYog&ab_channel=Technocamps" target=top>Merlin Warner-Huish</a></p>
-  </div>
-  </td>
- </tr>
-</table>
-//-->
-
-</div></section>
-
-<div class="tall"></div>
-<div id="open_positions"><section>
-&nbsp<br><br><br>
-
-<table>
- <tr>
-  <td>
-<b>Open Positions</b>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td>
-  <p>Sponsored or self-funded students/fellows are also always welcomed in the group. Some suggested funding sources are listed <a href="https://www.cardiff.ac.uk/jobs/fellowships" target=top>here</a>, but this list is not exhaustive and please get in touch to discuss individual situations! </p>
-  <p>There are currently no funded positions available on specific projects.</p>
-  <!--<p>Funded positions available on specific projects are listed below.</p>//-->
-  </td>
- </tr>
-<!-- <tr>
-  <td>
-  <i>PhD:</i>
-  <p>- <a href="https://findaphd.com/phds/project/multiscale-atomistic-simulations-of-materials-for-photocatalytic-hydrogen-generation/?p132342" target=top>42-month PhD</a> in development of multiscale QM/MM and application towards H2 generation (Fully funded for UK applicants; <a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>).</p>
-  </td>
- </tr> //-->
-<!-- <tr>
-  <td>
-  <i>Postdoctoral Research Associates:</i>
-  <p>- <a href="https://krb-sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=30011&siteid=5460&PageType=JobDetails&jobid=1873059" target=top>36-month PDRA</a> in development of accurate embedding environments for multiscale QM/MM and QM/MM simulations (<a href="https://gtr.ukri.org/projects?ref=MR%2FT018372%2F1" target=top>MR/T018372/1</a>).</p>
-  </td>
- </tr> //-->
-</table>
-
-</div></section>
-
-<div class="tall"></div>
-<div id="past_members"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td>
-<b>Past Members</b> (Gone but not forgotten!)
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td>
-  <p><i>Postdoctoral Researchers:</i></p>
-  <center>
-  <!-- <p><img src="images/members/larakabalan.jpg" alt="Dr Lara Kabalan" class="scaled"></p> //-->
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/lara-kabalan-9b89a4106/" target=top>Dr Lara Kabalan</a> (<a href="https://gtr.ukri.org/projects?ref=EP%2FS030468%2F1" target=top>EP/S030468/1</a>, 2019/23)</p>
-  <p style="margin:4px;"><i>"New trimetallic nanoparticles as catalysts for the conversion of carbon dioxide to renewable fuels"</i></p>
-  <p style="margin:4px;">Publications:
-    <a href="https://doi.org/10.1039/D1CP01602D" target=top>#1</a>
-    <a href="https://doi.org/10.1039/D2CP01019D" target=top>#2</a>
-    <a href="https://doi.org/10.1021/acs.chemrev.1c00493" target=top>#3</a>
-    <a href="https://doi.org/10.1021/acscatal.2c00552" target=top>#4</a>
-    <a href="https://doi.org/10.1039/D2FD00119E" target=top>#5</a>
-    <a href="https://doi.org/10.1088/1361-648X/ace01a" target=top>#6</a>
-  </p> 
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td>
-  <p><i>PhD Students:</i></p>
-  <center>
-  <!-- <p><img src="images/members/igorkowalec.jpg" alt="Igor Kowalec" class="scaled"></p> //-->
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/igor-kowalec-64aa8a14b" target=top>Dr Igor Kowalec</a> (2019/23)</p>
-  <p style="margin:4px;"><i><a href="https://orca.cardiff.ac.uk/id/eprint/164877" target=top>"Surfaces of Pd-based alloys as catalysts for CO<sub>2</sub> activation and hydrogenation to methanol"</a></i></p>
-  <p style="margin:4px;">Publications:
-    <a href="https://doi.org/10.1039/D2CP01019D" target=top>#1</a>
-    <a href="https://doi.org/10.1039/D1CP01602D" target=top>#2</a>
-    <a href="https://doi.org/10.1021/acs.chemrev.1c00493" target=top>#3</a>
-    <a href="https://doi.org/10.1088/1361-648X/ace01a" target=top>#4</a>
-  </p> 
-
-  <!-- <p><img src="images/members/owainbeynon.jpg" alt="Owain Beynon" class="scaled"></p> //-->
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/owain-beynon-b09560104" target=top>Dr Owain Beynon</a> (2019/23)</p>
-  <p style="margin:4px;"><i><a href="https://orca.cardiff.ac.uk/id/eprint/159757" target=top>“Astudiaeth Gyfrifiadurol O Strwythur A Sefydlogrwydd Defnyddiau Mandyllog Anorganig”</a></i></p>
-  <p style="margin:4px;"><u>Press:</u> <a href="https://www.bbc.co.uk/cymrufyw/65068683" target=top>BBC Wales</a>, <a href="https://www.chemistryworld.com/careers/the-man-who-did-his-chemistry-phd-in-welsh/4018071.article" target=top>Chemistry World</a></p>
-  <p style="margin:4px;">Publications:
-    <a href="https://doi.org/10.1039/D2TA03837D" target=top>#1</a>
-    <a href="https://doi.org/10.1039/D2CP04537K" target=top>#2</a>
-    <a href="https://doi.org/10.1039/D3TA02631K" target=top>#3</a>
-    <a href="https://doi.org/10.1021/acs.jpcc.3c02863" target=top>#4</a>
-    <a href="https://doi.org/10.1021/acs.jpcc.3c02679" target=top>#5</a>
-  </p>
-
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/stefan-adrian-nastase-06704617b/" target=top>Dr Stefan Nastase</a> (2016/20)</p>
-  <p style="margin:4px;"><i><a href="https://orca-mwe.cf.ac.uk/130007" target=top>"Computational study on the early stages of the Methanol to Hydrocarbons process"</a></i></p>
-  <p style="margin:4px;">Publications: 
-    <a href="https://doi.org/10.1039/C8CP06736H" target=top>#1</a> 
-    <a href="https://doi.org/10.1039/D0SC01924K" target=top>#2</a> 
-    <a href="https://doi.org/10.1021/acscatal.0c01454" target=top>#3</a> 
-    <a href="https://doi.org/10.1039/d0cp05392a" target=top>#4</a> 
-    <a href="https://doi.org/10.1039/D1CP02535J" target=top>#5</a> 
-    <a href="https://doi.org/10.1039/D1CP02551A" target=top>#6</a>
-  </p>
-
-  <p style="margin-bottom:4px;"><a href="https://uk.linkedin.com/in/anna-gould-2696433b" target=top>Dr Anna Gould</a> (2013/17)</p>
-  <p style="margin:4px;"><a href="http://discovery.ucl.ac.uk/1553295" target=top><i>"Properties of bimetallic AuAg nanoparticles for H2 production"</i></a></p>
-  <p style="margin:4px;">Publications: 
-    <a href="https://doi.org/10.1039/C4CP00753K" target=top>#1</a> 
-    <a href="https://doi.org/10.1021/acscatal.5b00754" target=top>#2</a> 
-    <a href="https://doi.org/10.1021/acs.jpcc.5b07324" target=top>#3</a> 
-    <a href="https://doi.org/10.1021/acs.jpcc.5b03577" target=top>#4</a> 
-    <a href="https://doi.org/10.1021/acs.jpclett.6b02181" target=top>#5</a> 
-    <a href="http://doi.org/10.1140/epjb/e2017-80280-7" target=top>#6</a>
-  </p>
-  </center>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td>
-  <p><i>Visitors:</i></p>
-  <center>
-  <p style="margin-bottom:4px;">Junhao Huang, Liebniz Institute for Catalysis<br> (UK Catalysis Hub Travel Award, 2022)</p>
-  <p style="margin:4px;">Publications: 
-    <a href="https://doi.org/10.1002/anie.202400174" target=top>#1</a>
-    <a href="https://pubs.acs.org/doi/10.1021/acsanm.4c00133" taget=top>#2</a></p>
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/kush2803" target=top>Kushagra Agrawal</a>, IIT Guwahati<br>(Commonwealth Scholarship, 2019/20)</p>
-  <p style="margin:4px;">Publications: 
-    <a href="https://doi.org/10.1039/D1CY01273H" target=top>#1</a> 
-    <a href="https://doi.org/10.1016/j.cattod.2021.04.011" target=top>#2</a></p>
-  <p style="margin-bottom:4px;"><a href="https://www.linkedin.com/in/shayantan-chaudhuri-099268126/" target=top>Shayantan Chaudhuri</a>, University of Warwick (2019)</p>
-  <p style="margin:4px;">Publications: 
-    <a href="https://doi.org/10.1038/s43246-022-00228-4" target=top>#1</a>
-    <a href="https://doi.org/10.1021/acs.jpcc.3c03900" target=top>#2</a></p>
-  </div>
-  </center>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td>
-  <p><i>MSc/MSci/MChem/MPhil Students</i> <a href="javascript: void(0);" onClick="toggle('mchem_old')">&#9662;</a> </p>
-  <div id="mchem_old" style="display:none;">
-  <center>
-  <p>Ruaridh Davidson (2023, MSc)</p>
-  <p><a href="https://www.linkedin.com/in/daniel-stephen-behan/" target=top>Daniel Behan</a> (2022/23, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/cevinvinod/" target=top>Cevin Vinod</a> (2022/23, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/yubang-liu-389042196/" target=top>Yubang Liu</a> (2021/22, MSc)</p>
-  <p><a href="https://www.linkedin.com/in/anuradha-bandaranayake" target=top>Anuradha Mudiyanselage</a> (2021/22, <a href="https://orca.cardiff.ac.uk/id/eprint/150282/" target=top>MPhil</a>)</p>
-  <p><a href="https://www.linkedin.com/in/omal-jayawardena-334738207/" target=top>Omal Jayawardena</a> (2021/22, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/luke-watson-b50b04230/" target=top>Luke Watson</a> (2019/20, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/theo-wilkins-5b90a9156/" target=top>Theo Wilkins</a> (2019/20, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/hywel-reeves-53884b146/" target=top>Hywel Reeves</a> (2019/20, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/matthew-williams-b6780a15a/" target=top>Matthew Williams</a> (2019, MRes)</p>
-  <p><a href="https://www.linkedin.com/in/debbiethacker17/" target=top>Debbie Thacker</a> (2019, MRes)</p>
-  <p><a href="https://www.linkedin.com/in/hanson-rbj/" target=top>Rowan Hanson</a> (2018/19, MChem)</p>
-  <p>Syeda Sara Junaid (2018/19, MChem)</p>
-  <p><p><a href="https://www.linkedin.com/in/matthew-shaw-5899ba23b/" target=top>Matthew Shaw</a> (2019, MRes)</p>
-  <p><a href="https://www.linkedin.com/in/daniel-latham1/" target=top>Daniel Latham</a> (2018, MRes)</p>
-  <p><a href="https://www.linkedin.com/in/scott-o-allan-391031123/" target=top>Scott Allan</a> (2017/18, MChem)</p>
-  <p><a href="https://www.linkedin.com/in/russell-cross-a36265179" target=top>Russell Cross</a> (2017, MSc)</p>
-  <p><a href="https://www.linkedin.com/in/luke-perrott-58174b76" target=top>Luke Perrott</a> (2016/17, MChem)</p>
-  <p>Yisha Xu (2015/16, MSc)</p>
-  <p><a href="https://www.linkedin.com/in/dr-shiny-mathew-a9398478/" target=top>Shiny Mathew</a> (2014/15, MSci)</p>
-  </center>
-  </div>
-  </td>
- </tr>
-</table>
-
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <p><i>BSc Students</i> <a href="javascript: void(0);" onClick="toggle('bsc_old')">&#9662;</a></p>
-  <div id="bsc_old" style="display:none;">
-  <center>
-  <p><a href="https://www.linkedin.com/in/baris-ozen-669543224/" target=top>Baris Ozen</a> (2023)</p>
-  <p><a href="https://www.linkedin.com/in/chloe-butler-8baa281b5/" target=top>Chloe Butler</a> (2022)</p>
-  <p><a href="https://www.linkedin.com/in/jessica-woodward-976704229/" target=top>Jessica Woodward</a> (2022)</p>
-  <p>Yuhan Lu (2021)</p>
-  <p><a href="https://www.linkedin.com/in/hannah-phillips-a22219210/" target=top>Hannah Phillips</a> (2021)</p>
-  <p><a href="https://www.linkedin.com/in/aidana-nauruzbayeva-443880116/" target=top>Aidana Nauruzbayeva</a> (2020)<p>
-  <p>Anisha Lad (2020)</p>
-  <p>George Woodburn (2019)<p>
-  <p><a href="https://www.linkedin.com/in/james-rodway-6768b5165" target=top>James Rodway</a> (2018)</p>
-  <p><a href="https://www.linkedin.com/in/prabesh-katawal-ab5089131" target=top>Prabesh Katawal</a> (2017)</p>
-  <p><a href="https://www.linkedin.com/in/thomas-davies-9a03b316b" target=top>Tom Davies</a> (2017)</p>
-  </center>
-  </div>
-  </td>
- </tr>
-</table> 
-
-<table>
- <tr>
-  <td style="top" colspan=2>
-  <p><i>Summer Students</i> <a href="javascript: void(0);" onClick="toggle('summer_old')">&#9662;</a></p>
-  <div id="summer_old" style="display:none;">
-  <center>
-  <p><a href="https://www.linkedin.com/in/nicole-warnakulasuriya-24b731197/" target=top>Nicole Warnakulasuriya</a> (2023, CCP5)</p>
-  <p><a href="https://www.youtube.com/watch?v=ILGyNlZBYog&ab_channel=Technocamps" target=top>Merlin Warner-Huish</a> (2023, Nuffield)</p>
-  <p><a href="https://www.linkedin.com/in/luca-howles-471307273/" target=top>Luca Howles</a> (2023, Nuffield)</p>
-  <p>Ahmet Sayin (2023, Nuffield)</p>
-  <p><a href="https://www.linkedin.com/in/steen-maxwell-29894b176/" target=top>Steen Maxwell</a> (2022, CUROP)</p>
-  <p>Laila Caesar (2022, Nuffield)</p>
-  <p>Tia Groves (2022, Nuffield)</p>
-  <p>Sajan Sambahangphe (2022, Nuffield)</p>
-  <p>Joseph Condon (2021, CCP5)</p>
-  <p><a href="https://www.linkedin.com/in/omal-jayawardena-334738207/" target=top>Omal Jayawardena</a> (2021, RSC)</p>
-  <p>Joshua Templeman (2021, Nuffield)</p>
-  <p>Humaira Ali (2021, Nuffield)</p>
-  <p>Alexei Maiorov (2021, Nuffield)</p>
-  <p><a href="https://www.linkedin.com/in/harry-thomas-63a65715b/" target=top>Harry Thomas</a> (2020, CCP5)</p>
-  <p>Corey Maxwell (2020, Nuffield)</p>
-  <p>Samuel Simon (2020, Nuffield)</p>
-  <p><a href="https://www.linkedin.com/in/hanson-rbj/" target=top>Rowan Hanson</a> (2019, CCP5)</p>
-  <p>Ceridwen Price (2019, CUROP)</p>
-  <!-- <a href=" target=top> //--><p>Thomas John (2019, Nuffield)</p>
-  <!-- <a href=" target=top> //--><p>Amarjit Singh (2019, Nuffield)</p>
-  <a href="https://www.linkedin.com/in/sam-watts-1a8735152/" target=top><p>Samuel Watts</a> (2018, CCP5)
-  <!-- <a href=" target=top> //--><p>Ioan Lloyd (2018, Nuffield)</p>
-  <!-- <a href=" target=top> //--><p>Priyan Patel (2018, Nuffield)</p>
-  <p><a href="https://www.linkedin.com/in/sophia-proud-5a5354151/" target=top><p>Sophia Proud</a> (2018, CUROP)</p>
-  <p><a href="https://www.linkedin.com/in/joe-jackson-masters-74b76711a/" target=top>Joe Jackson-Masters</a> (2017, CCP5)</p>
-  <p>Stephen Lloyd-Brown (2017, Nuffield)</p>
-  <p>Louis Munro (2017, Nuffield)</p>
-  <p>Daniel Nunes (2014)<p>
-  </center>
-  </div>
-  </td>
- </tr>
-</table>
-
-<!--
-<div class="tall"></div>
-<div id="honorary_members"><section>
-&nbsp<br><br><br>
-<table>
- <tr>
-  <td>
-<b>Honorary Members</b>
-  </td>
- </tr>
-</table>
--->
-</div></section>
-
-</div></section>
-</body>
-
+    <script type="text/javascript" src="static/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="static/sphinx-nefertiti.min.js"></script>
+    
+    <script type="text/javascript" src="static/doc_versions.js"></script>
+  </body>
 </html>
