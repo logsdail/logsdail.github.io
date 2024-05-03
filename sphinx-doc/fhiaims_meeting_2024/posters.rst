@@ -1,10 +1,9 @@
 
-* Josh Kirsopp, *"Ab initio Curly Arrows and Reaction Orbitals"*
-* David McDonagh, *"Moving Between Levels of Theory by Predicting Terms in the Many-Body Expansion for Lattice Energy Calculations"*
-* Joseph Lawrence, *"Analytic continuation of Wolynes’ theory into the Marcus inverted regime"*
-* Tom Ellaby, *"Ideal vs Real: Simulated Annealing of Experimentally Derived and Cuboctahedral Platinum Nanoparticles"*
-* Gabriele Boschetto, *"Large-scale first principles quantum mechanical calculations on materials for organic photovoltaics"*
-* Matthew Turner, *"Modelling PtII(Ligand) – Amyloid-β Interactions: Prediction of Ligand Effects"*
-* Domen Presern, *"Explaining the size-dependent kinetics of Phi29 polymerase rolling circle amplification"*
-* Darren Wragg, *"The mechanism of aquaporin inhibition by gold compounds elucidated by Molecular Dynamics simulations"*
-* Harry Jenkins, *"QM/MM investigations of the structural, electronic, and catalytic properties of TiO2 surfaces"*
+* Zhongwei Lu, *"Towards CO2 activation on Co modified Cu surfaces"*
+* Oscar van Vuren, *"Developing Standardised Modelling Workflows for QM/MM Simulations of Metal Oxides"*
+* Matt Robinson, *"Tuning Zeolite Catalysts using Organic Additives"*
+* Kushagra Agrawal, *"Optimizing Guerbet Reaction Chemistry Using Data-driven Approach."*
+* Alexander Spears, *"Molecular dynamics investigation of the role of lattice heating in laser-driven hydrogen evolution at copper surfaces"*
+* Nils Hertl, *Abstract Unavailable*
+* Wojciech Stark, *"Nonadiabatic effects in hydrogen scattering dynamics at Cu surfaces"*
+* Eimear McCarthy, *"Exploring surface reconstruction of polar zinc oxide surfaces"*

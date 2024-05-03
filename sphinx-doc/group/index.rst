@@ -4,7 +4,7 @@
 Overview
 --------
 
-On this page you will find a collection of resources that will help you settle in our `research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
+On this page you will find a collection of resources that will help you settle in the `tamm@CCI research group <https://logsdail.github.io>`_. This resource is not exhaustive and suggested additions are always welcomed!
 
 Meetings
 --------
@@ -29,7 +29,7 @@ Meetings
 
 Tools
 -----
-* `Slack <https://join.slack.com/t/logsdail/shared_invite/enQtNzYzNDg1MzA3NDQ3LTZjZjQ0OWZjN2Y4OGUzOTZlZGRlNDU1OWNlOGM2MmMzYjM2NDRmYzczYjM1ODBkYTQ2ZDk4NTUzOTljMzkzMTk>`_ : Communication platform for the group.
+* `Slack <https://join.slack.com/t/tamm-cci/shared_invite/zt-9qqnftiv-bPRJ_H~I45bt3kVZzoxiww>`_ : Communication platform for the group.
 
 * `Trello <https://trello.com>`_ : Project planning platform - prompt Andy to setup a board for your project if necessary.
 
@@ -37,11 +37,12 @@ Tools
 
 * `GitHub <https://github.com/logsdail/carmm/>`_ : For those keen to engage with software development, our scripts/software are stored here. Tutorial examples are also available `here <https://github.com/logsdail/external_examples>`_.
 
-.. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/carmm/>`_ and adding/developing the available software!
+.. note:: If you can't find a tool that does what you want online, or are creating your own scripts, someone in the group may well have worked on a similar problem before. Save yourself effort by and help our collegiate effort by joining our `GitHub <https://github.com/logsdail/carmm/>`_ and adding/developing the available software! An `internal folder <https://cf-my.sharepoint.com/:f:/g/personal/logsdaila_cardiff_ac_uk/EpGS8SZBWH9Gi-1RAetBIb8BB1wV7KDaKAaeP-Ln4kn8XA?e=ELaqO3>`_ also exists for miscellaneous scripts/guides.
 
 Tutorials
 ---------
 * | `Bash <https://www.gnu.org/software/bash/>`_ : Using Bash through the terminal is the most robust way of interacting with a Unix-like system (Linux machines in the office and supercomputers). These resources should help you get started with the command line interface:
+
   * `Unix Crash Course <https://astrobiomike.github.io/unix/>`_
   * `Cheatsheet for Unix <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk/EeGuxkwHZo9Hr0YTButYV2EBgJAUQHXqDX233CRwkeVZeQ?e=ygg3Ce>`_
   * Text editors `Nano <https://astrobiomike.github.io/unix/working-with-files-and-dirs>`_ (the simplest) or `vi <https://cf-my.sharepoint.com/:b:/g/personal/logsdaila_cardiff_ac_uk>`_ and `emacs <https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf>`_ (more feature rich).
@@ -73,8 +74,8 @@ The use of OneDrive is strongly recommended for all long-term data storage. If y
 .. warning::
   For optimum efficiency when using ASE with FHI-aims, make sure to run your calculations on HPC using the sockets calculator interface. Read more in `our Jupyter notebook <https://github.com/logsdail/external_examples/blob/master/notebooks/ASE/sockets.ipynb>`_.
 
-* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. 
-  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`. 
+* | `Hawk <https://portal.supercomputing.wales/index.php/index/>`_ : The Welsh supercomputing facility. Documentation is `available here <https://arcca.gitpages.cardiff.ac.uk/websites/arcca-docs>`_.
+  | Register to access through `this web portal <https://portal.supercomputing.wales/index.php/getting-access/>`_ and join project `SCW1057`.
   
 .. note::
   * When you login, you are in your home directory: `/home/<username>/`
@@ -159,7 +160,13 @@ This is an eclectic collection of all the things that'll help you on your way. S
 
 * Presentation:
 
-  * `Fundamentals of Data Visualization <https://serialmentor.com/dataviz/>`_
+  * `Fundamentals of Data Visualization <https://clauswilke.com/dataviz/>`_
+
+  * `Intro to LaTeX and Overleaf <https://www.overleaf.com/read/fvhtmnptpnms#16551e>`_ (Credit: Matt Robinson) 
+
+    * `Online Table Generator <https://www.tablesgenerator.com/>`_
+
+    * `Online Equation Generator <https://editor.codecogs.com/>`_
 
 * Funding:
 
