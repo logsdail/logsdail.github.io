@@ -15,15 +15,17 @@
       <title>FHI-aims UK Meeting 2024 &mdash; FHI-aims UK Meeting 2024  documentation</title>
     
     <link rel="stylesheet" href="static/bootstrap-icons.css" type="text/css" />
-          <link rel="stylesheet" type="text/css" href="static/pygments.css" />
-          <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="static/pygments_dark.css" />
-          <link rel="stylesheet" type="text/css" href="static/colorsets/sphinx-nefertiti-indigo.min.css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/pygments.css', priority=200, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/pygments.css?v=fa44fd50" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/pygments_dark.css', priority=500, rel='stylesheet', type='text/css', media='(prefers-color-scheme: dark)', id='pygments_dark_css')" -->
+          <link id="pygments_dark_css" media="(prefers-color-scheme: dark)" rel="stylesheet" type="text/css" href="static/pygments_dark.css?v=b20cc3f5" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/colorsets/sphinx-nefertiti-indigo-0.3.2.min.css', priority=500, rel='stylesheet', type='text/css')" -->
+          <link rel="stylesheet" type="text/css" href="static/colorsets/sphinx-nefertiti-indigo-0.3.2.min.css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/fonts/montserrat/stylesheet.css', priority=500, rel='stylesheet', type='text/css')" -->
           <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
+          <!-- add (1) pathto "_CascadingStyleSheet('static/fonts/red-hat-mono/stylesheet.css', priority=500, rel='stylesheet', type='text/css')" -->
           <link rel="stylesheet" type="text/css" href="static/fonts/red-hat-mono/stylesheet.css" />
-          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
-          <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
-          <link rel="stylesheet" type="text/css" href="static/pygments_dark.css" />
-        <!--<link rel="index" title="Index" href="genindex.html" />-->
+        <link rel="index" title="Index" href="genindex.html" />
         <link rel="search" title="Search" href="search.html" />
         <link rel="top" title="FHI-aims UK Meeting 2024  documentation" href="#" />
     <style>
@@ -75,7 +77,7 @@
       <li class="nav-item col-12 col-xl-auto">
         <form id="nftt-search-form" action="search.html" method="get">
           <div class="input-group">
-            <input type="text" name="q" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+            <input type="text" name="q" class="form-control" placeholder="Search docs" aria-label="Search" aria-describedby="button-search">
             <input type="hidden" name="check_keywords" value="yes" />
             <input type="hidden" name="area" value="default" />
             <button class="btn btn-primary" type="submit" id="button-search" aria-label="Search"><i class="bi bi-search"></i></button>
@@ -149,9 +151,7 @@
           <div class="nftt-sidebar-content">
             
             <div class="title d-none d-xl-block">
-              <!--
               <i class="bi bi-book"></i>&nbsp;&nbsp;<span>Index</span>
-              -->
             </div>
             <div id="sidebar" tabindex="-1" class="offcanvas-xl offcanvas-start" aria-labelledby="nfttSidebarOffcanvasLabel">
                 <!-- danirus sidebartemplate: "globaltoc.html" --><div class="offcanvas-header border-bottom">
@@ -164,9 +164,7 @@
 <div class="offcanvas-body">
   <nav class="toc" aria-label="Main menu">
     <div class="mb-3 p-1 pt-3 pb-4 border-bottom">
-      <!--
       <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="filter" aria-label="filter">
-      -->
     </div>
     
   </nav>
@@ -182,13 +180,7 @@
           </div>
         </aside>
         <article id="content" class="nftt-content" role="main">
-    <a class="reference internal image-reference" href="images/FHI-aims-logo.png"><img alt="images/FHI-aims-logo.png" class="align-center" src="images/FHI-aims-logo.png" />
-<!--<aside class="system-message">
-<p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">/home/oscar/Scripts/website/logsdail/sphinx-doc/fhiaims_meeting_2024/index.rst</span>, line 6)</p>
-<p>Cannot scale image!
-  Could not get size from &quot;images/FHI-aims-logo.png&quot;:
-  [Errno 2] No such file or directory: 'images/FHI-aims-logo.png'</p>
-</aside>-->
+    <a class="reference internal image-reference" href="_images/FHI-aims-logo.png"><img alt="_images/FHI-aims-logo.png" class="align-center" src="_images/FHI-aims-logo.png" style="width: 1112.3999999999999px; height: 553.1999999999999px;" />
 </a>
 <section id="fhi-aims-uk-meeting-2024">
 <h1>FHI-aims UK Meeting 2024<a class="headerlink" href="#fhi-aims-uk-meeting-2024" title="Link to this heading">¶</a></h1>
@@ -508,13 +500,13 @@ Concourse</p></td>
   </div>
 </div>
     </footer>
-    <script src="_static/documentation_options.js?v=5929fcd5"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
-    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="static/documentation_options.js?v=5929fcd5"></script>
+    <script src="static/doctools.js?v=9a2dae69"></script>
+    <script src="static/sphinx_highlight.js?v=dc90522c"></script>
 
-    <script type="text/javascript" src="_static/sphinx-nefertiti-0.3.2.min.js"></script>
-    <script type="text/javascript" src="_static/bootstrap.bundle-0.3.2.min.js"></script>
+    <script type="text/javascript" src="static/sphinx-nefertiti-0.3.2.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.bundle-0.3.2.min.js"></script>
     
-    <script type="text/javascript" src="_static/doc_versions.js"></script>
+    <script type="text/javascript" src="static/doc_versions.js"></script>
   </body>
 </html>
