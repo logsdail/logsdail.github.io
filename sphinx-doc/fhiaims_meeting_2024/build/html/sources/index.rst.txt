@@ -5,6 +5,8 @@
 
 .. image:: FHI-aims-logo.png
    :align: center
+
+.. Removed for now as not working on my implementation 
    :scale: 60 %
 
 FHI-aims UK Meeting 2024
