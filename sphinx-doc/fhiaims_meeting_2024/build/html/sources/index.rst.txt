@@ -67,10 +67,9 @@ Tutorials
 
 .. .. include:: tutorials.rst
 
-Tutorials will run in a linear fashion form 09:00 to 12:00 on 15/05. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion
-on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license. 
-Instructions for obtaining FHI-aims can be found here: `<https://fhi-aims.org/get-the-code-menu/get-the-code/>`_, and any license requirements should be completed prior to arrival. Support will also be available onsite from MS1P.
-Simultaneously, there will also be expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:00. 
+Tutorials will run in a linear fashion form 09:00 to 12:00 on May 15th, with a coffee break at 10:00. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion on performance optimisation), RPA and GW. Simultaneously, there will also be expert offshoots to discuss particular methods or topics. 
+
+The sessions will be hands-on and require a precompiled FHI-aims binary and license. Instructions for obtaining the software can be found `on the FHI-aims webpage <https://fhi-aims.org/get-the-code-menu/get-the-code/>`_, and any license requirements should be completed prior to arrival. Support will also be available onsite from MS1P. 
 
 Hack
 ----
