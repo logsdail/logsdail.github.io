@@ -36,7 +36,7 @@ The meeting will take place at `The University of Warwick <https://warwick.ac.uk
 The venue for the meeting is the Science Concourse within the Physics Department of the University of Warwick.
 Directions can be found on this `interactive campus map <https://campus.warwick.ac.uk/>`_.
 
-Directions to the conference rooms, campus accomodation and dinner location can be found on `this map <./Map2.png>`_.
+Directions to the conference rooms, campus accomodation and dinner location can be found on `this map <./images/Map2.png>`_.
 
 Accommodation and Travel
 ------------------------
