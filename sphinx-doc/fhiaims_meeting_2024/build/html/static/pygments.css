@@ -17,7 +17,6 @@
 .light .highlight .cs { color: #408090; background-color: #fff0f0 } /* Comment.Special */
 .light .highlight .gd { color: #A00000 } /* Generic.Deleted */
 .light .highlight .ge { font-style: italic } /* Generic.Emph */
-.light .highlight .ges { font-weight: bold; font-style: italic } /* Generic.EmphStrong */
 .light .highlight .gr { color: #FF0000 } /* Generic.Error */
 .light .highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
 .light .highlight .gi { color: #00A000 } /* Generic.Inserted */

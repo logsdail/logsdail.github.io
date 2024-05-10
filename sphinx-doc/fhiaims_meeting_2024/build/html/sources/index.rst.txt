@@ -36,13 +36,15 @@ The meeting will take place at `The University of Warwick <https://warwick.ac.uk
 The venue for the meeting is the Science Concourse within the Physics Department of the University of Warwick.
 Directions can be found on this `interactive campus map <https://campus.warwick.ac.uk/>`_.
 
+Directions to the conference rooms, campus accomodation and dinner location can be found on `this map <./Map2.png>`_.
+
 Accommodation and Travel
 ------------------------
 
 Accommodation options include a limited number of rooms available to be booked on the university campus for attendees through `Warwick Conferences <https://warwick.ac.uk/services/conferences/bed-and-breakfast/>`_.
 Alternatively, accommodation is generally available within Coventry city (a short bus ride from the campus).
 
-Travel to the University of Warwick is achieved easily through rail connections to Coventry station and then a bus journey from outside the station to the campus.
+Travel to the University of Warwick is achieved easily through rail connections to **Coventry station** and then a bus journey from outside the station to the campus.
 More information about how to get to the university can be found on the `university website <https://warwick.ac.uk/about/visiting/directions/>`_.
 
 Tutorials
@@ -66,8 +68,9 @@ Tutorials
 .. .. include:: tutorials.rst
 
 Tutorials will run in a linear fashion form 09:00 to 12:00 on 15/05. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion
-on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license. Simultaneously, there will also be
-expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:00. 
+on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license. 
+Instructions for obtaining FHI-aims can be found here: `<https://fhi-aims.org/get-the-code-menu/get-the-code/>`_, and any license requirements should be completed prior to arrival. Support will also be available onsite from MS1P.
+Simultaneously, there will also be expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:00. 
 
 Hack
 ----
