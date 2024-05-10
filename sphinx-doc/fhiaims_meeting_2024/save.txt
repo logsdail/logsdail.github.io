@@ -1,4 +1,5 @@
-
+This file contains the index.html file as it should be correctly edited with comments.
+Lines between large strings of hashes # indicate where changes should be made.
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
@@ -7,12 +8,12 @@
       <meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="docsearch:name" content="FHI-aims UK Meeting 2024" />
+    <meta name="docsearch:name" content="UK FHI-aims U&amp;D Meeting 2024" />
     <meta name="docsearch:package_type" content="" />
     <meta name="docsearch:release" content="" />
     <meta name="docsearch:version" content="" />
     
-      <title>FHI-aims UK Meeting 2024 &mdash; FHI-aims UK Meeting 2024  documentation</title>
+      <title>UK FHI-aims User and Developer Meeting 2024 &mdash; UK FHI-aims U&amp;D Meeting 2024  documentation</title>
     
     <link rel="stylesheet" href="static/bootstrap-icons.css" type="text/css" />
           <link rel="stylesheet" type="text/css" href="static/pygments.css" />
@@ -23,9 +24,9 @@
           <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
           <link rel="stylesheet" type="text/css" href="static/fonts/montserrat/stylesheet.css" />
           <link rel="stylesheet" type="text/css" href="static/pygments_dark.css" />
-        <link rel="index" title="Index" href="genindex.html" />
+        <!--link rel="index" title="Index" href="genindex.html" />-->
         <link rel="search" title="Search" href="search.html" />
-        <link rel="top" title="FHI-aims UK Meeting 2024  documentation" href="#" />
+        <link rel="top" title="UK FHI-aims U&amp;D Meeting 2024  documentation" href="#" />
     <style>
       :root {
         --nftt-body-font-family: "Montserrat", var(--nftt-font-sans-serif) !important;
@@ -53,7 +54,7 @@
           <a href="#"
               
               class="navbar-brand p-0 me-0 md-lg-2"
-          ><span class="brand-text">FHI-aims UK Meeting 2024</span></a>
+          ><span class="brand-text">UK FHI-aims U&D Meeting 2024</span></a>
         
         <div class="d-flex d-xl-none">
           <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#nfttSearch" aria-controls="nfttSearch" aria-label="Search">
@@ -75,7 +76,9 @@
       <li class="nav-item col-12 col-xl-auto">
         <form id="nftt-search-form" action="search.html" method="get">
           <div class="input-group">
-            <input type="text" name="q" class="form-control" placeholder="Search docs" aria-label="Search" aria-describedby="button-search">
+          #######################################################################################
+            <input type="text" name="q" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+            #####################################################################################
             <input type="hidden" name="check_keywords" value="yes" />
             <input type="hidden" name="area" value="default" />
             <button class="btn btn-primary" type="submit" id="button-search" aria-label="Search"><i class="bi bi-search"></i></button>
@@ -148,7 +151,11 @@
         <aside class="nftt-sidebar">
           <div class="nftt-sidebar-content">
             <div class="title d-none d-xl-block">
+            #################################################################################
+            <!--  
               <i class="bi bi-book"></i>&nbsp;&nbsp;<span>Index</span>
+              -->
+              ###############################################################################
             </div>
             <div id="sidebar" tabindex="-1" class="offcanvas-xl offcanvas-start" aria-labelledby="nfttSidebarOffcanvasLabel">
                 <!-- danirus sidebartemplate: "globaltoc.html" --><div class="offcanvas-header border-bottom">
@@ -161,7 +168,11 @@
 <div class="offcanvas-body">
   <nav class="toc" aria-label="Main menu">
     <div class="mb-3 p-1 pt-3 pb-4 border-bottom">
+    ########################################################################################
+      <!--
       <input id="sidebar-filter" type="text" name="filter" class="form-control form-control-sm" placeholder="filter" aria-label="filter">
+      -->
+      ######################################################################################
     </div>
     
   </nav>
@@ -176,66 +187,45 @@
           </div>
         </aside>
         <article id="content" class="nftt-content" role="main">
-    <img alt="images/FHI-aims-logo.png" class="align-center" src="images/FHI-aims-logo.png" />
-<section id="fhi-aims-uk-meeting-2024">
-<h1>FHI-aims UK Meeting 2024<a class="headerlink" href="#fhi-aims-uk-meeting-2024" title="Permalink to this heading">¶</a></h1>
+    <section id="uk-fhi-aims-user-and-developer-meeting-2024">
+<h1>UK FHI-aims User and Developer Meeting 2024<a class="headerlink" href="#uk-fhi-aims-user-and-developer-meeting-2024" title="Permalink to this heading">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h2>
-<p>The FHI-aims UK Meeting will unite both the users and developers of FHI-aims to delve into to and exchange ideas
-on the applications and effects of FHI-aims within institutions in the United Kingdom. The event will also showcase the latest
-features and advancements in the software.</p>
+<p>The FHI-aims User and Developer Meeting will bring together the userbase of FHI-aims with the code developers to explore and discuss the impacts and uses of FHI-aims
+within institutions in the UK as well as exhibiting new features and recent developments.</p>
 </section>
 <section id="time-and-place">
 <h2>Time and Place<a class="headerlink" href="#time-and-place" title="Permalink to this heading">¶</a></h2>
-<p>The meeting will take place at <a class="reference external" href="https://warwick.ac.uk/">The University of Warwick</a> from <strong>May 15th to May 16th 2024</strong> and will include:</p>
-<ul class="simple">
-<li><p>Tutorials: 09:00 - 12:00 May 15th</p></li>
-<li><p>Presentations and Posters: 12:00 May 15th - 13:00 May 16th</p></li>
-<li><p>Hack: 14:00 - 18:00 May 16th</p></li>
-</ul>
-<p>The venue for the meeting is the Science Concourse within the Physics Department of the University of Warwick.
-Directions can be found on this <a class="reference external" href="https://campus.warwick.ac.uk/">interactive campus map</a>.</p>
-<p>Directions to the conference rooms, campus accomodation and dinner location can be found on <a class="reference external" href="./Map2.png">this map</a>.</p>
+<p>The meeting is being hosted by the <a class="reference external" href="https://warwick.ac.uk/fac/sci/chemistry/research/maurer/maurergroup/">Maurer Group</a> at <a class="reference external" href="https://warwick.ac.uk/">The University of Warwick</a> from the 15th to the 16th of May 2024.
+The venue is the Science Concourse within the Physics Department. Directions can be found on this <a class="reference external" href="https://campus.warwick.ac.uk/">interactive campus map</a>.</p>
 </section>
 <section id="accommodation-and-travel">
 <h2>Accommodation and Travel<a class="headerlink" href="#accommodation-and-travel" title="Permalink to this heading">¶</a></h2>
-<p>Accommodation options include a limited number of rooms available to be booked on the university campus for attendees through <a class="reference external" href="https://warwick.ac.uk/services/conferences/bed-and-breakfast/">Warwick Conferences</a>.
-Alternatively, accommodation is generally available within Coventry city (a short bus ride from the campus).</p>
-<p>Travel to the University of Warwick is achieved easily through rail connections to <strong>Coventry station</strong> and then a bus journey from outside the station to the campus.
+<p>There will be a limited number of rooms available to be booked on the university campus for attendees. Other accommodation is available within Coventry city, a short bus ride
+from the campus.</p>
+<p>Travel to the University of Warwick is achieved easily through rail connections to Coventry station and then a bus journey from outside the station to the campus.
 More information about how to get to the university can be found on the <a class="reference external" href="https://warwick.ac.uk/about/visiting/directions/">university website</a>.</p>
 </section>
-<section id="tutorials">
-<h2>Tutorials<a class="headerlink" href="#tutorials" title="Permalink to this heading">¶</a></h2>
-<p>Tutorials will run in a linear fashion form 09:00 to 12:00 on 15/05. The tutorials will cover, in order; an introduction to FHI-aims, hybrid DFT (including a discussion
-on performance optimisation), RPA and GW. These will be hands-on sessions and will require a precompiled FHI-aims binary and license.
-Instructions for obtaining FHI-aims can be found here: <a class="reference external" href="https://fhi-aims.org/get-the-code-menu/get-the-code/">https://fhi-aims.org/get-the-code-menu/get-the-code/</a>, and any license requirements should be completed prior to arrival. Support will also be available onsite from MS1P.
-Simultaneously, there will also be expert offshoots to discuss particular methods or topics. A short break with coffee will occur at 10:00.</p>
-</section>
-<section id="hack">
-<h2>Hack<a class="headerlink" href="#hack" title="Permalink to this heading">¶</a></h2>
-<p>Following the presentation schedule of the meeting, all attendees are invited to a code hack, wherein the developers of the codebase will get together and take part in some
-collaborative coding. The organisers would like to invite anyone with a suggestion for features to be included in FHI-aims to discuss these at the meeting with the
-developers.</p>
+<section id="tutorials-and-hack">
+<h2>Tutorials and Hack<a class="headerlink" href="#tutorials-and-hack" title="Permalink to this heading">¶</a></h2>
+<p>This meeting will include a number of tutorials before the main sessions of talks. The topics of these tutorials are ultimately to be driven by what attendees wish to
+see tutorials on however there will be a session on the fundamentals of FHI-aims and hwo best to utilise the software. Other, more advanced tutorials will be available and
+will be published here in due course.</p>
+<p>After the closing of the main body of the meeting, all attendees are invited to a code hack, wherein the developers of the codebase will get together and take part in some
+collaborative coding. The organisers would like to invite anyone with a suggestion for features to be included in FHI-aims to write these into the appropriate box during
+the registration process.</p>
 </section>
 <section id="registration">
 <h2>Registration<a class="headerlink" href="#registration" title="Permalink to this heading">¶</a></h2>
-<p><strong>Registration is now closed.</strong></p>
+<p>If you plan to attend the meeting then please <a class="reference external" href="https://null">register here</a> so that the correct catering and accessibility requirements can be met.
+Abstracts for both posters and talks are welcomed and can be submitted during the registration process. There is no fee for registration.
+The deadline for registration and abstract submission is 24/04/2024. Once registered, your place at the meeting will be confirmed by the
+organising committee after this date.</p>
 </section>
-<section id="programme">
-<h2>Programme<a class="headerlink" href="#programme" title="Permalink to this heading">¶</a></h2>
-<section id="invited-participants">
-<h3>Invited Participants<a class="headerlink" href="#invited-participants" title="Permalink to this heading">¶</a></h3>
-<p><a class="reference external" href="http://dorotheagolze.eu/">Dr Dorothea Golze</a>, Technische Universität Dresden</p>
-<p><a class="reference external" href="https://litman90.github.io/website/">Dr Yair Litman</a>, University of Cambridge</p>
-<p><a class="reference external" href="https://www.fhi.mpg.de/1335369/carbogno_group">Dr Christian Carbogno</a>, Fritz Haber Insitute</p>
-<p><a class="reference external" href="https://mems.duke.edu/faculty/volker-blum">Prof. Dr Volker Blum</a>, Duke University</p>
-<p><a class="reference external" href="https://www.ms1p.org/index.php?n=MS1P.AboutUs">Dr Sebastian Kokott</a>, Fritz Haber Institute</p>
-<p><a class="reference external" href="https://researchportal.northumbria.ac.uk/en/persons/prakriti-kayastha">Prakriti Kayastha</a>, Northumbria University</p>
-</section>
-<section id="meeting-programme">
-<h3>Meeting Programme<a class="headerlink" href="#meeting-programme" title="Permalink to this heading">¶</a></h3>
+<section id="programme-of-talks">
+<h2>Programme of talks<a class="headerlink" href="#programme-of-talks" title="Permalink to this heading">¶</a></h2>
 <table class="table-hover table-bordered table-striped docutils align-default">
 <thead>
 <tr class="row-odd"><th class="head"><p>Time</p></th>
@@ -245,86 +235,70 @@ developers.</p>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>09:00</p></td>
-<td><p>PLT</p></td>
-<td><p>Tutorials - Introduction to FHI-aims, Hybrid DFT with FHI-aims, RPA and GW</p></td>
-</tr>
-<tr class="row-odd"><td><p>10:00</p></td>
-<td><p>PLT</p></td>
-<td><p><strong>Coffee Break</strong></p></td>
-</tr>
-<tr class="row-even"><td><p>10:30</p></td>
-<td><p>PLT</p></td>
-<td><p>Tutorials Resume</p></td>
+<td><p>Cafe</p></td>
+<td><p>Tutorials</p></td>
 </tr>
 <tr class="row-odd"><td><p>12:00</p></td>
-<td><p>L4</p></td>
+<td><p>0.21</p></td>
 <td><p>Registration/Lunch/Introduction</p></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>13:00</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Volker Blum</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>INVITED 1</p></td>
 </tr>
-<tr class="row-odd"><td><p>Overview of FHI-aims</p></td>
+<tr class="row-odd"><td></td>
 </tr>
-<tr class="row-even"><td rowspan="2"><p>13:20</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Dorothea Golze</p></td>
+<tr class="row-even"><td rowspan="2"><p>13:40</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 1</p></td>
 </tr>
-<tr class="row-odd"><td><p>Low-scaling RPA and GW developments in FHI-aims</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td><p>14:00</p></td>
-<td><p>L4</p></td>
-<td><p><strong>Break</strong></p></td>
+<td><p>Cafe</p></td>
+<td><p><em>Refreshments</em></p></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>14:30</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Dylan Morgan</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 2</p></td>
 </tr>
-<tr class="row-even"><td><p>Using Orbital-Constrained DFT to Simulate Surface Spectroscopy with Relativistic Corrections</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>14:50</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Wenxuan Cai</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 3</p></td>
 </tr>
-<tr class="row-even"><td><p>Modeling core-electron binding energy on Metal Oxide</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>15:10</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Amit Chaudhari</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 4</p></td>
 </tr>
-<tr class="row-even"><td><p>Machine learning the DFT+U projectors to model polarons in energy materials</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td><p>15:30</p></td>
-<td><p>L4</p></td>
-<td><p><strong>Refreshments</strong></p></td>
+<td><p>Cafe</p></td>
+<td><p><em>Refreshments</em></p></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>16:00</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Prakriti Kayastha</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>INVITED 2</p></td>
 </tr>
-<tr class="row-odd"><td><p>Phase transitions in perovskites using machine learning potentials</p></td>
-</tr>
-<tr class="row-even"><td rowspan="2"><p>16:20</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Akash Hiregange</p></td>
-</tr>
-<tr class="row-odd"><td><p>Computational Insights into the Stability and Phase Transition of Cobalt Oxide Nanoparticles for Fischer-Tropsch Catalysis</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>16:40</p></td>
-<td rowspan="2"><p>L4</p></td>
-<td><p>Juliana Morbec</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 5</p></td>
 </tr>
-<tr class="row-odd"><td><p>Adsorption of azulene and naphthalene on coinage metal surfaces: insights from first-principles calculations</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td><p>17:00</p></td>
-<td><p>Science
-Concourse</p></td>
-<td><p><strong>Poster Session</strong></p></td>
+<td><p>0.21</p></td>
+<td><p><em>Poster Session</em></p></td>
 </tr>
 <tr class="row-odd"><td><p>18:30</p></td>
-<td><p>Science
-Concourse</p></td>
-<td><p><strong>CLOSING</strong></p></td>
+<td><p>Cafe</p></td>
+<td><p><em>CLOSING</em></p></td>
 </tr>
 </tbody>
 </table>
@@ -337,97 +311,80 @@ Concourse</p></td>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>08:50</p></td>
-<td><p>L3</p></td>
+<td><p>Cafe</p></td>
 <td><p>Introduction</p></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>09:00</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Christian Carbogno</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>INVITED 3</p></td>
 </tr>
-<tr class="row-even"><td><p>Charge Transport in FHI-aims: Opportunities and Challenges</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>09:40</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Svenja Janke</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 6</p></td>
 </tr>
-<tr class="row-even"><td><p>Hybrid Organic-Inorganic Perovskites</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td><p>10:00</p></td>
-<td><p>L3</p></td>
-<td><p><strong>Refreshments</strong></p></td>
+<td><p>0.21</p></td>
+<td><p>COFFEE</p></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>10:30</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Gabriel Bramley</p></td>
+<td rowspan="2"><p>Cafe</p></td>
+<td><p>CONTRIBUTED 7</p></td>
 </tr>
-<tr class="row-odd"><td><p>Implementation of QM-in-QM Embedding for FHI-aim</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>10:50</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Alan Lewis</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 8</p></td>
 </tr>
-<tr class="row-odd"><td><p>Symmetry-Adapted Learning of Three-Dimensional Electron Densities (SALTED)</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td rowspan="2"><p>11:10</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Erin Johnson</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>CONTRIBUTED 9</p></td>
 </tr>
-<tr class="row-odd"><td><p>Implementation, benchmarking, and applications of the XDM dispersion model in FHI-aims</p></td>
+<tr class="row-odd"><td></td>
 </tr>
 <tr class="row-even"><td><p>11:30</p></td>
-<td><p>L3</p></td>
-<td><p><strong>Break</strong></p></td>
+<td><p>0.21</p></td>
+<td><p><em>COFFEE</em></p></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>12:00</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Pavel Stishenko</p></td>
+<td rowspan="2"><p>Cafe</p></td>
+<td><p>CONTRIBUTED 10</p></td>
 </tr>
-<tr class="row-even"><td><p>Using multipolar expansion model of implicit solvent for periodic systems and clusters</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td rowspan="2"><p>12:40</p></td>
-<td rowspan="2"><p>L3</p></td>
-<td><p>Yair Litman</p></td>
+<td rowspan="2"><p>0.21</p></td>
+<td><p>INVITED 4</p></td>
 </tr>
-<tr class="row-even"><td><p>Surface-specific spectroscopy from first principles</p></td>
+<tr class="row-even"><td></td>
 </tr>
 <tr class="row-odd"><td><p>13:00</p></td>
-<td><p>PLT</p></td>
-<td><p><strong>LUNCH</strong></p></td>
+<td><p>0.21</p></td>
+<td><p><em>LUNCH</em></p></td>
 </tr>
 <tr class="row-even"><td><p>14:00</p></td>
-<td><p>PLT</p></td>
-<td><p><strong>HACK</strong></p></td>
+<td><p>0.21</p></td>
+<td><p><em>HACK</em></p></td>
 </tr>
 <tr class="row-odd"><td><p>18:00</p></td>
-<td><p>PLT</p></td>
-<td><p><strong>CLOSING</strong></p></td>
+<td><p>Cafe</p></td>
+<td><p><em>CLOSING</em></p></td>
 </tr>
 </tbody>
 </table>
 </section>
-</section>
 <section id="presented-posters">
 <h2>Presented posters<a class="headerlink" href="#presented-posters" title="Permalink to this heading">¶</a></h2>
-<ul class="simple">
-<li><p>Zhongwei Lu, <em>“Towards CO2 activation on Co modified Cu surfaces”</em></p></li>
-<li><p>Oscar van Vuren, <em>“Developing Standardised Modelling Workflows for QM/MM Simulations of Metal Oxides”</em></p></li>
-<li><p>Matt Robinson, <em>“Tuning Zeolite Catalysts using Organic Additives”</em></p></li>
-<li><p>Kushagra Agrawal, <em>“Optimizing Guerbet Reaction Chemistry Using Data-driven Approach.”</em></p></li>
-<li><p>Alexander Spears, <em>“Molecular dynamics investigation of the role of lattice heating in laser-driven hydrogen evolution at copper surfaces”</em></p></li>
-<li><p>Nils Hertl, <em>Abstract Unavailable</em></p></li>
-<li><p>Wojciech Stark, <em>“Nonadiabatic effects in hydrogen scattering dynamics at Cu surfaces”</em></p></li>
-<li><p>Eimear McCarthy, <em>“Exploring surface reconstruction of polar zinc oxide surfaces”</em></p></li>
-</ul>
+<p>TBC</p>
 </section>
-<section id="organising-committee">
-<h2>Organising Committee<a class="headerlink" href="#organising-committee" title="Permalink to this heading">¶</a></h2>
-<p>Prof. Reinhard Maurer (University of Warwick)</p>
-<p>Dr Andrew Logsdail (Cardiff University)</p>
-<p>Dr Connor Box (University of Warwick)</p>
-<p>Dr Svenja Janke (University of Warwick)</p>
-<p>Dr Pavel Stishenko (Cardiff University)</p>
-<p>Oscar van Vuren (Cardiff University)</p>
-<p>The organisers would be happy to answer any queries via <a class="reference external" href="mailto:vanvureno&#37;&#52;&#48;cardiff&#46;ac&#46;uk">email</a>.</p>
+<section id="supporting-partners">
+<h2>Supporting Partners<a class="headerlink" href="#supporting-partners" title="Permalink to this heading">¶</a></h2>
 </section>
 </section>
 
@@ -443,20 +400,15 @@ Concourse</p></td>
             <div class="collapse nftt-toc-collapse" id="tocContents">
               <nav id="TableOfContents">
                 <ul>
-<li><a class="reference internal" href="#">FHI-aims UK Meeting 2024</a><ul>
+<li><a class="reference internal" href="#">UK FHI-aims User and Developer Meeting 2024</a><ul>
 <li><a class="reference internal" href="#overview">Overview</a></li>
 <li><a class="reference internal" href="#time-and-place">Time and Place</a></li>
 <li><a class="reference internal" href="#accommodation-and-travel">Accommodation and Travel</a></li>
-<li><a class="reference internal" href="#tutorials">Tutorials</a></li>
-<li><a class="reference internal" href="#hack">Hack</a></li>
+<li><a class="reference internal" href="#tutorials-and-hack">Tutorials and Hack</a></li>
 <li><a class="reference internal" href="#registration">Registration</a></li>
-<li><a class="reference internal" href="#programme">Programme</a><ul>
-<li><a class="reference internal" href="#invited-participants">Invited Participants</a></li>
-<li><a class="reference internal" href="#meeting-programme">Meeting Programme</a></li>
-</ul>
-</li>
+<li><a class="reference internal" href="#programme-of-talks">Programme of talks</a></li>
 <li><a class="reference internal" href="#presented-posters">Presented posters</a></li>
-<li><a class="reference internal" href="#organising-committee">Organising Committee</a></li>
+<li><a class="reference internal" href="#supporting-partners">Supporting Partners</a></li>
 </ul>
 </li>
 </ul>
@@ -480,7 +432,7 @@ Concourse</p></td>
     <div class="row">
       <div class="col-lg-12 text-center">
         <a class="brand-text d-inline-flex align-items-center mb-2 text-decoration-none" href="/" aria-label="Nefertiti-for-Sphinx">
-          <span class="fs-6 fw-bold">FHI-aims UK Meeting 2024</span>
+          <span class="fs-6 fw-bold">UK FHI-aims U&D Meeting 2024</span>
         </a>
         
           <ul class="list-unstyled small text-muted">
@@ -497,13 +449,13 @@ Concourse</p></td>
   </div>
 </div>
     </footer>
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-    <script src="_static/doctools.js"></script>
-    <script src="_static/sphinx_highlight.js"></script>
+    <script data-url_root="./" id="documentation_options" src="static/documentation_options.js"></script>
+    <script src="static/doctools.js"></script>
+    <script src="static/sphinx_highlight.js"></script>
 
-    <script type="text/javascript" src="_static/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="_static/sphinx-nefertiti.min.js"></script>
+    <script type="text/javascript" src="static/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="static/sphinx-nefertiti.min.js"></script>
     
-    <script type="text/javascript" src="_static/doc_versions.js"></script>
+    <script type="text/javascript" src="static/doc_versions.js"></script>
   </body>
 </html>
