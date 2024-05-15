@@ -76,7 +76,7 @@ Hack
 
 Following the presentation schedule of the meeting, all attendees are invited to a code hack, wherein the developers of the codebase will get together and take part in some
 collaborative coding. The organisers would like to invite anyone with a suggestion for features to be included in FHI-aims to discuss these at the meeting with the
-developers. 
+developers. `Ideas for topics to address can be logged on a GitLab issue here <https://aims-git.rz-berlin.mpg.de/aims/FHIaims/-/issues/549>`_. 
 
 
 Registration
