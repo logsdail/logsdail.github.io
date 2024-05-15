@@ -12,6 +12,7 @@ cp Map2.png build/html/images
 sed -i='' '6i\
     <meta name="robots" content="noindex, nofollow">\
 ' build/html/index.html
+cp -r presentations build/html/
 
 #mv build/html/index.html ../../
 #cp -r build/html/static ../../
