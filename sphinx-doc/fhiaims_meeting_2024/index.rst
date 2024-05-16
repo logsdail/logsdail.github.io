@@ -24,6 +24,9 @@ The FHI-aims UK Meeting will unite both the users and developers of FHI-aims to 
 on the applications and effects of FHI-aims within institutions in the United Kingdom. The event will also showcase the latest
 features and advancements in the software.
 
+.. image:: conference_photo.jpg
+   :scale: 60 %
+
 Time and Place
 --------------
 
