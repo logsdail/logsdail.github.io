@@ -69,10 +69,6 @@ Tutorials
 Computing Facilities
 --------------------
 
-If you want to connect your Linux PC to a printer, the following command is recommended::
-
-    lpadmin -p MYPRINT -E -v 'https://download.mobilityprint.cardiff.ac.uk/printers/MYPRINT' -m drv:///sample.drv/generic.ppd
-
 The use of OneDrive is strongly recommended for all long-term data storage. If you need to transfer data from the supercomputing facilities into your OneDrive storage space, see `our notes here <https://cf-my.sharepoint.com/:w:/g/personal/logsdaila_cardiff_ac_uk/EQi0c5Zlwi9JrmfeYJW9zlQBsm_3KiOv8jL20OXRhQbZTQ?e=k68k0d>`_ for data transfer from ARCHER2, which are generalisable to all platforms.
 
 .. warning::
@@ -157,6 +153,8 @@ This is an eclectic collection of all the things that'll help you on your way. S
   * Physical Constants: `NIST <https://physics.nist.gov/cuu/Constants/>`_, `IUPAC <https://goldbook.iupac.org/indexes/constants>`_
 
   * `WulffPack <https://wulffpack.materialsmodeling.org/>`_ (Wulff and nanoparticle construction)
+
+  * `Installing MyPrint on Office PC <https://intranet.cardiff.ac.uk/students/it-support/print-copy-scan/myPrint-printing-service>`_
 
 ..
    Need to figure where to add this:
