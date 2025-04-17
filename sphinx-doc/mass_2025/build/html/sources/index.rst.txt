@@ -31,14 +31,14 @@ Remote participation is also supported. A Teams link will be provided to registe
 Registration
 ------------
 
-**Please register your interest in attending the meeting by completing the form available through the link below here: **`Link to registration form <https://forms.office.com/e/3HuutxPnuT>`_**
+**Please register your interest in attending the meeting by completing the form available through the link here: `Link to registration form <https://forms.office.com/e/3HuutxPnuT>`_
 
 Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
 Places are limited and will be distributed by the organisers with equality in mind.
 
 **The deadline for registration and abstract submission is 14/05/2024.** Once registered, your place at the meeting will be confirmed by the organising committee by 21/05/2024.
 
-To assist our monitoring of data EDI data, the following optional form is available for completion: **`Link to EDI monitoring form <https://forms.office.com/e/WasGPFx9Wj>`_**
+To assist our monitoring of data EDI data, the following optional form is available for completion: `Link to EDI monitoring form <https://forms.office.com/e/WasGPFx9Wj>`_
  
 
 Programme
