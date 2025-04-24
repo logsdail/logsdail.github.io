@@ -21,6 +21,8 @@ The Meeting for Apllied Simulation Sciences (MASS) 2025 is an interdisciplinary 
 
 MASS is supported by a grant provided by the Research Culture Fund 2025.
 
+**REGISTRATION OPEN UNTIL 14/05/2025**: `REGISTRATION FORM LINK HERE <https://forms.office.com/e/3HuutxPnuT>`_
+
 Time and Place
 --------------
 
@@ -31,7 +33,7 @@ Remote participation is also supported. A Teams link will be provided to registe
 Registration
 ------------
 
-**Please register your interest in attending the meeting by completing the form available through the link here: `Link to registration form <https://forms.office.com/e/3HuutxPnuT>`_
+**Please register your interest in attending the meeting by completing the form available through the link here:** `Link to registration form <https://forms.office.com/e/3HuutxPnuT>`_
 
 Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
 Places are limited and will be distributed by the organisers with equality in mind.
