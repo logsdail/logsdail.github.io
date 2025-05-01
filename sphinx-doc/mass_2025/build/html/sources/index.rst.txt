@@ -74,8 +74,8 @@ Dr Daniel Slocombe (ENGIN)
 
 Dr Duncan MacLeod (PHYSX)
 
-Dr Pranaynil Saikia (PHYSX)
+Dr Pranaynil Saikia (ENGIN)
 
-Dr Muditha Abeysekera (PHYSX)
+Dr Muditha Abeysekera (ENGIN)
 
 The organisers would be happy to answer any queries via `email <mailto:bramleyg@cardiff.ac.uk>`_.
