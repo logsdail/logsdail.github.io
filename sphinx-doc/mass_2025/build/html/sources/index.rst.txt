@@ -72,10 +72,10 @@ Dr Joaquin Julve Lillo (EARTH)
 
 Dr Daniel Slocombe (ENGIN)
 
+Dr Pranaynil Saikia (ENGIN)
+
+Dr Muditha Abeysekera (ENGIN)
+
 Dr Duncan MacLeod (PHYSX)
-
-Dr Pranaynil Saikia (PHYSX)
-
-Dr Muditha Abeysekera (PHYSX)
 
 The organisers would be happy to answer any queries via `email <mailto:bramleyg@cardiff.ac.uk>`_.
