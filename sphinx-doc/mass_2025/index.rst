@@ -60,6 +60,8 @@ Dr Martyn Guest (ARCCA)
 
 Dr Jon Lockley (ARCCA)
 
+Dr Georgina Menzies (BIOSI)
+
 Dr Gabriel Bramley (CHEMY)
 
 Dr Andrew Logsdail (CHEMY)
