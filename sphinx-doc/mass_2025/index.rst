@@ -17,7 +17,7 @@ Meeting for Applied Simulation Sciences 2025
 Overview
 --------
 
-The Meeting for Apllied Simulation Sciences (MASS) 2025 is an interdisciplinary meeting for Cardiff-based developers, maintainers, and users of physical modelling software and their associated hardware. We hope to encourage the exchange of cutting edge computational techniques between colleagues with a diverse set of research interests (BIOSI, CHEMY, EARTH, ENGIN, & PHYSX). We also hope to communicate the latest developments for the HPC resources provided by ARCCA and Cardiff University.
+The Meeting for Applied Simulation Sciences (MASS) 2025 is an interdisciplinary meeting for Cardiff-based developers, maintainers, and users of physical modelling software and their associated hardware. We hope to encourage the exchange of cutting edge computational techniques between colleagues with a diverse set of research interests (BIOSI, CHEMY, EARTH, ENGIN, & PHYSX). We also hope to communicate the latest developments for the HPC resources provided by ARCCA and Cardiff University.
 
 MASS is supported by a grant provided by the Research Culture Fund 2025.
 
