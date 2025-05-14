@@ -21,7 +21,11 @@ The Meeting for Applied Simulation Sciences (MASS) 2025 is an interdisciplinary 
 
 MASS is supported by a grant provided by the Research Culture Fund 2025.
 
-**REGISTRATION OPEN UNTIL 14/05/2025**: `REGISTRATION FORM LINK HERE <https://forms.office.com/e/3HuutxPnuT>`_
+**REGISTRATION DEADLINE FOR ORAL SUBMISSION: 1200 19/05/2025**
+
+**REGISTRATION DEADLINE FOR POSTER SUBMISSION AND ATTENDANCE: 1200 28/05/2025**
+
+`REGISTRATION FORM LINK HERE <https://forms.office.com/e/3HuutxPnuT>`_
 
 Time and Place
 --------------
@@ -38,7 +42,11 @@ Registration
 Abstracts for both posters and talks are welcomed and can be submitted during the registration process. **There is no fee for registration.**
 Places are limited and will be distributed by the organisers with equality in mind.
 
-**The deadline for registration and abstract submission is 14/05/2024.** Once registered, your place at the meeting will be confirmed by the organising committee by 21/05/2024.
+**The deadline for oral abstract submission is 1200 19/05/2024.**
+
+**The deadline for poster abstract submission and general regstration is 1200 28/05/2024.**
+
+Once registered, your place at the meeting will be confirmed by the organising committee by 23/05/2024.
 
 To assist our monitoring of data EDI data, the following optional form is available for completion: `Link to EDI monitoring form <https://forms.office.com/e/WasGPFx9Wj>`_
  
