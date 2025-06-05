@@ -18,12 +18,12 @@ Meetings
 .. note::   Meetings are **expected** at minimum frequency every week for undergraduate students; and every two weeks, with availability for every week, for postgraduate students and staff.
             For postgraduates and staff, **if a meeting is not held on a given week**, an update is expected via email (for official logging).
 
-* | Wednesday each week: 10.30-11.30am (in-person expected), Group in-person hack, working on individual/collaborative code issues - see shared Calendar.
+* | Wednesday each week: 10.30-11.30am (in-person expected), Group in-person hack, working on individual/collaborative code issues - alternates between tamm@CCI and `all TRH 0F Research Groups <https://cf.sharepoint.com/:f:/r/teams/TRHComputationalChemistryMeetings/Shared%20Documents/General/Upskilling?csf=1&web=1&e=yBllMv>`_. 
 
 * | 2nd Wednesday each month: 1-2.30pm (in-person expected), `School-wide Computational Chemistry Seminars <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/Ebj4xNcALShAtMC9-r7PgCsBceb6gKsf2HwZd_A0RSmGNQ>`_.
   | (*Please note the dates when you are speaking and chairing in sessions!*)
 
-* | 1st/3rd Thursday each month: 1-2pm (in-person or remote), `Journal Club <https://cf-my.sharepoint.com/:x:/g/personal/logsdaila_cardiff_ac_uk/EXDjmh6uccBKqGHCcncW9pABA77_le4orYIi5rb_P7SxGQ?e=RUX5Xk>`_. 
+* | 1st/3rd Thursday each month: 1-2pm (in-person or remote), `Journal Club <https://cf.sharepoint.com/:f:/r/teams/TRHComputationalChemistryMeetings/Shared%20Documents/General/JournalClub?csf=1&web=1&e=uc16Wf>`_. 
 
 .. _Tools:
 
